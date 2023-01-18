@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -29,7 +30,7 @@ public class mamaearth_Base {
 	}
 	
 	@SuppressWarnings("deprecation")
-	public static void initialization() {
+	public static void initialization() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "/Users/honasa/Downloads/chromedriver");
 		driver = new ChromeDriver();
 		
@@ -40,6 +41,10 @@ public class mamaearth_Base {
 		
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
+		Thread.sleep(10000);
+		
+		driver.findElement(By.id("wzrk-confirm-id")).click();
 	}
 
 }

@@ -28,6 +28,12 @@ public class mamaearth_HomePage extends mamaearth_Base{
 	@FindBy(xpath = "//div[@class='price' or @class='price special']")
 	WebElement product_price;
 	
+	@FindBy(xpath = "wzrk-confirm-id")
+	WebElement Alerts_popUp;
+	
+	public void clearAllAlerts() {
+		Alerts_popUp.click();
+	}
 
 	public boolean verify_presence_of_logo() {
 		return mamaearth_logo.isEnabled();
@@ -43,6 +49,12 @@ public class mamaearth_HomePage extends mamaearth_Base{
 		searchBar.sendKeys(cat);
 		searchBar.sendKeys(Keys.ENTER);
 		return new mamaearth_hair_categoryPage();
+	}
+	
+	public mamaearth_PdpPage open_pdpPage() {
+		List<WebElement> productList = driver.findElements(By.xpath("//div[@class='slick-slide slick-active']"));
+		productList.get(0).click();
+		return new mamaearth_PdpPage();
 	}
 	
 	public int maximum_product_price() {

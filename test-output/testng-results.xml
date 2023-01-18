@@ -1,102 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-23T13:56:49 IST" name="Suite" finished-at="2022-12-23T13:57:03 IST" duration-ms="13411">
+  <suite started-at="2023-01-18T00:59:29 IST" name="Default suite" finished-at="2023-01-18T01:02:54 IST" duration-ms="204745">
     <groups>
     </groups>
-    <test started-at="2022-12-23T13:56:49 IST" name="Test" finished-at="2022-12-23T13:57:03 IST" duration-ms="13411">
-      <class name="com.mamaearth.TestCase.TC_LaunchingTest_0001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_LaunchingTest_0001@6771beb3]" started-at="2022-12-23T13:56:49 IST" name="setup" finished-at="2022-12-23T13:57:01 IST" duration-ms="11742" status="PASS">
+    <test started-at="2023-01-18T00:59:29 IST" name="Default test" finished-at="2023-01-18T01:02:54 IST" duration-ms="204745">
+      <class name="com.mamaearth.TestCase.TC_CheckcoutWithoutGI">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T00:59:30 IST" name="setup" finished-at="2023-01-18T00:59:49 IST" duration-ms="19553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_0002()[pri:0, instance:com.mamaearth.TestCase.TC_LaunchingTest_0001@6771beb3]" started-at="2022-12-23T13:57:01 IST" name="TC_0002" finished-at="2022-12-23T13:57:01 IST" duration-ms="344" status="PASS">
+        <test-method signature="TC_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T00:59:49 IST" name="TC_001" data-provider="fill_address_details" finished-at="2023-01-18T01:00:10 IST" duration-ms="21104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[udit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sharma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[uudfjksdf125@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9090989098]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[110031]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[B- 385/s, Street no.9]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_0002 -->
-        <test-method signature="TC_0003()[pri:0, instance:com.mamaearth.TestCase.TC_LaunchingTest_0001@6771beb3]" started-at="2022-12-23T13:57:01 IST" name="TC_0003" finished-at="2022-12-23T13:57:02 IST" duration-ms="1082" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <a class="mamaearth-logo-wrapper" href="/">...</a> is not clickable at point (175, 65). Other element would receive the click: <div class="Overlay-sc-gr01yv-0 hGprdb" open=""></div>
-  (Session info: chrome=108.0.5359.124)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'HONASAs-MacBook-Pro.local', ip: 'fe80:0:0:0:1849:3350:dc70:4e65%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.1', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5fd88bad64e0285ffd6312f6857df8a6, clickElement {id=11c61790-2bd5-4363-bdec-e0903ad4ff4d}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:50834}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50834/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (5fd88bad64e0285ffd6312f6857df8a6)] -> xpath: //a[@class='mamaearth-logo-wrapper']]
-Session ID: 5fd88bad64e0285ffd6312f6857df8a6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="mamaearth-logo-wrapper" href="/">...</a> is not clickable at point (175, 65). Other element would receive the click: <div class="Overlay-sc-gr01yv-0 hGprdb" open=""></div>
-  (Session info: chrome=108.0.5359.124)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'HONASAs-MacBook-Pro.local', ip: 'fe80:0:0:0:1849:3350:dc70:4e65%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.1', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5fd88bad64e0285ffd6312f6857df8a6, clickElement {id=11c61790-2bd5-4363-bdec-e0903ad4ff4d}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:50834}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50834/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (5fd88bad64e0285ffd6312f6857df8a6)] -> xpath: //a[@class='mamaearth-logo-wrapper']]
-Session ID: 5fd88bad64e0285ffd6312f6857df8a6
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-at com.mamaearth.PageObject.mamaearth_CartPage.click_on_mamaearth_logo(mamaearth_CartPage.java:19)
-at com.mamaearth.TestCase.TC_LaunchingTest_0001.TC_0003(TC_LaunchingTest_0001.java:46)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_0003 -->
-        <test-method signature="TC_0004()[pri:0, instance:com.mamaearth.TestCase.TC_LaunchingTest_0001@6771beb3]" started-at="2022-12-23T13:57:02 IST" name="TC_0004" finished-at="2022-12-23T13:57:02 IST" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_0004 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mamaearth.TestCase.TC_LaunchingTest_0001@6771beb3]" started-at="2022-12-23T13:57:02 IST" name="teardown" finished-at="2022-12-23T13:57:03 IST" duration-ms="180" status="PASS">
+        </test-method> <!-- TC_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:00:10 IST" name="teardown" finished-at="2023-01-18T01:00:11 IST" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.mamaearth.TestCase.TC_LaunchingTest_0001 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:00:11 IST" name="setup" finished-at="2023-01-18T01:00:29 IST" duration-ms="18838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:00:29 IST" name="TC_001" data-provider="fill_address_details" finished-at="2023-01-18T01:00:50 IST" duration-ms="20728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shukla]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rrhuudsfsd1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9873892029]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[110032]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[K- 34/s, Street no.44]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:00:50 IST" name="teardown" finished-at="2023-01-18T01:00:50 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:00:50 IST" name="setup" finished-at="2023-01-18T01:01:10 IST" duration-ms="19729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:01:10 IST" name="TC_001" data-provider="fill_address_details" finished-at="2023-01-18T01:01:31 IST" duration-ms="21015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[neeraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[neerajjsdfsd1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8746728901]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[110033]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[g- 90/s, Street no.45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:01:31 IST" name="teardown" finished-at="2023-01-18T01:01:31 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:01:31 IST" name="setup" finished-at="2023-01-18T01:01:52 IST" duration-ms="20986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:01:52 IST" name="TC_001" data-provider="fill_address_details" finished-at="2023-01-18T01:02:13 IST" duration-ms="20477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ishu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rawat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iisshdfhhu1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9049540952]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[110034]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[f- 5/s, Street no.34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:02:13 IST" name="teardown" finished-at="2023-01-18T01:02:13 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:02:13 IST" name="setup" finished-at="2023-01-18T01:02:33 IST" duration-ms="19606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:02:33 IST" name="TC_001" data-provider="fill_address_details" finished-at="2023-01-18T01:02:53 IST" duration-ms="20694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tushar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bisht]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ttuussdfhar1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8985434805]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[110035]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[c- 455/s, Street no.43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:02:53 IST" name="teardown" finished-at="2023-01-18T01:02:54 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mamaearth.TestCase.TC_CheckcoutWithoutGI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

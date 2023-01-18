@@ -15,10 +15,17 @@ public class mamaearth_CartPage extends mamaearth_Base{
 	@FindBy(xpath = "//a[@class='mamaearth-logo-wrapper']")
 	WebElement mamaearth_logo;
 	
+	@FindBy(xpath = "//button[contains(text(), 'Continue')]")
+	WebElement continue_button;
+	
 	public mamaearth_HomePage click_on_mamaearth_logo() {
 		mamaearth_logo.click();
 		return new mamaearth_HomePage();
 	}
 	
-
+	public mamaearth_CheckoutPage continue_to_checkout() {
+		continue_button.click();
+		return new mamaearth_CheckoutPage();
+	}
+	
 }

@@ -21,7 +21,7 @@ public class TC_LaunchingTest_0001 extends mamaearth_Base{
 	Logger log = Logger.getLogger(TC_LaunchingTest_0001.class);
 	
 	@BeforeClass
-	public void setup() {
+	public void setup() throws InterruptedException {
 		log.info("launching");
 		initialization();
 		home = new mamaearth_HomePage();
