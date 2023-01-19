@@ -6,7 +6,7 @@
   <test thread-count="5" name="Test">
   
     <classes>
-      <class name="com.mamaearth.TestCase.TC_LaunchingTest_0001"/>
+      <class name="com.mamaearth.TC_CheckcoutWithoutGI.java"/>
     </classes>
     
   </test> <!-- Test -->

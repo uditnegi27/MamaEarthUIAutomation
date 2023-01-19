@@ -5,7 +5,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import com.mamaearth.Base.mamaearth_Base;
 
-public class mamaearth_utils_actionFunction extends mamaearth_Base{
+public class mamaearth_utils_ActionFunction extends mamaearth_Base{
 	
 	static Actions action = new Actions(driver);
 	
@@ -20,13 +20,16 @@ public class mamaearth_utils_actionFunction extends mamaearth_Base{
 	}
 	
 	
+	
 	/*** This function will move cursor from one element to given element
 	 * 
 	 * 
 	 * ***/
 	public static void move_cursor_to_element_and_click(WebElement element) {
-		action.moveToElement(element).click().perform();
+		action.moveToElement(element).click();
 	}
+	
+	
 	
 	/*** This function will perform double click on an element 
 	 * 

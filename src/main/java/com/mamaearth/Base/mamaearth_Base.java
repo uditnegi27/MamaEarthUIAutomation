@@ -3,12 +3,15 @@ package com.mamaearth.Base;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.mamaearth.Utils.mamaearth_utils;
 
 public class mamaearth_Base {
 	
@@ -29,6 +32,7 @@ public class mamaearth_Base {
 		}
 	}
 	
+	
 	@SuppressWarnings("deprecation")
 	public static void initialization() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "/Users/honasa/Downloads/chromedriver");
@@ -42,7 +46,7 @@ public class mamaearth_Base {
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-		Thread.sleep(10000);
+		mamaearth_utils.waitToElementPresence(driver.findElement(By.id("wzrk-confirm-id")), Duration.ofSeconds(10));
 		
 		driver.findElement(By.id("wzrk-confirm-id")).click();
 	}

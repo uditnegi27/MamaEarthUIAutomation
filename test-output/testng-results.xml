@@ -2,232 +2,40 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-18T00:59:29 IST" name="Default suite" finished-at="2023-01-18T01:02:54 IST" duration-ms="204745">
+  <suite started-at="2023-01-20T05:17:49 IST" name="Default suite" finished-at="2023-01-20T05:18:07 IST" duration-ms="17249">
     <groups>
     </groups>
-    <test started-at="2023-01-18T00:59:29 IST" name="Default test" finished-at="2023-01-18T01:02:54 IST" duration-ms="204745">
-      <class name="com.mamaearth.TestCase.TC_CheckcoutWithoutGI">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T00:59:30 IST" name="setup" finished-at="2023-01-18T00:59:49 IST" duration-ms="19553" status="PASS">
+    <test started-at="2023-01-20T05:17:49 IST" name="Default test" finished-at="2023-01-20T05:18:07 IST" duration-ms="17249">
+      <class name="com.mamaearth.TestCase.TC_VerifyAllCategories">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@35e2d654]" started-at="2023-01-20T05:17:49 IST" name="setup" finished-at="2023-01-20T05:17:58 IST" duration-ms="8818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T00:59:49 IST" name="TC_001" data-provider="fill_address_details" finished-at="2023-01-18T01:00:10 IST" duration-ms="21104" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[udit]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sharma]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[uudfjksdf125@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9090989098]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[110031]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[B- 385/s, Street no.9]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="Test_mamaearth_launching()[pri:1, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@35e2d654]" started-at="2023-01-20T05:17:58 IST" name="Test_mamaearth_launching" finished-at="2023-01-20T05:17:58 IST" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_001 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:00:10 IST" name="teardown" finished-at="2023-01-18T01:00:11 IST" duration-ms="223" status="PASS">
+        </test-method> <!-- Test_mamaearth_launching -->
+        <test-method signature="Test_mamaearth__category_Hair_launching()[pri:2, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@35e2d654]" started-at="2023-01-20T05:17:58 IST" name="Test_mamaearth__category_Hair_launching" finished-at="2023-01-20T05:18:00 IST" duration-ms="1674" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:00:11 IST" name="setup" finished-at="2023-01-18T01:00:29 IST" duration-ms="18838" status="PASS">
+        </test-method> <!-- Test_mamaearth__category_Hair_launching -->
+        <test-method signature="Test_mamaearth__category_Beauty_launching()[pri:3, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@35e2d654]" started-at="2023-01-20T05:18:00 IST" name="Test_mamaearth__category_Beauty_launching" finished-at="2023-01-20T05:18:03 IST" duration-ms="2963" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:00:29 IST" name="TC_001" data-provider="fill_address_details" finished-at="2023-01-18T01:00:50 IST" duration-ms="20728" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[rahul]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[shukla]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[rrhuudsfsd1234@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9873892029]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[110032]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[K- 34/s, Street no.44]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Test_mamaearth__category_Beauty_launching -->
+        <test-method signature="Test_mamaearth__category_Face_launching()[pri:4, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@35e2d654]" started-at="2023-01-20T05:18:03 IST" name="Test_mamaearth__category_Face_launching" finished-at="2023-01-20T05:18:05 IST" duration-ms="2085" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_001 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:00:50 IST" name="teardown" finished-at="2023-01-18T01:00:50 IST" duration-ms="267" status="PASS">
+        </test-method> <!-- Test_mamaearth__category_Face_launching -->
+        <test-method signature="Test_mamaearth__category_Body_launching()[pri:5, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@35e2d654]" started-at="2023-01-20T05:18:05 IST" name="Test_mamaearth__category_Body_launching" finished-at="2023-01-20T05:18:06 IST" duration-ms="1315" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:00:50 IST" name="setup" finished-at="2023-01-18T01:01:10 IST" duration-ms="19729" status="PASS">
+        </test-method> <!-- Test_mamaearth__category_Body_launching -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@35e2d654]" started-at="2023-01-20T05:18:06 IST" name="tearDown" finished-at="2023-01-20T05:18:07 IST" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:01:10 IST" name="TC_001" data-provider="fill_address_details" finished-at="2023-01-18T01:01:31 IST" duration-ms="21015" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[neeraj]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pant]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[neerajjsdfsd1234@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[8746728901]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[110033]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[g- 90/s, Street no.45]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_001 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:01:31 IST" name="teardown" finished-at="2023-01-18T01:01:31 IST" duration-ms="213" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:01:31 IST" name="setup" finished-at="2023-01-18T01:01:52 IST" duration-ms="20986" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:01:52 IST" name="TC_001" data-provider="fill_address_details" finished-at="2023-01-18T01:02:13 IST" duration-ms="20477" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Ishu]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[rawat]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[iisshdfhhu1234@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9049540952]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[110034]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[f- 5/s, Street no.34]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_001 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:02:13 IST" name="teardown" finished-at="2023-01-18T01:02:13 IST" duration-ms="262" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:02:13 IST" name="setup" finished-at="2023-01-18T01:02:33 IST" duration-ms="19606" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:02:33 IST" name="TC_001" data-provider="fill_address_details" finished-at="2023-01-18T01:02:53 IST" duration-ms="20694" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[tushar]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[bisht]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ttuussdfhar1234@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[8985434805]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[110035]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[c- 455/s, Street no.43]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_001 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@72a7c7e0]" started-at="2023-01-18T01:02:53 IST" name="teardown" finished-at="2023-01-18T01:02:54 IST" duration-ms="263" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.mamaearth.TestCase.TC_CheckcoutWithoutGI -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mamaearth.TestCase.TC_VerifyAllCategories -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
