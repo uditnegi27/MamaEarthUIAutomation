@@ -8,39 +8,36 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.mamaearth.Base.mamaearth_Base;
 
-public class mamaearth_Category_Body extends mamaearth_Base{
+public class mamaearth_Category_StoreLocator extends mamaearth_Base{
 	
-	
-	@FindBy(xpath = "//h1[contains(text(),'Body Care Products')]")
-	WebElement Body_page_header;
-	
+
 	@FindBy(xpath = "//a[@class='mamaearth-logo-wrapper']")
 	WebElement mamaearth_logo;
 	
 	@FindBy(xpath="//div[@class='ShortSearchBar']//following-sibling::img")
 	WebElement GI_button;
 
-	@FindBy(xpath = "//li[@class='category']/child::a[contains(text(),'Makeup')]")
-	WebElement Makeup_category_button;
+	@FindBy(xpath = "//button[@title='Show street map']")
+	WebElement Map_button;
 	
 	
-	public mamaearth_Category_Body() {
+	public mamaearth_Category_StoreLocator() {
 		PageFactory.initElements(driver, this);
 	}
 	
 
-	/*** This function will verify Body category page is loaded properly? Content are coming correctly. 
+	/*** This function will verify StoreLocator category page is loaded properly? Content are coming correctly. 
 	 * All links on a page are working. Banners are loaded properly
 	 * 
+	 * 
+	 * 
 	 * ***/
-	public boolean verfiy_Body_category_page() throws IOException {
+	public boolean verfiy_StoreLocator_category_page() throws IOException {
 			
 			boolean mamaearthLogo = mamaearth_logo.isDisplayed();
 			boolean GILogo = GI_button.isDisplayed();
 			
-			boolean titleFlag = true;
-			String title = Body_page_header.getText();
-			if(!title.equals("Body Care Products")) titleFlag = false;
+			boolean map = Map_button.isDisplayed();
 			
 	//		int brokenLinkCount = mamaearth_utils_BrokenLinksFinder.get_count_of_brokenLinks();
 	//		boolean brokenCountFlag = true;
@@ -48,18 +45,22 @@ public class mamaearth_Category_Body extends mamaearth_Base{
 	//			brokenCountFlag = false;
 	//		}
 			
-			if(mamaearthLogo && GILogo && titleFlag) return true;
+			if(mamaearthLogo && GILogo && map) return true;
 			else return false;
 		}
 	
-	/*** This function will return the reference of the Makeup category page class
+	
+	
+	/*** This function will return the reference of the GoodnessInsider page class
 	 * 
 	 * 
 	 * ***/
-	public mamaearth_Category_Makeup click_on_Makeup_cateogry() {
-		Makeup_category_button.click();
-		return new mamaearth_Category_Makeup();
+	public mamaearth_Category_GoodnessInsider click_on_StoreLocator_cateogry() {
+		GI_button.click();
+		return new mamaearth_Category_GoodnessInsider();
 	}
-
 	
+	
+
+
 }
