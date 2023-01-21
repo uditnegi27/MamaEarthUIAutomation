@@ -55,7 +55,7 @@ public class mamaearth_Category_StoreLocator extends mamaearth_Base{
 	 * 
 	 * 
 	 * ***/
-	public mamaearth_Category_GoodnessInsider click_on_StoreLocator_cateogry() {
+	public mamaearth_Category_GoodnessInsider click_on_GoodnessInsider_cateogry() {
 		GI_button.click();
 		return new mamaearth_Category_GoodnessInsider();
 	}

@@ -1,14 +1,12 @@
 package com.mamaearth.PageObject;
 
 import java.io.IOException;
-import java.time.Duration;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.mamaearth.Base.mamaearth_Base;
-import com.mamaearth.Utils.mamaearth_utils;
 
 public class mamaearth_Category_PlantGoodness extends mamaearth_Base{
 	
@@ -28,6 +26,8 @@ public class mamaearth_Category_PlantGoodness extends mamaearth_Base{
 	@FindBy(xpath = "//li[@class='category']/child::a[contains(text(),'Store Locator')]")
 	WebElement StoreLocator_category_button;
 	
+	@FindBy(xpath = "//img[@class='goodnessInsider__Img2-sc-o395w4-2 gabzHP']")
+	WebElement Banner_Image;
 	
 	public mamaearth_Category_PlantGoodness() {
 		PageFactory.initElements(driver, this);
@@ -45,18 +45,14 @@ public class mamaearth_Category_PlantGoodness extends mamaearth_Base{
 			boolean mamaearthLogo = mamaearth_logo.isDisplayed();
 			boolean GILogo = GI_button.isDisplayed();
 			
-			boolean titleFlag = true;
-			mamaearth_utils.waitToElementPresence(Header_Text, Duration.ofSeconds(5));
-			String title = Header_Text.getText();
-			if(!title.equals("Hi Guest,")) titleFlag = false;
-			
+			boolean banner = Banner_Image.isDisplayed();
 	//		int brokenLinkCount = mamaearth_utils_BrokenLinksFinder.get_count_of_brokenLinks();
-	//		boolean brokenCountFlag = true;
+	//		boolean brokenCountFlag = true;;
 	//		if(brokenLinkCount > 50) {
 	//			brokenCountFlag = false;
 	//		}
 			
-			if(mamaearthLogo && GILogo && titleFlag) return true;
+			if(mamaearthLogo && GILogo && banner) return true;
 			else return false;
 		}
 	

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>11/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>12/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jan 21 19:49:03 IST 2023</td>
+<td>Started on:</td><td>Sun Jan 22 01:19:07 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>35 seconds (35909 ms)</td>
+<tr><td>Total time:</td><td>41 seconds (41798 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,17 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_AllProducts_launching()'><b>Test_mamaearth__category_AllProducts_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_GoodnessInsider_launching()'><b>Test_mamaearth_GoodnessInsider_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;img loading=&quot;lazy&quot; class=&quot;gif&quot; src=&quot;https://images.mamaearth.in/vip-desktop-join.gif&quot; height=&quot;60px&quot;&gt; is not clickable at point (1051, 65). Other element would receive the click: &lt;div class=&quot;wzrk-overlay&quot;&gt;&lt;/div&gt;
   (Session info: chrome=109.0.5414.87)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5.1&apos;, java.version: &apos;18.0.1.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [613a1a7ea23ed0488b92268e5d31527c, isElementDisplayed {id=cc44440f-45f7-4a03-b335-b51d2464ee13}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:62672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62672/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (613a1a7ea23ed0488b92268e5d31527c)] -&gt; xpath: //a[@class=&apos;mamaearth-logo-wrapper&apos;]]
-Session ID: 613a1a7ea23ed0488b92268e5d31527c
+Command: [6cbacddd1cf70568600f5ba498a81f98, clickElement {id=d5073c1f-d237-4fdc-adf5-8e25300c4c10}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:57441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57441/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (6cbacddd1cf70568600f5ba498a81f98)] -&gt; xpath: //div[@class=&apos;ShortSearchBar&apos;]//following-sibling::img]
+Session ID: 6cbacddd1cf70568600f5ba498a81f98
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -97,13 +96,13 @@ Session ID: 613a1a7ea23ed0488b92268e5d31527c
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
-	at com.mamaearth.PageObject.mamaearth_Category_AllProducts.verfiy_AllProducts_category_page(mamaearth_Category_AllProducts.java:44)
-	at com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_AllProducts_launching(TC_VerifyAllCategories.java:116)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at com.mamaearth.PageObject.mamaearth_Category_StoreLocator.click_on_GoodnessInsider_cateogry(mamaearth_Category_StoreLocator.java:59)
+	at com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_GoodnessInsider_launching(TC_VerifyAllCategories.java:150)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -130,17 +129,16 @@ Session ID: 613a1a7ea23ed0488b92268e5d31527c
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace181613131", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace181613131'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+</pre></div><a href='#' onClick='toggleBox("stack-trace1905548224", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1905548224'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;img loading=&quot;lazy&quot; class=&quot;gif&quot; src=&quot;https://images.mamaearth.in/vip-desktop-join.gif&quot; height=&quot;60px&quot;&gt; is not clickable at point (1051, 65). Other element would receive the click: &lt;div class=&quot;wzrk-overlay&quot;&gt;&lt;/div&gt;
   (Session info: chrome=109.0.5414.87)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5.1&apos;, java.version: &apos;18.0.1.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [613a1a7ea23ed0488b92268e5d31527c, isElementDisplayed {id=cc44440f-45f7-4a03-b335-b51d2464ee13}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:62672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62672/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (613a1a7ea23ed0488b92268e5d31527c)] -&gt; xpath: //a[@class=&apos;mamaearth-logo-wrapper&apos;]]
-Session ID: 613a1a7ea23ed0488b92268e5d31527c
+Command: [6cbacddd1cf70568600f5ba498a81f98, clickElement {id=d5073c1f-d237-4fdc-adf5-8e25300c4c10}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:57441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57441/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (6cbacddd1cf70568600f5ba498a81f98)] -&gt; xpath: //div[@class=&apos;ShortSearchBar&apos;]//following-sibling::img]
+Session ID: 6cbacddd1cf70568600f5ba498a81f98
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -152,13 +150,13 @@ Session ID: 613a1a7ea23ed0488b92268e5d31527c
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
-	at com.mamaearth.PageObject.mamaearth_Category_AllProducts.verfiy_AllProducts_category_page(mamaearth_Category_AllProducts.java:44)
-	at com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_AllProducts_launching(TC_VerifyAllCategories.java:116)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at com.mamaearth.PageObject.mamaearth_Category_StoreLocator.click_on_GoodnessInsider_cateogry(mamaearth_Category_StoreLocator.java:59)
+	at com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_GoodnessInsider_launching(TC_VerifyAllCategories.java:150)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -186,8 +184,8 @@ Session ID: 613a1a7ea23ed0488b92268e5d31527c
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6</td></tr>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6</td></tr>
 <tr>
 <td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_PlantGoodness_launching()'><b>Test_mamaearth__category_PlantGoodness_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
 <td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
@@ -196,10 +194,10 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5.1&apos;, java.version: &apos;18.0.1.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [613a1a7ea23ed0488b92268e5d31527c, isElementDisplayed {id=66e27aa8-2b34-4eb8-b49e-c2b2d4f7df35}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:62672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62672/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (613a1a7ea23ed0488b92268e5d31527c)] -&gt; xpath: //a[@class=&apos;mamaearth-logo-wrapper&apos;]]
-Session ID: 613a1a7ea23ed0488b92268e5d31527c
+Command: [6cbacddd1cf70568600f5ba498a81f98, isElementDisplayed {id=32383838-1f66-4d5f-9f2d-16786e85b3cd}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:57441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57441/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (6cbacddd1cf70568600f5ba498a81f98)] -&gt; xpath: //a[@class=&apos;mamaearth-logo-wrapper&apos;]]
+Session ID: 6cbacddd1cf70568600f5ba498a81f98
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -217,7 +215,7 @@ Session ID: 613a1a7ea23ed0488b92268e5d31527c
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
 	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
 	at com.mamaearth.PageObject.mamaearth_Category_PlantGoodness.verfiy_PlantGoodness_category_page(mamaearth_Category_PlantGoodness.java:45)
-	at com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_PlantGoodness_launching(TC_VerifyAllCategories.java:132)
+	at com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_PlantGoodness_launching(TC_VerifyAllCategories.java:135)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -244,17 +242,17 @@ Session ID: 613a1a7ea23ed0488b92268e5d31527c
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1979325411", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1979325411'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+</pre></div><a href='#' onClick='toggleBox("stack-trace1875025322", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1875025322'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=109.0.5414.87)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5.1&apos;, java.version: &apos;18.0.1.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [613a1a7ea23ed0488b92268e5d31527c, isElementDisplayed {id=66e27aa8-2b34-4eb8-b49e-c2b2d4f7df35}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:62672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62672/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (613a1a7ea23ed0488b92268e5d31527c)] -&gt; xpath: //a[@class=&apos;mamaearth-logo-wrapper&apos;]]
-Session ID: 613a1a7ea23ed0488b92268e5d31527c
+Command: [6cbacddd1cf70568600f5ba498a81f98, isElementDisplayed {id=32383838-1f66-4d5f-9f2d-16786e85b3cd}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:57441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57441/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (6cbacddd1cf70568600f5ba498a81f98)] -&gt; xpath: //a[@class=&apos;mamaearth-logo-wrapper&apos;]]
+Session ID: 6cbacddd1cf70568600f5ba498a81f98
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -272,7 +270,7 @@ Session ID: 613a1a7ea23ed0488b92268e5d31527c
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
 	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
 	at com.mamaearth.PageObject.mamaearth_Category_PlantGoodness.verfiy_PlantGoodness_category_page(mamaearth_Category_PlantGoodness.java:45)
-	at com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_PlantGoodness_launching(TC_VerifyAllCategories.java:132)
+	at com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_PlantGoodness_launching(TC_VerifyAllCategories.java:135)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -300,8 +298,8 @@ Session ID: 613a1a7ea23ed0488b92268e5d31527c
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>2</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6</td></tr>
+<td>5</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -311,60 +309,65 @@ Session ID: 613a1a7ea23ed0488b92268e5d31527c
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_launching()'><b>Test_mamaearth_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_Face_launching()'><b>Test_mamaearth__category_Face_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
 <td></td>
-<td>0</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6</td></tr>
+<td>2</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_Baby_launching()'><b>Test_mamaearth__category_Baby_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_Beauty_launching()'><b>Test_mamaearth__category_Beauty_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>3</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6</td></tr>
 <tr>
 <td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_Makeup_launching()'><b>Test_mamaearth__category_Makeup_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
 <td></td>
 <td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_Face_launching()'><b>Test_mamaearth__category_Face_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>2</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_Ingredient_launching()'><b>Test_mamaearth__category_Ingredient_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_StoreLocator_launching()'><b>Test_mamaearth__category_StoreLocator_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>2</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_GiftPacks_launching()'><b>Test_mamaearth__category_GiftPacks_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6</td></tr>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6</td></tr>
 <tr>
 <td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_Blog_launching()'><b>Test_mamaearth__category_Blog_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
 <td></td>
-<td>4</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6</td></tr>
+<td>7</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6</td></tr>
 <tr>
 <td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_Body_launching()'><b>Test_mamaearth__category_Body_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
 <td></td>
 <td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6</td></tr>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6</td></tr>
 <tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_Beauty_launching()'><b>Test_mamaearth__category_Beauty_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_launching()'><b>Test_mamaearth_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
 <td></td>
-<td>4</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6</td></tr>
+<td>0</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_Ingredient_launching()'><b>Test_mamaearth__category_Ingredient_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_StoreLocator_launching()'><b>Test_mamaearth__category_StoreLocator_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>3</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6</td></tr>
 <tr>
 <td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_Hair_launching()'><b>Test_mamaearth__category_Hair_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
 <td></td>
 <td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6</td></tr>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6</td></tr>
 <tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_Baby_launching()'><b>Test_mamaearth__category_Baby_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_GiftPacks_launching()'><b>Test_mamaearth__category_GiftPacks_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
 <td></td>
-<td>2</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6</td></tr>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_AllProducts_launching()'><b>Test_mamaearth__category_AllProducts_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>3</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6</td></tr>
 </table><p>
 </body>
 </html>

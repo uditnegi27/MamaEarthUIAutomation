@@ -111,22 +111,24 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 	}
 	
 	@Test(priority = 10)
-	public void Test_mamaearth__category_AllProducts_launching() throws IOException {
+	public void Test_mamaearth__category_AllProducts_launching() throws IOException, InterruptedException {
 		allProducts = giftPacks.click_on_AllProducts_cateogry();
+		Thread.sleep(3000);
 		boolean response = allProducts.verfiy_AllProducts_category_page();
 		Assert.assertTrue(response);
 	}
 	
 
 	@Test(priority = 11)
-	public void Test_mamaearth__category_Blog_launching() throws IOException {
+	public void Test_mamaearth__category_Blog_launching() throws IOException, InterruptedException {
 		blog = allProducts.click_on_Blog_cateogry();
+		Thread.sleep(3000);
 		boolean response = blog.verfiy_Blog_category_page();
 		Assert.assertTrue(response);
 	}
 	
 	@Test(priority = 12)
-	public void Test_mamaearth__category_PlantGoodness_launching() throws IOException {
+	public void Test_mamaearth__category_PlantGoodness_launching() throws IOException, InterruptedException {
 		allProducts = blog.back_to_AllProducts_cateogry();
 		plantGoodness = allProducts.click_on_PlantGoodness_cateogry();
 		boolean response = plantGoodness.verfiy_PlantGoodness_category_page();
@@ -134,9 +136,17 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 	}
 	
 	@Test(priority = 13)
-	public void Test_mamaearth__category_StoreLocator_launching() throws IOException {
+	public void Test_mamaearth__category_StoreLocator_launching() throws IOException, InterruptedException {
 		storeLocator = plantGoodness.click_on_StoreLocator_cateogry();
 		boolean response = storeLocator.verfiy_StoreLocator_category_page();
+		Assert.assertTrue(response);
+	}
+	
+
+	@Test(priority = 14)
+	public void Test_mamaearth_GoodnessInsider_launching() throws IOException, InterruptedException {
+		goodnessInsider = storeLocator.click_on_GoodnessInsider_cateogry();
+		boolean response = goodnessInsider.verfiy_GoodnessInsider_page();
 		Assert.assertTrue(response);
 	}
 	

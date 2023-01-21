@@ -1,132 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="11" failed="2" skipped="0">
+<testng-results ignored="0" total="14" passed="12" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-21T19:49:03 IST" name="Default suite" finished-at="2023-01-21T19:49:39 IST" duration-ms="35909">
+  <suite started-at="2023-01-22T01:19:07 IST" name="Default suite" finished-at="2023-01-22T01:19:49 IST" duration-ms="41798">
     <groups>
     </groups>
-    <test started-at="2023-01-21T19:49:03 IST" name="Default test" finished-at="2023-01-21T19:49:39 IST" duration-ms="35909">
+    <test started-at="2023-01-22T01:19:07 IST" name="Default test" finished-at="2023-01-22T01:19:49 IST" duration-ms="41798">
       <class name="com.mamaearth.TestCase.TC_VerifyAllCategories">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6]" started-at="2023-01-21T19:49:03 IST" name="setup" finished-at="2023-01-21T19:49:12 IST" duration-ms="9310" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6]" started-at="2023-01-22T01:19:07 IST" name="setup" finished-at="2023-01-22T01:19:16 IST" duration-ms="8770" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_mamaearth_launching()[pri:1, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6]" started-at="2023-01-21T19:49:12 IST" name="Test_mamaearth_launching" finished-at="2023-01-21T19:49:13 IST" duration-ms="58" status="PASS">
+        <test-method signature="Test_mamaearth_launching()[pri:1, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6]" started-at="2023-01-22T01:19:16 IST" name="Test_mamaearth_launching" finished-at="2023-01-22T01:19:16 IST" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_launching -->
-        <test-method signature="Test_mamaearth__category_Hair_launching()[pri:2, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6]" started-at="2023-01-21T19:49:13 IST" name="Test_mamaearth__category_Hair_launching" finished-at="2023-01-21T19:49:15 IST" duration-ms="1999" status="PASS">
+        <test-method signature="Test_mamaearth__category_Hair_launching()[pri:2, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6]" started-at="2023-01-22T01:19:16 IST" name="Test_mamaearth__category_Hair_launching" finished-at="2023-01-22T01:19:18 IST" duration-ms="1696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth__category_Hair_launching -->
-        <test-method signature="Test_mamaearth__category_Beauty_launching()[pri:3, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6]" started-at="2023-01-21T19:49:15 IST" name="Test_mamaearth__category_Beauty_launching" finished-at="2023-01-21T19:49:19 IST" duration-ms="4360" status="PASS">
+        <test-method signature="Test_mamaearth__category_Beauty_launching()[pri:3, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6]" started-at="2023-01-22T01:19:18 IST" name="Test_mamaearth__category_Beauty_launching" finished-at="2023-01-22T01:19:21 IST" duration-ms="3028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth__category_Beauty_launching -->
-        <test-method signature="Test_mamaearth__category_Face_launching()[pri:4, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6]" started-at="2023-01-21T19:49:19 IST" name="Test_mamaearth__category_Face_launching" finished-at="2023-01-21T19:49:21 IST" duration-ms="2505" status="PASS">
+        <test-method signature="Test_mamaearth__category_Face_launching()[pri:4, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6]" started-at="2023-01-22T01:19:21 IST" name="Test_mamaearth__category_Face_launching" finished-at="2023-01-22T01:19:23 IST" duration-ms="2172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth__category_Face_launching -->
-        <test-method signature="Test_mamaearth__category_Body_launching()[pri:5, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6]" started-at="2023-01-21T19:49:21 IST" name="Test_mamaearth__category_Body_launching" finished-at="2023-01-21T19:49:23 IST" duration-ms="1579" status="PASS">
+        <test-method signature="Test_mamaearth__category_Body_launching()[pri:5, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6]" started-at="2023-01-22T01:19:23 IST" name="Test_mamaearth__category_Body_launching" finished-at="2023-01-22T01:19:24 IST" duration-ms="1313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth__category_Body_launching -->
-        <test-method signature="Test_mamaearth__category_Makeup_launching()[pri:6, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6]" started-at="2023-01-21T19:49:23 IST" name="Test_mamaearth__category_Makeup_launching" finished-at="2023-01-21T19:49:24 IST" duration-ms="1381" status="PASS">
+        <test-method signature="Test_mamaearth__category_Makeup_launching()[pri:6, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6]" started-at="2023-01-22T01:19:24 IST" name="Test_mamaearth__category_Makeup_launching" finished-at="2023-01-22T01:19:25 IST" duration-ms="1135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth__category_Makeup_launching -->
-        <test-method signature="Test_mamaearth__category_Ingredient_launching()[pri:7, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6]" started-at="2023-01-21T19:49:24 IST" name="Test_mamaearth__category_Ingredient_launching" finished-at="2023-01-21T19:49:26 IST" duration-ms="1440" status="PASS">
+        <test-method signature="Test_mamaearth__category_Ingredient_launching()[pri:7, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6]" started-at="2023-01-22T01:19:25 IST" name="Test_mamaearth__category_Ingredient_launching" finished-at="2023-01-22T01:19:27 IST" duration-ms="1118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth__category_Ingredient_launching -->
-        <test-method signature="Test_mamaearth__category_Baby_launching()[pri:8, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6]" started-at="2023-01-21T19:49:26 IST" name="Test_mamaearth__category_Baby_launching" finished-at="2023-01-21T19:49:28 IST" duration-ms="2182" status="PASS">
+        <test-method signature="Test_mamaearth__category_Baby_launching()[pri:8, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6]" started-at="2023-01-22T01:19:27 IST" name="Test_mamaearth__category_Baby_launching" finished-at="2023-01-22T01:19:28 IST" duration-ms="1173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth__category_Baby_launching -->
-        <test-method signature="Test_mamaearth__category_GiftPacks_launching()[pri:9, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6]" started-at="2023-01-21T19:49:28 IST" name="Test_mamaearth__category_GiftPacks_launching" finished-at="2023-01-21T19:49:29 IST" duration-ms="1411" status="PASS">
+        <test-method signature="Test_mamaearth__category_GiftPacks_launching()[pri:9, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6]" started-at="2023-01-22T01:19:28 IST" name="Test_mamaearth__category_GiftPacks_launching" finished-at="2023-01-22T01:19:29 IST" duration-ms="1047" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth__category_GiftPacks_launching -->
-        <test-method signature="Test_mamaearth__category_AllProducts_launching()[pri:10, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6]" started-at="2023-01-21T19:49:29 IST" name="Test_mamaearth__category_AllProducts_launching" finished-at="2023-01-21T19:49:30 IST" duration-ms="502" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: element is not attached to the page document
-  (Session info: chrome=109.0.5414.87)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
-Build info: version: '4.5.0', revision: 'fe167b119a'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.1', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [613a1a7ea23ed0488b92268e5d31527c, isElementDisplayed {id=cc44440f-45f7-4a03-b335-b51d2464ee13}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:62672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62672/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (613a1a7ea23ed0488b92268e5d31527c)] -> xpath: //a[@class='mamaearth-logo-wrapper']]
-Session ID: 613a1a7ea23ed0488b92268e5d31527c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=109.0.5414.87)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
-Build info: version: '4.5.0', revision: 'fe167b119a'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.1', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [613a1a7ea23ed0488b92268e5d31527c, isElementDisplayed {id=cc44440f-45f7-4a03-b335-b51d2464ee13}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:62672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62672/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (613a1a7ea23ed0488b92268e5d31527c)] -> xpath: //a[@class='mamaearth-logo-wrapper']]
-Session ID: 613a1a7ea23ed0488b92268e5d31527c
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
-at com.mamaearth.PageObject.mamaearth_Category_AllProducts.verfiy_AllProducts_category_page(mamaearth_Category_AllProducts.java:44)
-at com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_AllProducts_launching(TC_VerifyAllCategories.java:116)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+        <test-method signature="Test_mamaearth__category_AllProducts_launching()[pri:10, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6]" started-at="2023-01-22T01:19:29 IST" name="Test_mamaearth__category_AllProducts_launching" finished-at="2023-01-22T01:19:32 IST" duration-ms="3203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth__category_AllProducts_launching -->
-        <test-method signature="Test_mamaearth__category_Blog_launching()[pri:11, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6]" started-at="2023-01-21T19:49:30 IST" name="Test_mamaearth__category_Blog_launching" finished-at="2023-01-21T19:49:34 IST" duration-ms="4335" status="PASS">
+        <test-method signature="Test_mamaearth__category_Blog_launching()[pri:11, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6]" started-at="2023-01-22T01:19:32 IST" name="Test_mamaearth__category_Blog_launching" finished-at="2023-01-22T01:19:39 IST" duration-ms="7389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth__category_Blog_launching -->
-        <test-method signature="Test_mamaearth__category_PlantGoodness_launching()[pri:12, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6]" started-at="2023-01-21T19:49:34 IST" name="Test_mamaearth__category_PlantGoodness_launching" finished-at="2023-01-21T19:49:36 IST" duration-ms="2192" status="FAIL">
+        <test-method signature="Test_mamaearth__category_PlantGoodness_launching()[pri:12, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6]" started-at="2023-01-22T01:19:39 IST" name="Test_mamaearth__category_PlantGoodness_launching" finished-at="2023-01-22T01:19:44 IST" duration-ms="5031" status="FAIL">
           <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
               <![CDATA[stale element reference: element is not attached to the page document
@@ -135,10 +64,10 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.5.0', revision: 'fe167b119a'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.1', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [613a1a7ea23ed0488b92268e5d31527c, isElementDisplayed {id=66e27aa8-2b34-4eb8-b49e-c2b2d4f7df35}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:62672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62672/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (613a1a7ea23ed0488b92268e5d31527c)] -> xpath: //a[@class='mamaearth-logo-wrapper']]
-Session ID: 613a1a7ea23ed0488b92268e5d31527c]]>
+Command: [6cbacddd1cf70568600f5ba498a81f98, isElementDisplayed {id=32383838-1f66-4d5f-9f2d-16786e85b3cd}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:57441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57441/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (6cbacddd1cf70568600f5ba498a81f98)] -> xpath: //a[@class='mamaearth-logo-wrapper']]
+Session ID: 6cbacddd1cf70568600f5ba498a81f98]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
@@ -147,10 +76,10 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.5.0', revision: 'fe167b119a'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.1', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [613a1a7ea23ed0488b92268e5d31527c, isElementDisplayed {id=66e27aa8-2b34-4eb8-b49e-c2b2d4f7df35}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:62672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62672/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (613a1a7ea23ed0488b92268e5d31527c)] -> xpath: //a[@class='mamaearth-logo-wrapper']]
-Session ID: 613a1a7ea23ed0488b92268e5d31527c
+Command: [6cbacddd1cf70568600f5ba498a81f98, isElementDisplayed {id=32383838-1f66-4d5f-9f2d-16786e85b3cd}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:57441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57441/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (6cbacddd1cf70568600f5ba498a81f98)] -> xpath: //a[@class='mamaearth-logo-wrapper']]
+Session ID: 6cbacddd1cf70568600f5ba498a81f98
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -168,7 +97,7 @@ at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
 at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
 at com.mamaearth.PageObject.mamaearth_Category_PlantGoodness.verfiy_PlantGoodness_category_page(mamaearth_Category_PlantGoodness.java:45)
-at com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_PlantGoodness_launching(TC_VerifyAllCategories.java:132)
+at com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth__category_PlantGoodness_launching(TC_VerifyAllCategories.java:135)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -201,11 +130,84 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth__category_PlantGoodness_launching -->
-        <test-method signature="Test_mamaearth__category_StoreLocator_launching()[pri:13, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6]" started-at="2023-01-21T19:49:36 IST" name="Test_mamaearth__category_StoreLocator_launching" finished-at="2023-01-21T19:49:39 IST" duration-ms="2284" status="PASS">
+        <test-method signature="Test_mamaearth__category_StoreLocator_launching()[pri:13, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6]" started-at="2023-01-22T01:19:44 IST" name="Test_mamaearth__category_StoreLocator_launching" finished-at="2023-01-22T01:19:48 IST" duration-ms="3162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth__category_StoreLocator_launching -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@293a5bf6]" started-at="2023-01-21T19:49:39 IST" name="tearDown" finished-at="2023-01-21T19:49:39 IST" duration-ms="323" status="PASS">
+        <test-method signature="Test_mamaearth_GoodnessInsider_launching()[pri:14, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6]" started-at="2023-01-22T01:19:48 IST" name="Test_mamaearth_GoodnessInsider_launching" finished-at="2023-01-22T01:19:49 IST" duration-ms="1095" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <img loading="lazy" class="gif" src="https://images.mamaearth.in/vip-desktop-join.gif" height="60px"> is not clickable at point (1051, 65). Other element would receive the click: <div class="wzrk-overlay"></div>
+  (Session info: chrome=109.0.5414.87)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.1', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cbacddd1cf70568600f5ba498a81f98, clickElement {id=d5073c1f-d237-4fdc-adf5-8e25300c4c10}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:57441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57441/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (6cbacddd1cf70568600f5ba498a81f98)] -> xpath: //div[@class='ShortSearchBar']//following-sibling::img]
+Session ID: 6cbacddd1cf70568600f5ba498a81f98]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img loading="lazy" class="gif" src="https://images.mamaearth.in/vip-desktop-join.gif" height="60px"> is not clickable at point (1051, 65). Other element would receive the click: <div class="wzrk-overlay"></div>
+  (Session info: chrome=109.0.5414.87)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.1', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cbacddd1cf70568600f5ba498a81f98, clickElement {id=d5073c1f-d237-4fdc-adf5-8e25300c4c10}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:57441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57441/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (6cbacddd1cf70568600f5ba498a81f98)] -> xpath: //div[@class='ShortSearchBar']//following-sibling::img]
+Session ID: 6cbacddd1cf70568600f5ba498a81f98
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at com.mamaearth.PageObject.mamaearth_Category_StoreLocator.click_on_GoodnessInsider_cateogry(mamaearth_Category_StoreLocator.java:59)
+at com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_GoodnessInsider_launching(TC_VerifyAllCategories.java:150)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_GoodnessInsider_launching -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@6aeb35e6]" started-at="2023-01-22T01:19:49 IST" name="tearDown" finished-at="2023-01-22T01:19:49 IST" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
