@@ -1,0 +1,29 @@
+
+
+
+
+***************  LISTENERS 
+- iTest
+
+
+
+***************  UTILS FUNCTIONS
+- Screenshot
+- Wait
+- Stream Function
+- BrokenLinks
+- Actions Method
+- Scrolling Method
+ 
+ 
+ 
+ ***************  LOGS
+ - Log4j
+ 
+ 
+ 
+***************  REPORTING     
+- Allure Report 
+- Extent Report
+
+

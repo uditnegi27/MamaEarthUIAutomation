@@ -55,7 +55,8 @@ public class mamaearth_Category_AllProducts  extends mamaearth_Base{
 			
 			if(mamaearthLogo && GILogo && loadmore) return true;
 			else return false;
-		}
+	}
+	
 	
 	
 	

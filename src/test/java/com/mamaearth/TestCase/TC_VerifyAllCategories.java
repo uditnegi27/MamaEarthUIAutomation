@@ -47,7 +47,6 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 		home = new mamaearth_HomePage();
 	}
 	
-	
 	@Test(priority = 1)
 	public void Test_mamaearth_launching() throws IOException {
 		boolean response = home.verfiy_homePageContent();
@@ -118,7 +117,6 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 		Assert.assertTrue(response);
 	}
 	
-
 	@Test(priority = 11)
 	public void Test_mamaearth__category_Blog_launching() throws IOException, InterruptedException {
 		blog = allProducts.click_on_Blog_cateogry();
@@ -142,7 +140,6 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 		Assert.assertTrue(response);
 	}
 	
-
 	@Test(priority = 14)
 	public void Test_mamaearth_GoodnessInsider_launching() throws IOException, InterruptedException {
 		goodnessInsider = storeLocator.click_on_GoodnessInsider_cateogry();

@@ -10,7 +10,6 @@ public class mamaearth_utils_ActionFunction extends mamaearth_Base{
 	static Actions action = new Actions(driver);
 	
 	
-	
 	/*** This function will move cursor from one element to given element
 	 * 
 	 * 

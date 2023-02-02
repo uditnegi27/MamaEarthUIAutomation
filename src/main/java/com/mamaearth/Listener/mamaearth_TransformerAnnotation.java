@@ -14,6 +14,7 @@ public class mamaearth_TransformerAnnotation implements IAnnotationTransformer{
 	 * 
 	 * 
 	 ***/
+	@SuppressWarnings("rawtypes")
 	public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
 	   annotation.setRetryAnalyzer(mamaearth_RetryTest.class);
 	  }

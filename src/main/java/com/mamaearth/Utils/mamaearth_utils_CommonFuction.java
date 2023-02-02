@@ -11,8 +11,30 @@ import org.openqa.selenium.WebElement;
 
 import com.mamaearth.Base.mamaearth_Base;
 
-public class mamaearth_utils_BrokenLinksFinder extends mamaearth_Base{
+public class mamaearth_utils_CommonFuction extends mamaearth_Base{
 	
+	
+	
+	/*** This function will verify the visibility of the product display images
+	 * @throws IOException 
+	 * 
+	 * 
+	 * 
+	 ***/
+	public static boolean verfiy_Images_ofProducts() throws IOException {
+		boolean defaultFlag = true;
+		List<WebElement> imagesList = driver.findElements(By.tagName("img"));
+		for(int i = 0; i<imagesList.size(); i++) {
+			URL url = new URL(imagesList.get(i).getAttribute("src"));
+			HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+			connection.connect();
+			int response = connection.getResponseCode();
+			if(response >= 400) defaultFlag = false;
+			connection.disconnect();
+		}
+		if(defaultFlag) return true;
+		else return false;
+	}
 	
 	
 	
