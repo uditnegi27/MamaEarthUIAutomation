@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mamaearth.TestCase.TC_VerifyAllCategories">
+      <class name="com.mamaearth.TestCase.TC_SearchingAndAlgolia">
         <methods>
+          <include name="TC1"/>
           <include name="setup"/>
-          <include name="Test_mamaearth_category_AllProducts_launching"/>
           <include name="tearDown"/>
-          <include name="Test_mamaearth_GoodnessInsider_launching"/>
         </methods>
-      </class> <!-- com.mamaearth.TestCase.TC_VerifyAllCategories -->
+      </class> <!-- com.mamaearth.TestCase.TC_SearchingAndAlgolia -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

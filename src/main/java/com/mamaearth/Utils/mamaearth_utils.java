@@ -17,8 +17,6 @@ import com.mamaearth.Base.mamaearth_Base;
 public class mamaearth_utils extends mamaearth_Base{
 	
 	
-	
-	
 	/*** This function will give explicit wait to an element click able
 	 * 
 	 * 

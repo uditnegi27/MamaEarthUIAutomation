@@ -14,7 +14,6 @@ import com.mamaearth.Base.mamaearth_Base;
 public class mamaearth_utils_CommonFuction extends mamaearth_Base{
 	
 	
-	
 	/*** This function will verify the visibility of the product display images
 	 * @throws IOException 
 	 * 

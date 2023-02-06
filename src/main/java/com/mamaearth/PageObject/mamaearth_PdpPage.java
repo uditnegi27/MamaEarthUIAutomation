@@ -1,5 +1,6 @@
 package com.mamaearth.PageObject;
 
+
 import java.time.Duration;
 
 import org.openqa.selenium.WebElement;
@@ -22,7 +23,7 @@ public class mamaearth_PdpPage extends mamaearth_Base{
 	WebElement cart_icon;
 	
 	public void add_product_to_cart() {
-		mamaearth_utils.waitToElementClickable(addToCart_button, Duration.ofMillis(2000));
+		mamaearth_utils.waitToElementClickable(addToCart_button, Duration.ofSeconds(5));
 		addToCart_button.click();
 	}
 	
