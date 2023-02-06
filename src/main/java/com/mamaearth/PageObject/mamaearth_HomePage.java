@@ -10,6 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.mamaearth.Base.mamaearth_Base;
+import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
 public class mamaearth_HomePage extends mamaearth_Base{
 	
@@ -85,6 +86,13 @@ public class mamaearth_HomePage extends mamaearth_Base{
 		searchBar.sendKeys(Keys.ENTER);
 		return new mamaearth_Category_Hair();
 	}
+	
+	
+	/*** This will return the reference of the categories utils class ***/
+	public mamaearth_utils_CategoriesFunctions categoriesRefrence() {
+		return new mamaearth_utils_CategoriesFunctions();
+	}
+
 	
 	public mamaearth_PdpPage open_pdpPage() throws InterruptedException {
 		List<WebElement> productList = driver.findElements(By.xpath("//div[@class='slick-slide slick-active']"));

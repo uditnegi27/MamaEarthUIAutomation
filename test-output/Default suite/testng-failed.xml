@@ -6,10 +6,9 @@
       <class name="com.mamaearth.TestCase.TC_VerifyAllCategories">
         <methods>
           <include name="setup"/>
+          <include name="Test_mamaearth_category_AllProducts_launching"/>
           <include name="tearDown"/>
-          <include name="Test_mamaearth__category_PlantGoodness_launching"/>
           <include name="Test_mamaearth_GoodnessInsider_launching"/>
-          <include name="Test_mamaearth__category_StoreLocator_launching"/>
         </methods>
       </class> <!-- com.mamaearth.TestCase.TC_VerifyAllCategories -->
     </classes>

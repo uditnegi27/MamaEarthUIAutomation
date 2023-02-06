@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.mamaearth.Base.mamaearth_Base;
+import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
 public class mamaearth_Category_Face extends mamaearth_Base{
 	
@@ -22,9 +23,6 @@ public class mamaearth_Category_Face extends mamaearth_Base{
 	@FindBy(xpath="//div[@class='ShortSearchBar']//following-sibling::img")
 	WebElement GI_button;
 
-	@FindBy(xpath = "//li[@class='category']/child::a[contains(text(),'Body')]")
-	WebElement Body_category_button;
-	
 	
 	public mamaearth_Category_Face() {
 		PageFactory.initElements(driver, this);
@@ -61,16 +59,11 @@ public class mamaearth_Category_Face extends mamaearth_Base{
 	}
 
 	
-	
-	/*** This function will return the reference of the Body category page class
-	 * 
-	 * 
-	 * ***/
-	public mamaearth_Category_Body click_on_Body_cateogry() {
-		log.info("***************    Opening Body cateogry page    *****************");
-		Body_category_button.click();
-		return new mamaearth_Category_Body();
-	}
 
+	/*** This will return the reference of the categories utils class ***/
+	public mamaearth_utils_CategoriesFunctions categoriesRefrence() {
+		return new mamaearth_utils_CategoriesFunctions();
+	}
+	
 
 }

@@ -1819,3 +1819,107 @@ catch(e){
 2023-01-23 17:20:08,108  INFO [main] mamaearth_Category_Face:46 - Presence of a GI logo is verified
 2023-01-23 17:20:08,108  INFO [main] mamaearth_Category_Face:48 - ***************    Verifying the title of a page    *****************
 2023-01-23 17:20:10,254  INFO [main] mamaearth_Category_Face:70 - ***************    Opening Body cateogry page    *****************
+2023-02-02 18:18:44,270  INFO [main] mamaearth_Category_Face:40 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-02 18:18:44,323  INFO [main] mamaearth_Category_Face:42 - Presence of a mamaearth logo is verified
+2023-02-02 18:18:44,323  INFO [main] mamaearth_Category_Face:44 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-02 18:18:44,355  INFO [main] mamaearth_Category_Face:46 - Presence of a GI logo is verified
+2023-02-02 18:18:44,355  INFO [main] mamaearth_Category_Face:48 - ***************    Verifying the title of a page    *****************
+2023-02-02 18:18:46,603  INFO [main] mamaearth_Category_Face:70 - ***************    Opening Body cateogry page    *****************
+2023-02-02 18:29:23,021  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-02 18:29:23,082  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-02-02 18:29:23,089  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-02 18:29:23,119  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-02-02 18:29:23,120  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-02-03 15:58:17,561  INFO [main] TC_CheckcoutWithoutGI:40 - Page initialized
+2023-02-03 15:58:17,600  INFO [main] TC_CheckcoutWithoutGI:42 - Home page is opened
+2023-02-03 15:58:20,773  INFO [main] TC_CheckcoutWithoutGI:44 - Page is opened
+2023-02-03 15:58:21,179  INFO [main] TC_CheckcoutWithoutGI:46 - Product added to a cart
+2023-02-03 15:58:55,834  INFO [main] TC_CheckcoutWithoutGI:40 - Page initialized
+2023-02-03 15:58:55,856  INFO [main] TC_CheckcoutWithoutGI:42 - Home page is opened
+2023-02-03 15:58:58,974  INFO [main] TC_CheckcoutWithoutGI:44 - Page is opened
+2023-02-03 15:58:59,380  INFO [main] TC_CheckcoutWithoutGI:46 - Product added to a cart
+2023-02-06 11:05:42,399  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-06 11:05:42,444  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-02-06 11:05:42,463  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-06 11:05:42,495  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-02-06 11:05:42,510  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-02-06 11:11:39,937  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-06 11:11:39,968  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-02-06 11:11:39,968  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-06 11:11:40,003  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-02-06 11:11:40,003  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-02-06 11:31:38,799  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-06 11:31:38,823  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-02-06 11:31:38,823  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-06 11:31:38,854  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-02-06 11:31:38,855  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-02-06 11:37:02,742  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-06 11:37:02,768  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-02-06 11:37:02,768  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-06 11:37:02,796  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-02-06 11:37:02,796  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-02-06 11:41:34,025  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-06 11:41:34,055  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-02-06 11:41:34,055  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-06 11:41:34,098  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-02-06 11:41:34,118  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-02-06 11:43:43,687  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-06 11:43:43,710  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-02-06 11:43:43,711  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-06 11:43:43,738  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-02-06 11:43:43,738  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-02-06 12:17:37,473  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-06 12:17:37,515  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-02-06 12:17:37,516  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-06 12:17:37,540  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-02-06 12:17:37,559  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-02-06 12:19:57,677  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-06 12:19:57,701  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-02-06 12:19:57,701  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-06 12:19:57,726  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-02-06 12:19:57,726  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-02-06 12:23:52,364  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-06 12:23:52,390  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-02-06 12:23:52,391  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-06 12:23:52,422  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-02-06 12:23:52,423  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-02-06 12:29:25,889  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-06 12:29:25,923  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-02-06 12:29:25,924  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-06 12:29:25,951  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-02-06 12:29:25,964  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-02-06 12:52:41,931  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-06 12:52:41,967  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-02-06 12:52:41,983  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-06 12:52:42,005  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-02-06 12:52:42,007  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-02-06 12:53:30,198  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-06 12:53:30,221  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-02-06 12:53:30,222  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-06 12:53:30,246  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-02-06 12:53:30,264  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-02-06 12:54:04,642  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-06 12:54:04,674  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-02-06 12:54:04,674  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-06 12:54:04,701  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-02-06 12:54:04,703  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-02-06 12:55:53,710  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-06 12:55:53,739  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-02-06 12:55:53,739  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-06 12:55:53,760  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-02-06 12:55:53,779  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-02-06 12:58:52,597  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-06 12:58:52,627  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-02-06 12:58:52,627  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-06 12:58:52,649  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-02-06 12:58:52,650  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-02-06 13:03:27,008  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-06 13:03:27,039  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-02-06 13:03:27,056  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-06 13:03:27,079  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-02-06 13:03:27,098  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-02-06 13:12:41,532  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-02-06 13:12:41,557  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-02-06 13:12:41,558  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-02-06 13:12:41,599  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-02-06 13:12:41,599  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************

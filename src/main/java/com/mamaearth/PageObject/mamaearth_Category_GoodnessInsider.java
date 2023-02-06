@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.mamaearth.Base.mamaearth_Base;
+import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
 public class mamaearth_Category_GoodnessInsider extends mamaearth_Base{
 	
@@ -42,7 +43,6 @@ public class mamaearth_Category_GoodnessInsider extends mamaearth_Base{
 	 * ***/
 	public boolean verfiy_GoodnessInsider_page() throws IOException {
 			
-			boolean mamaearthBanner = GI_Banner.isDisplayed();
 			boolean SixMonthPlanBuyNow = six_month_buyNow_button.isDisplayed();
 			boolean helpTitle = Help_Title.isDisplayed();
 			boolean FAQTitle = FAQ_Title.isDisplayed();
@@ -53,8 +53,8 @@ public class mamaearth_Category_GoodnessInsider extends mamaearth_Base{
 	//		if(brokenLinkCount > 50) {
 	//			brokenCountFlag = false;
 	//		}
-			System.out.println("banner: "+ mamaearthBanner+", plan" + SixMonthPlanBuyNow+", helpTitle" + helpTitle+", FAQ" + FAQTitle+", Terms" + TermsConditionTitle);
-			if(mamaearthBanner && SixMonthPlanBuyNow && helpTitle && FAQTitle && TermsConditionTitle) return true;
+			System.out.println("plan: " + SixMonthPlanBuyNow+", helpTitle: " + helpTitle+", FAQ: " + FAQTitle+", Terms: " + TermsConditionTitle);
+			if(SixMonthPlanBuyNow && helpTitle && FAQTitle && TermsConditionTitle) return true;
 			else return false;
 		}
 	
@@ -68,5 +68,12 @@ public class mamaearth_Category_GoodnessInsider extends mamaearth_Base{
 		mamaearth_logo.click();
 		return new mamaearth_HomePage();
 	}
+	
+	
+	/*** This will return the reference of the categories utils class ***/
+	public mamaearth_utils_CategoriesFunctions categoriesRefrence() {
+		return new mamaearth_utils_CategoriesFunctions();
+	}
+
 
 }

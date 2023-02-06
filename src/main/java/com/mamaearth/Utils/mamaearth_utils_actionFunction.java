@@ -25,7 +25,7 @@ public class mamaearth_utils_ActionFunction extends mamaearth_Base{
 	 * 
 	 * ***/
 	public static void move_cursor_to_element_and_click(WebElement element) {
-		action.moveToElement(element).click();
+		action.moveToElement(element).click().perform();;
 	}
 	
 	

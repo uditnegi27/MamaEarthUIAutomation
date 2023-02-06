@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.mamaearth.Base.mamaearth_Base;
+import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
 public class mamaearth_Category_Hair extends mamaearth_Base{
 	
@@ -18,9 +19,6 @@ public class mamaearth_Category_Hair extends mamaearth_Base{
 	
 	@FindBy(xpath="//div[@class='ShortSearchBar']//following-sibling::img")
 	WebElement GI_button;
-	
-	@FindBy(xpath = "//li[@class='category']/child::a[contains(text(),'Beauty')]")
-	WebElement Beauty_category_button;
 	
 	
 	public mamaearth_Category_Hair() {
@@ -47,14 +45,9 @@ public class mamaearth_Category_Hair extends mamaearth_Base{
 	}
 	
 	
-	/*** This function will return the new reference of a Beauty Category page
-	 * 
-	 * 
-	 * ***/
-	public mamaearth_Category_Beauty click_on_Beauty_cateogry() {
-		Beauty_category_button.click();
-		return new mamaearth_Category_Beauty();
+
+	/*** This will return the reference of the categories utils class ***/
+	public mamaearth_utils_CategoriesFunctions categoriesRefrence() {
+		return new mamaearth_utils_CategoriesFunctions();
 	}
-	
-	
 }
