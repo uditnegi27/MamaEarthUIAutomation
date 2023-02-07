@@ -11,16 +11,17 @@ import com.mamaearth.PageObject.mamaearth_Category_Beauty_Fragrance;
 import com.mamaearth.PageObject.mamaearth_Category_Body;
 import com.mamaearth.PageObject.mamaearth_Category_Face;
 import com.mamaearth.PageObject.mamaearth_Category_Hair;
+import com.mamaearth.PageObject.mamaearth_Category_Hair_Shampoo;
 import com.mamaearth.PageObject.mamaearth_Category_Makeup;
 
 public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	
 
+	@FindBy(xpath = "//li[@class='category']/child::a[contains(text(),'Beauty')]")
+	WebElement beauty_category_button;
+	
 	@FindBy(xpath = "//li[@class='category']/child::a[contains(text(),'Hair')]")
 	WebElement hair_category_button;
-	
-	@FindBy(xpath = "//li[@class='category']/child::a[contains(text(),'Beauty')]")
-	WebElement Beauty_category_button;
 	
 	@FindBy(xpath = "//li[@class='category']/child::a[contains(text(),'Face')]")
 	WebElement face_category_button;
@@ -37,6 +38,9 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	@FindBy(xpath = "//a[contains(text(),'Facial Kits')]")
 	WebElement Beauty_FacialKits_category_button;
 	
+	@FindBy(xpath = "//a[contains(text(), 'Shampoo')]//parent::div[@class='MegaDropdown__StyledCategory-sc-iwzze0-0 dZoFQj']//child::a[contains(text(), 'Hair')]//following-sibling::a[contains(text(), 'Shampoo')]")
+	WebElement Hair_Shampoo_category_button;
+	
 	
 	public mamaearth_utils_CategoriesFunctions() {
 		PageFactory.initElements(driver, this);
@@ -47,7 +51,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Beauty click_on_Beauty_cateogry() {
-		Beauty_category_button.click();
+		beauty_category_button.click();
 		return new mamaearth_Category_Beauty();
 	}
 	
@@ -97,7 +101,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Beauty_Fragrance click_on_Beauty_Fragrance_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Beauty_category_button);
+		mamaearth_utils_ActionFunction.move_cursor_to_element(beauty_category_button);
 		Beauty_Fragrance_category_button.click();
 		return new mamaearth_Category_Beauty_Fragrance();
 	}
@@ -108,9 +112,19 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Beauty_FacialKits click_on_Beauty_FacialKits_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Beauty_category_button);
+		mamaearth_utils_ActionFunction.move_cursor_to_element(beauty_category_button);
 		Beauty_FacialKits_category_button.click();
 		return new mamaearth_Category_Beauty_FacialKits();
+	}
+	
+	/*** This function will return the reference of the Shampoo category of Hair category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Hair_Shampoo click_on_Hair_Shampoo_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(hair_category_button);
+		Hair_Shampoo_category_button.click();
+		return new mamaearth_Category_Hair_Shampoo();
 	}
 
 }

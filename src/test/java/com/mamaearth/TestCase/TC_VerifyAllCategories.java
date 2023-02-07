@@ -19,6 +19,7 @@ import com.mamaearth.PageObject.mamaearth_Category_Face;
 import com.mamaearth.PageObject.mamaearth_Category_GiftPacks;
 import com.mamaearth.PageObject.mamaearth_Category_GoodnessInsider;
 import com.mamaearth.PageObject.mamaearth_Category_Hair;
+import com.mamaearth.PageObject.mamaearth_Category_Hair_Shampoo;
 import com.mamaearth.PageObject.mamaearth_Category_Ingredient;
 import com.mamaearth.PageObject.mamaearth_Category_Makeup;
 import com.mamaearth.PageObject.mamaearth_Category_PlantGoodness;
@@ -45,6 +46,7 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 	mamaearth_utils_CategoriesFunctions cf;
 	mamaearth_Category_Beauty_Fragrance fragrance;
 	mamaearth_Category_Beauty_FacialKits facialKits;
+	mamaearth_Category_Hair_Shampoo shampoo;
 	
 	
 	@BeforeClass
@@ -53,13 +55,13 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 		home = new mamaearth_HomePage();
 	}
 	
-	@Test(priority = -1)
+	@Test(priority = -10)
 	public void Test_mamaearth_launching() throws IOException {
 		boolean response = home.verfiy_homePageContent();
 		Assert.assertTrue(response);
 	}
 	
-	@Test(priority = 0)
+	@Test(priority = -3)
 	public void Test_mamaearth_category_Beauty_launching() throws IOException {
 		cf = home.categoriesRefrence();
 		beauty = cf.click_on_Beauty_cateogry();
@@ -67,14 +69,14 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 		Assert.assertTrue(response);
 	}
 	
-	@Test(priority = 1)
+	@Test(priority = 0)
 	public void Test_mamaearth_category_Fragrance_launching() throws IOException, InterruptedException {
 		cf = beauty.categoriesRefrence();
 		fragrance = cf.click_on_Beauty_Fragrance_cateogry();
 		Assert.assertTrue(fragrance.verfiy_Beauty_Fragrance_category_page());
 	}
-	
-	@Test(priority = 2)
+
+	@Test(priority = 1)
 	public void Test_mamaearth_category_FacialKits_launching() throws IOException, InterruptedException {
 		cf = beauty.categoriesRefrence();
 		facialKits = cf.click_on_Beauty_FacialKits_cateogry();
@@ -83,19 +85,25 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 	}
 	
 	
-	@Test(priority = 3)
+	@Test(priority = 2)
 	public void Test_mamaearth_category_Hair_launching() throws IOException {
 		cf = facialKits.categoriesRefrence();
 		hair = cf.click_on_Hair_cateogry();
 		boolean response = hair.verfiy_Hair_category_page();
-		cf = hair.categoriesRefrence();
 		Assert.assertTrue(response);
 	}
 	
+	@Test(priority = 3)
+	public void Test_mamaearth_category_Shampoo_launching() throws IOException {
+		cf = hair.categoriesRefrence();
+		shampoo = cf.click_on_Hair_Shampoo_cateogry();
+		boolean response = shampoo.verfiy_Hair_Shampoo_category_page();
+		Assert.assertTrue(response);
+	}
 	
 	@Test(priority = 4)
 	public void Test_mamaearth_category_Face_launching() throws IOException {
-		cf = beauty.categoriesRefrence();
+		cf = shampoo.categoriesRefrence();
 		face = cf.click_on_Face_cateogry();
 		boolean response = face.verfiy_Face_category_page();
 		Assert.assertTrue(response);

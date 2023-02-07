@@ -21,17 +21,36 @@ public class mamaearth_utils_CommonFuction extends mamaearth_Base{
 	 * 
 	 ***/
 	public static boolean verfiy_Images_ofProducts() throws IOException {
+		
 		boolean defaultFlag = true;
+		
 		List<WebElement> imagesList = driver.findElements(By.tagName("img"));
+		List<String> urlList = new ArrayList<>();
+		
 		for(int i = 0; i<imagesList.size(); i++) {
-			URL url = new URL(imagesList.get(i).getAttribute("src"));
+
+			WebElement imgElement = imagesList.get(i);
+			String imageURL = imgElement.getAttribute("src");
+			
+			if(!imageURL.equals("null")) {
+				urlList.add(imageURL);
+				}
+		}
+		
+		for(int i = 0; i<urlList.size(); i++) {
+			URL url = new URL(urlList.get(i));
 			HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 			connection.connect();
 			int response = connection.getResponseCode();
 			if(response >= 400) defaultFlag = false;
 			connection.disconnect();
 		}
-		if(defaultFlag) return true;
+		
+			
+		if(defaultFlag) {
+			System.out.println("All well"); 
+			return true;
+		}
 		else return false;
 	}
 	
