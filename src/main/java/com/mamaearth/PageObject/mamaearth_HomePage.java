@@ -40,16 +40,16 @@ public class mamaearth_HomePage extends mamaearth_Base{
 	WebElement GI_button;
 	
 		
-	public void clearAllAlerts() {
+	public synchronized void clearAllAlerts() {
 		Alerts_popUp.click();
 	}
 
-	public boolean verify_presence_of_logo() {
+	public synchronized boolean verify_presence_of_logo() {
 		return mamaearth_logo.isDisplayed();
 	}
 	
 	
-	public boolean verfiy_homePageContent() throws IOException {
+	public synchronized boolean verfiy_homePageContent() throws IOException {
 		
 		boolean mamaearthLogo = mamaearth_logo.isDisplayed();
 		boolean GILogo = GI_button.isDisplayed();
@@ -64,7 +64,7 @@ public class mamaearth_HomePage extends mamaearth_Base{
 		else return false;
 	}
 	
-	public mamaearth_CartPage click_on_cart_icon() {
+	public synchronized mamaearth_CartPage click_on_cart_icon() {
 		cart_icon.click();
 		return new mamaearth_CartPage();
 	}
@@ -74,13 +74,13 @@ public class mamaearth_HomePage extends mamaearth_Base{
 	 * 
 	 * 
 	 * ***/
-	public mamaearth_Category_Hair click_on_Hair_cateogry() {
+	public synchronized mamaearth_Category_Hair click_on_Hair_cateogry() {
 		hair_category_button.click();
 		return new mamaearth_Category_Hair();
 	}
 	
 	
-	public mamaearth_Category_Hair search_category(String cat) {
+	public synchronized mamaearth_Category_Hair search_category(String cat) {
 		searchBar.clear();
 		searchBar.sendKeys(cat);
 		searchBar.sendKeys(Keys.ENTER);
@@ -89,12 +89,12 @@ public class mamaearth_HomePage extends mamaearth_Base{
 	
 	
 	/*** This will return the reference of the categories utils class ***/
-	public mamaearth_utils_CategoriesFunctions categoriesRefrence() {
+	public synchronized mamaearth_utils_CategoriesFunctions categoriesRefrence() {
 		return new mamaearth_utils_CategoriesFunctions();
 	}
 
 	
-	public mamaearth_PdpPage open_pdpPage() throws InterruptedException {
+	public synchronized mamaearth_PdpPage open_pdpPage() throws InterruptedException {
 		List<WebElement> productList = driver.findElements(By.xpath("//div[@class='slick-slide slick-active']"));
 		productList.get(0).click();
 		Thread.sleep(3000);

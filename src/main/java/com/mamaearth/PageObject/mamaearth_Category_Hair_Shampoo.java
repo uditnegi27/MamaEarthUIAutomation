@@ -25,7 +25,7 @@ public class mamaearth_Category_Hair_Shampoo extends mamaearth_Base{
 	}
 	
 	
-	/*** This function will verify Fragrance category under Beauty category page is loaded properly? Content are coming correctly? 
+	/*** This function will verify Hair Shampoo category under Hair category page is loaded properly? Content are coming correctly? 
 	 * All links on a page are working? Banners are loaded properly? etc..
 	 * 
 	 * 

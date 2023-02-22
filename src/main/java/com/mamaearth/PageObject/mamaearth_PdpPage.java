@@ -19,7 +19,7 @@ public class mamaearth_PdpPage extends mamaearth_Base{
 	@FindBy(xpath = "//span[@class='addTocart_pdp']")
 	WebElement addToCart_button;
 	
-	@FindBy(xpath = "//div[contains(text(), 'Cart')]//preceding-sibling::div[@class='CartTrigger__IconContainer-sc-1dc6mjo-0 ccyIBC cart-icon-container']")
+	@FindBy(xpath = "//div[contains(text(), 'Cart')]//parent::div[@class='CartTrigger__Trigger-sc-1dc6mjo-1 jQZcXv cart-trigger']")
 	WebElement cart_icon;
 	
 	public void add_product_to_cart() {

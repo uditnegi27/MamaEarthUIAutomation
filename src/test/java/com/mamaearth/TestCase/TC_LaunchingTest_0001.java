@@ -1,9 +1,9 @@
 package com.mamaearth.TestCase;
 
-import org.apache.log4j.Logger;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.apache.log4j.Logger;
 
 import com.mamaearth.Base.mamaearth_Base;
 import com.mamaearth.PageObject.mamaearth_CartPage;

@@ -11,6 +11,11 @@ import com.mamaearth.PageObject.mamaearth_Category_Beauty_Fragrance;
 import com.mamaearth.PageObject.mamaearth_Category_Body;
 import com.mamaearth.PageObject.mamaearth_Category_Face;
 import com.mamaearth.PageObject.mamaearth_Category_Hair;
+import com.mamaearth.PageObject.mamaearth_Category_Hair_Conditioner;
+import com.mamaearth.PageObject.mamaearth_Category_Hair_HairMask;
+import com.mamaearth.PageObject.mamaearth_Category_Hair_HairOil;
+import com.mamaearth.PageObject.mamaearth_Category_Hair_HairOilBooster;
+import com.mamaearth.PageObject.mamaearth_Category_Hair_HairSerum;
 import com.mamaearth.PageObject.mamaearth_Category_Hair_Shampoo;
 import com.mamaearth.PageObject.mamaearth_Category_Makeup;
 
@@ -40,6 +45,21 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	
 	@FindBy(xpath = "//a[contains(text(), 'Shampoo')]//parent::div[@class='MegaDropdown__StyledCategory-sc-iwzze0-0 dZoFQj']//child::a[contains(text(), 'Hair')]//following-sibling::a[contains(text(), 'Shampoo')]")
 	WebElement Hair_Shampoo_category_button;
+	
+	@FindBy(xpath = "//a[contains(text(), 'Shampoo')]//parent::div[@class='MegaDropdown__StyledCategory-sc-iwzze0-0 dZoFQj']//child::a[contains(text(), 'Hair')]//following-sibling::a[contains(text(), 'Conditioner')]")
+	WebElement Hair_Conditioner_category_button;
+
+	@FindBy(xpath = "//div[@class='MegaDropdown__StyledCategory-sc-iwzze0-0 dZoFQj']//child::a[contains(text(), 'Hair Mask')]//preceding-sibling::a[contains(text(), 'Hair Oil')]")
+	WebElement Hair_HairOil_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown__StyledCategory-sc-iwzze0-0 dZoFQj']//child::a[contains(text(), 'Hair Mask')]")
+	WebElement Hair_HairMask_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown__StyledCategory-sc-iwzze0-0 dZoFQj']//child::a[contains(text(), 'Hair Serum')]")
+	WebElement Hair_HairSerum_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown__StyledCategory-sc-iwzze0-0 dZoFQj']//child::a[contains(text(), 'Hair Mask')]//following-sibling::a[contains(text(), 'Hair Oil')]")
+	WebElement Hair_HairOilBooster_category_button;
 	
 	
 	public mamaearth_utils_CategoriesFunctions() {
@@ -117,7 +137,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 		return new mamaearth_Category_Beauty_FacialKits();
 	}
 	
-	/*** This function will return the reference of the Shampoo category of Hair category page class
+	/*** This function will return the reference of the HairShampoo category of Hair category page class
 	 * 
 	 * 
 	 * ***/
@@ -126,5 +146,56 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 		Hair_Shampoo_category_button.click();
 		return new mamaearth_Category_Hair_Shampoo();
 	}
+	
+	/*** This function will return the reference of the Hair Conditioner category of Hair category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Hair_Conditioner click_on_Hair_Conditioner_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(hair_category_button);
+		Hair_Conditioner_category_button.click();
+		return new mamaearth_Category_Hair_Conditioner();
+	}
+	
+	/*** This function will return the reference of the Hair Oil category of Hair category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Hair_HairOil click_on_Hair_HairOil_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(hair_category_button);
+		Hair_HairOil_category_button.click();
+		return new mamaearth_Category_Hair_HairOil();
+	}
+	
+	/*** This function will return the reference of the Hair Mask category of Hair category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Hair_HairMask click_on_Hair_HairMask_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(hair_category_button);
+		Hair_HairMask_category_button.click();
+		return new mamaearth_Category_Hair_HairMask();
+	}
+	
+	/*** This function will return the reference of the Hair Serum category of Hair category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Hair_HairSerum click_on_Hair_HairSerum_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(hair_category_button);
+		Hair_HairSerum_category_button.click();
+		return new mamaearth_Category_Hair_HairSerum();
+	}
+	
+	/*** This function will return the reference of the Hair Oil Booster category of Hair category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Hair_HairOilBooster click_on_Hair_HairOilBooster_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(hair_category_button);
+		Hair_HairOilBooster_category_button.click();
+		return new mamaearth_Category_Hair_HairOilBooster();
+	}
+
 
 }

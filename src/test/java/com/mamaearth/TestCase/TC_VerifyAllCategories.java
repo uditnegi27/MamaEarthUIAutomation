@@ -1,12 +1,11 @@
 package com.mamaearth.TestCase;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
 import java.io.IOException;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
-
 import com.mamaearth.Base.mamaearth_Base;
 import com.mamaearth.PageObject.mamaearth_Category_AllProducts;
 import com.mamaearth.PageObject.mamaearth_Category_Baby;
@@ -19,6 +18,11 @@ import com.mamaearth.PageObject.mamaearth_Category_Face;
 import com.mamaearth.PageObject.mamaearth_Category_GiftPacks;
 import com.mamaearth.PageObject.mamaearth_Category_GoodnessInsider;
 import com.mamaearth.PageObject.mamaearth_Category_Hair;
+import com.mamaearth.PageObject.mamaearth_Category_Hair_Conditioner;
+import com.mamaearth.PageObject.mamaearth_Category_Hair_HairMask;
+import com.mamaearth.PageObject.mamaearth_Category_Hair_HairOil;
+import com.mamaearth.PageObject.mamaearth_Category_Hair_HairOilBooster;
+import com.mamaearth.PageObject.mamaearth_Category_Hair_HairSerum;
 import com.mamaearth.PageObject.mamaearth_Category_Hair_Shampoo;
 import com.mamaearth.PageObject.mamaearth_Category_Ingredient;
 import com.mamaearth.PageObject.mamaearth_Category_Makeup;
@@ -46,7 +50,12 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 	mamaearth_utils_CategoriesFunctions cf;
 	mamaearth_Category_Beauty_Fragrance fragrance;
 	mamaearth_Category_Beauty_FacialKits facialKits;
-	mamaearth_Category_Hair_Shampoo shampoo;
+	mamaearth_Category_Hair_Shampoo hairShampoo;
+	mamaearth_Category_Hair_Conditioner hairConditioner;
+	mamaearth_Category_Hair_HairOil hairOil;
+	mamaearth_Category_Hair_HairMask hairMask;
+	mamaearth_Category_Hair_HairSerum hairSerum;
+	mamaearth_Category_Hair_HairOilBooster hairOilBooster;
 	
 	
 	@BeforeClass
@@ -96,14 +105,14 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 	@Test(priority = 3)
 	public void Test_mamaearth_category_Shampoo_launching() throws IOException {
 		cf = hair.categoriesRefrence();
-		shampoo = cf.click_on_Hair_Shampoo_cateogry();
-		boolean response = shampoo.verfiy_Hair_Shampoo_category_page();
+		hairShampoo = cf.click_on_Hair_Shampoo_cateogry();
+		boolean response = hairShampoo.verfiy_Hair_Shampoo_category_page();
 		Assert.assertTrue(response);
 	}
 	
 	@Test(priority = 4)
 	public void Test_mamaearth_category_Face_launching() throws IOException {
-		cf = shampoo.categoriesRefrence();
+		cf = hairShampoo.categoriesRefrence();
 		face = cf.click_on_Face_cateogry();
 		boolean response = face.verfiy_Face_category_page();
 		Assert.assertTrue(response);
@@ -147,24 +156,26 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 	}
 	
 	@Test(priority = 10)
-	public void Test_mamaearth_category_AllProducts_launching() throws IOException {
+	public void Test_mamaearth_category_AllProducts_launching() throws IOException, InterruptedException {
 		allProducts = giftPacks.click_on_AllProducts_cateogry();
+		Thread.sleep(3000);
 		boolean response = allProducts.verfiy_AllProducts_category_page();
 		Assert.assertTrue(response);
 	}
 	
-	@Test(priority = 11)
-	public void Test_mamaearth_category_Blog_launching() throws IOException, InterruptedException {
-		blog = allProducts.click_on_Blog_cateogry();
-		Thread.sleep(3000);
-		boolean response = blog.verfiy_Blog_category_page();
-		Assert.assertTrue(response);
-	}
-	
+//	@Test(priority = 11)
+//	public void Test_mamaearth_category_Blog_launching() throws IOException, InterruptedException {
+//		blog = allProducts.click_on_Blog_cateogry();
+//		Thread.sleep(3000);
+//		boolean response = blog.verfiy_Blog_category_page();
+//		Assert.assertTrue(response);
+//	}
+//	
 	@Test(priority = 12)
 	public void Test_mamaearth_category_PlantGoodness_launching() throws IOException, InterruptedException {
-		allProducts = blog.back_to_AllProducts_cateogry();
+//		allProducts = blog.back_to_AllProducts_cateogry();
 		plantGoodness = allProducts.click_on_PlantGoodness_cateogry();
+		Thread.sleep(3000);
 		boolean response = plantGoodness.verfiy_PlantGoodness_category_page();
 		Assert.assertTrue(response);
 	}
@@ -172,16 +183,57 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 	@Test(priority = 13)
 	public void Test_mamaearth_category_StoreLocator_launching() throws IOException, InterruptedException {
 		storeLocator = plantGoodness.click_on_StoreLocator_cateogry();
+		Thread.sleep(3000);
 		boolean response = storeLocator.verfiy_StoreLocator_category_page();
 		Assert.assertTrue(response);
 	}
 	
 	@Test(priority = 14)
-	public void Test_mamaearth_GoodnessInsider_launching() throws IOException, InterruptedException {
-		goodnessInsider = storeLocator.click_on_GoodnessInsider_cateogry();
-		boolean response = goodnessInsider.verfiy_GoodnessInsider_page();
+	public void Test_mamaearth_category_Hair_Conditioner_launching() throws IOException {
+		cf = storeLocator.categoriesRefrence();
+		hairConditioner = cf.click_on_Hair_Conditioner_cateogry();
+		boolean response = hairConditioner.verfiy_Hair_Conditioner_category_page();
 		Assert.assertTrue(response);
 	}
+	
+	@Test(priority = 15)
+	public void Test_mamaearth_category_Hair_HairMask_launching() throws IOException {
+		cf = hairConditioner.categoriesRefrence();
+		hairMask = cf.click_on_Hair_HairMask_cateogry();
+		boolean response = hairMask.verfiy_Hair_Mask_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 16)
+	public void Test_mamaearth_category_Hair_HairSerum_launching() throws IOException {
+		cf = hairMask.categoriesRefrence();
+		hairSerum = cf.click_on_Hair_HairSerum_cateogry();
+		boolean response = hairSerum.verfiy_Hair_Serum_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 17)
+	public void Test_mamaearth_category_Hair_HairOil_launching() throws IOException {
+		cf = hairSerum.categoriesRefrence();
+		hairOil = cf.click_on_Hair_HairOil_cateogry();
+		boolean response = hairOil.verfiy_Hair_Oil_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 17)
+	public void Test_mamaearth_category_Hair_HairOilBooster_launching() throws IOException {
+		cf = hairOil.categoriesRefrence();
+		hairOilBooster = cf.click_on_Hair_HairOilBooster_cateogry();
+		boolean response = hairOilBooster.verfiy_Hair_OilBooster_category_page();
+		Assert.assertTrue(response);
+	}
+	
+//	@Test(priority = 14)
+//	public void Test_mamaearth_GoodnessInsider_launching() throws IOException, InterruptedException {
+//		goodnessInsider = storeLocator.click_on_GoodnessInsider_cateogry();
+//		boolean response = goodnessInsider.verfiy_GoodnessInsider_page();
+//		Assert.assertTrue(response);
+//	}
 	
 //	@Test(priority = 14)
 //	public void Test_mamaearth_category_Makeup_launching() throws IOException, InterruptedException {

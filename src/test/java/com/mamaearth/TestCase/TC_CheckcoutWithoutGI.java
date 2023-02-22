@@ -37,6 +37,7 @@ public class TC_CheckcoutWithoutGI extends mamaearth_Base{
 	@BeforeMethod
 	public void setup() throws InterruptedException {
 		initialization();
+		
 		log.info("Page initialized");
 		home = new mamaearth_HomePage();
 		log.info("Home page is opened");

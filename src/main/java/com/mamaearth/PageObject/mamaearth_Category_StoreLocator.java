@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.mamaearth.Base.mamaearth_Base;
+import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
 public class mamaearth_Category_StoreLocator extends mamaearth_Base{
 	
@@ -60,7 +61,10 @@ public class mamaearth_Category_StoreLocator extends mamaearth_Base{
 		return new mamaearth_Category_GoodnessInsider();
 	}
 	
+	/*** This will return the reference of the categories utils class ***/
+	public mamaearth_utils_CategoriesFunctions categoriesRefrence() {
+		return new mamaearth_utils_CategoriesFunctions();
+	}
 	
-
 
 }

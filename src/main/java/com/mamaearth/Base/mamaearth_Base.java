@@ -34,8 +34,9 @@ public class mamaearth_Base {
 	
 	
 	@SuppressWarnings("deprecation")
-	public static void initialization() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "/Users/honasa/Downloads/chromedriver");
+	public static synchronized void initialization() throws InterruptedException {
+		
+		System.setProperty("webdriver.chrome.driver", "/Users/honasa/Downloads/chromedriver_mac64/chromedriver");
 		driver = new ChromeDriver();
 		
 		driver.get(prop.getProperty("url"));
