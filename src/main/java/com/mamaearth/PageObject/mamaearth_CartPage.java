@@ -21,10 +21,10 @@ public class mamaearth_CartPage extends mamaearth_Base{
 	@FindBy(xpath = "//div[contains(@class, 'OrderSummary__CouponTrayStrip-sc-b29dda-0 edRxHm')]")
 	WebElement applyCoupon_button;
 	
-	@FindBy(xpath = "//input[contains(@class, 'CouponTrayVariant__StyledInput-sc-1hws438-0 jfrbVq')]")
+	@FindBy(xpath = "//input[contains(@class, 'CouponTrayVariant__StyledInput-sc-1hws438-0 jzIXVI')]")
 	WebElement coupon_button;
 	
-	@FindBy(xpath = "//input[contains(@class, 'CouponTrayVariant__StyledInput-sc-1hws438-0 jfrbVq')]//following-sibling::div")
+	@FindBy(xpath = "//div[contains(@class, 'input-apply')]")
 	WebElement apply_button;
 	
 	public mamaearth_HomePage click_on_mamaearth_logo() {

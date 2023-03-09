@@ -12,6 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import com.mamaearth.Utils.mamaearth_utils;
+import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
 public class mamaearth_Base {
 	
@@ -49,7 +50,14 @@ public class mamaearth_Base {
 		
 		mamaearth_utils.waitToElementPresence(driver.findElement(By.id("wzrk-confirm-id")), Duration.ofSeconds(10));
 		
-		driver.findElement(By.id("wzrk-confirm-id")).click();
+		driver.findElement(By.id("wzrk-cancel-id")).click();
 	}
+	
+
+	/*** This will return the reference of the categories utils class ***/
+	public mamaearth_utils_CategoriesFunctions categoriesRefrence() {
+		return new mamaearth_utils_CategoriesFunctions();
+	}
+
 
 }

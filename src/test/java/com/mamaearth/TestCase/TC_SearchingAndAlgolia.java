@@ -29,6 +29,7 @@ public class TC_SearchingAndAlgolia extends mamaearth_Base{
 	}
 	
 
+	
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();

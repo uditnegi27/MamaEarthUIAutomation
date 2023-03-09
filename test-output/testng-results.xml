@@ -1,101 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="28" passed="27" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-22T17:08:07 IST" name="Default suite" finished-at="2023-02-22T17:09:18 IST" duration-ms="70622">
+  <suite started-at="2023-03-09T16:45:45 IST" name="Default suite" finished-at="2023-03-09T16:46:35 IST" duration-ms="49940">
     <groups>
     </groups>
-    <test started-at="2023-02-22T17:08:07 IST" name="Default test" finished-at="2023-02-22T17:09:18 IST" duration-ms="70622">
-      <class name="com.mamaearth.TestCase.TC_CheckcoutWithoutGI">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@7ee8290b]" started-at="2023-02-22T17:08:08 IST" name="setup" finished-at="2023-02-22T17:08:16 IST" duration-ms="8620" status="PASS">
+    <test started-at="2023-03-09T16:45:45 IST" name="Default test" finished-at="2023-03-09T16:46:35 IST" duration-ms="49940">
+      <class name="com.mamaearth.TestCase.TC_VerifyAllCategories">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:45:45 IST" name="setup" finished-at="2023-03-09T16:45:55 IST" duration-ms="10093" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_GuestUser_WithoutCoupon_withoutGI_COD(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@7ee8290b]" started-at="2023-02-22T17:08:16 IST" name="Test_GuestUser_WithoutCoupon_withoutGI_COD" data-provider="fill_address_details" finished-at="2023-02-22T17:08:42 IST" duration-ms="25676" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[udit]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sharma]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[uudfjksdf125@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9090989098]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[110031]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[B- 385/s, Street no.9]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="Test_mamaearth_launching()[pri:1, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:45:55 IST" name="Test_mamaearth_launching" finished-at="2023-03-09T16:45:55 IST" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_GuestUser_WithoutCoupon_withoutGI_COD -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@7ee8290b]" started-at="2023-02-22T17:08:42 IST" name="teardown" finished-at="2023-02-22T17:08:42 IST" duration-ms="321" status="PASS">
+        </test-method> <!-- Test_mamaearth_launching -->
+        <test-method signature="Test_mamaearth_category_Beauty_launching()[pri:2, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:45:55 IST" name="Test_mamaearth_category_Beauty_launching" finished-at="2023-03-09T16:45:59 IST" duration-ms="3726" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@7ee8290b]" started-at="2023-02-22T17:08:42 IST" name="setup" finished-at="2023-02-22T17:08:50 IST" duration-ms="7947" status="PASS">
+        </test-method> <!-- Test_mamaearth_category_Beauty_launching -->
+        <test-method signature="Test_mamaearth_category_Beauty_Fragrance_launching()[pri:3, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:45:59 IST" name="Test_mamaearth_category_Beauty_Fragrance_launching" finished-at="2023-03-09T16:46:01 IST" duration-ms="1685" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Test_GuestUser_WithCoupon_withoutGI_COD(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@7ee8290b]" started-at="2023-02-22T17:08:50 IST" name="Test_GuestUser_WithCoupon_withoutGI_COD" data-provider="fill_address_details" finished-at="2023-02-22T17:09:17 IST" duration-ms="27144" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[udit]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sharma]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[uudfjksdf125@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9090989098]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[110031]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[B- 385/s, Street no.9]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Test_mamaearth_category_Beauty_Fragrance_launching -->
+        <test-method signature="Test_mamaearth_category_Beauty_FacialKits_launching()[pri:4, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:01 IST" name="Test_mamaearth_category_Beauty_FacialKits_launching" finished-at="2023-03-09T16:46:04 IST" duration-ms="3273" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_GuestUser_WithCoupon_withoutGI_COD -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@7ee8290b]" started-at="2023-02-22T17:09:17 IST" name="teardown" finished-at="2023-02-22T17:09:18 IST" duration-ms="268" status="PASS">
+        </test-method> <!-- Test_mamaearth_category_Beauty_FacialKits_launching -->
+        <test-method signature="Test_mamaearth_category_Hair_launching()[pri:5, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:04 IST" name="Test_mamaearth_category_Hair_launching" finished-at="2023-03-09T16:46:06 IST" duration-ms="1476" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.mamaearth.TestCase.TC_CheckcoutWithoutGI -->
+        </test-method> <!-- Test_mamaearth_category_Hair_launching -->
+        <test-method signature="Test_mamaearth_category_Hair_Shampoo_launching()[pri:6, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:06 IST" name="Test_mamaearth_category_Hair_Shampoo_launching" finished-at="2023-03-09T16:46:07 IST" duration-ms="1261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Hair_Shampoo_launching -->
+        <test-method signature="Test_mamaearth_category_Hair_Conditioner_launching()[pri:7, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:07 IST" name="Test_mamaearth_category_Hair_Conditioner_launching" finished-at="2023-03-09T16:46:09 IST" duration-ms="1734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Hair_Conditioner_launching -->
+        <test-method signature="Test_mamaearth_category_Hair_HairOil_launching()[pri:8, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:09 IST" name="Test_mamaearth_category_Hair_HairOil_launching" finished-at="2023-03-09T16:46:10 IST" duration-ms="1088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Hair_HairOil_launching -->
+        <test-method signature="Test_mamaearth_category_Hair_HairMask_launching()[pri:9, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:10 IST" name="Test_mamaearth_category_Hair_HairMask_launching" finished-at="2023-03-09T16:46:11 IST" duration-ms="1162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Hair_HairMask_launching -->
+        <test-method signature="Test_mamaearth_category_Hair_HairSerum_launching()[pri:10, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:11 IST" name="Test_mamaearth_category_Hair_HairSerum_launching" finished-at="2023-03-09T16:46:12 IST" duration-ms="1029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Hair_HairSerum_launching -->
+        <test-method signature="Test_mamaearth_category_Hair_HairOilBooster_launching()[pri:11, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:12 IST" name="Test_mamaearth_category_Hair_HairOilBooster_launching" finished-at="2023-03-09T16:46:13 IST" duration-ms="1020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Hair_HairOilBooster_launching -->
+        <test-method signature="Test_mamaearth_category_Face_launching()[pri:12, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:13 IST" name="Test_mamaearth_category_Face_launching" finished-at="2023-03-09T16:46:15 IST" duration-ms="1929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Face_launching -->
+        <test-method signature="Test_mamaearth_category_Face_FaceWash_launching()[pri:13, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:15 IST" name="Test_mamaearth_category_Face_FaceWash_launching" finished-at="2023-03-09T16:46:16 IST" duration-ms="1545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Face_FaceWash_launching -->
+        <test-method signature="Test_mamaearth_category_Face_FaceMask_launching()[pri:14, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:16 IST" name="Test_mamaearth_category_Face_FaceMask_launching" finished-at="2023-03-09T16:46:18 IST" duration-ms="1176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Face_FaceMask_launching -->
+        <test-method signature="Test_mamaearth_category_Face_FaceCream_launching()[pri:15, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:18 IST" name="Test_mamaearth_category_Face_FaceCream_launching" finished-at="2023-03-09T16:46:19 IST" duration-ms="1261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Face_FaceCream_launching -->
+        <test-method signature="Test_mamaearth_category_Face_FaceSerum_launching()[pri:16, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:19 IST" name="Test_mamaearth_category_Face_FaceSerum_launching" finished-at="2023-03-09T16:46:20 IST" duration-ms="1169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Face_FaceSerum_launching -->
+        <test-method signature="Test_mamaearth_category_Face_FaceScrub_launching()[pri:17, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:20 IST" name="Test_mamaearth_category_Face_FaceScrub_launching" finished-at="2023-03-09T16:46:21 IST" duration-ms="1264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Face_FaceScrub_launching -->
+        <test-method signature="Test_mamaearth_category_Face_FaceToner_launching()[pri:18, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:21 IST" name="Test_mamaearth_category_Face_FaceToner_launching" finished-at="2023-03-09T16:46:22 IST" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Face_FaceToner_launching -->
+        <test-method signature="Test_mamaearth_category_Face_FaceGel_launching()[pri:19, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:22 IST" name="Test_mamaearth_category_Face_FaceGel_launching" finished-at="2023-03-09T16:46:24 IST" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Face_FaceGel_launching -->
+        <test-method signature="Test_mamaearth_category_Face_FaceSheetMask_launching()[pri:20, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:24 IST" name="Test_mamaearth_category_Face_FaceSheetMask_launching" finished-at="2023-03-09T16:46:26 IST" duration-ms="2566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Face_FaceSheetMask_launching -->
+        <test-method signature="Test_mamaearth_category_Face_FaceMoisturizer_launching()[pri:21, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:26 IST" name="Test_mamaearth_category_Face_FaceMoisturizer_launching" finished-at="2023-03-09T16:46:28 IST" duration-ms="1306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Face_FaceMoisturizer_launching -->
+        <test-method signature="Test_mamaearth_category_Body_launching()[pri:22, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:28 IST" name="Test_mamaearth_category_Body_launching" finished-at="2023-03-09T16:46:29 IST" duration-ms="1460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Body_launching -->
+        <test-method signature="Test_mamaearth_category_Body_BodyLotion_launching()[pri:23, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:29 IST" name="Test_mamaearth_category_Body_BodyLotion_launching" finished-at="2023-03-09T16:46:30 IST" duration-ms="1458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Body_BodyLotion_launching -->
+        <test-method signature="Test_mamaearth_category_Body_BodySoap_launching()[pri:23, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:30 IST" name="Test_mamaearth_category_Body_BodySoap_launching" finished-at="2023-03-09T16:46:30 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.mamaearth.PageObject.mamaearth_Category_Body_BodyWash.categoriesRefrence()" because "this.bodyWash" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.mamaearth.PageObject.mamaearth_Category_Body_BodyWash.categoriesRefrence()" because "this.bodyWash" is null
+at com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Body_BodySoap_launching(TC_VerifyAllCategories.java:329)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Body_BodySoap_launching -->
+        <test-method signature="Test_mamaearth_category_Body_UnderarmCream_launching()[pri:24, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:30 IST" name="Test_mamaearth_category_Body_UnderarmCream_launching" finished-at="2023-03-09T16:46:32 IST" duration-ms="1124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Body_UnderarmCream_launching -->
+        <test-method signature="Test_mamaearth_category_Body_BodyScrub_launching()[pri:25, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:32 IST" name="Test_mamaearth_category_Body_BodyScrub_launching" finished-at="2023-03-09T16:46:33 IST" duration-ms="987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Body_BodyScrub_launching -->
+        <test-method signature="Test_mamaearth_category_Body_HandCream_launching()[pri:26, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:33 IST" name="Test_mamaearth_category_Body_HandCream_launching" finished-at="2023-03-09T16:46:34 IST" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Body_HandCream_launching -->
+        <test-method signature="Test_mamaearth_category_Body_BodyWash_launching()[pri:27, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:34 IST" name="Test_mamaearth_category_Body_BodyWash_launching" finished-at="2023-03-09T16:46:35 IST" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_category_Body_BodyWash_launching -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@55b699ef]" started-at="2023-03-09T16:46:35 IST" name="tearDown" finished-at="2023-03-09T16:46:35 IST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mamaearth.TestCase.TC_VerifyAllCategories -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

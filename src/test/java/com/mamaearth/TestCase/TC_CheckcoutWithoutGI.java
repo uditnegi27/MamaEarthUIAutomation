@@ -41,7 +41,7 @@ public class TC_CheckcoutWithoutGI extends mamaearth_Base{
 		log.info("Page initialized");
 	}
 	
-	@Test(dataProvider = "fill_address_details", priority = 1)
+	@Test(dataProvider = "fill_address_details", priority = 2)
 	public void Test_GuestUser_WithoutCoupon_withoutGI_COD(String fName, String lName, String email, String number, String postalCode, String address) throws InterruptedException, IOException {
 		
 		
@@ -68,7 +68,7 @@ public class TC_CheckcoutWithoutGI extends mamaearth_Base{
 	}
 	
 	
-	@Test(dataProvider = "fill_address_details", priority = 2)
+	@Test(dataProvider = "fill_address_details", priority = 1)
 	public void Test_GuestUser_WithCoupon_withoutGI_COD(String fName, String lName, String email, String number, String postalCode, String address) throws InterruptedException, IOException {
 		
 		home = new mamaearth_HomePage();
@@ -96,6 +96,38 @@ public class TC_CheckcoutWithoutGI extends mamaearth_Base{
 		log.info("Screenshot taken");
 		
 	}
+	
+	
+	/***
+	@Test(dataProvider = "fill_address_details", priority = 1)
+	public void Test_GuestUser_WithCoupon_withoutGI_COD(String fName, String lName, String email, String number, String postalCode, String address) throws InterruptedException, IOException {
+		
+		home = new mamaearth_HomePage();
+		log.info("Home page is opened");
+		pdp = home.open_pdpPage();
+		log.info("Page is opened");
+		pdp.add_product_to_cart();
+		log.info("Product added to a cart");
+		cart = pdp.click_on_cart();
+		log.info("Cart page is opened");
+
+		cart.click_on_applyCoupon();
+		cart.apply_coupon();
+		
+		checkout = cart.continue_to_checkout();
+		log.info("Checkout page is opened");
+		
+		checkout.fill_address_details(fName, lName, email, number, postalCode, address);
+		log.info("Details are filled");
+		checkout.select_COD();
+		log.info("Payment COD is selected");
+		thankyou = checkout.payWithCOD();
+		log.info("Payment successful and thankyou page is appeared");
+		mamaearth_utils.take_screenShot(lName);
+		log.info("Screenshot taken");
+		
+	}
+	***/
 	
 	
 	@DataProvider
