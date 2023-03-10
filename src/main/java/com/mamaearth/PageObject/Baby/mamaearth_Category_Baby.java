@@ -1,4 +1,4 @@
-package com.mamaearth.PageObject;
+package com.mamaearth.PageObject.Baby;
 
 import java.io.IOException;
 
@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.mamaearth.Base.mamaearth_Base;
+import com.mamaearth.PageObject.mamaearth_Category_GiftPacks;
 
 public class mamaearth_Category_Baby extends mamaearth_Base{
 	

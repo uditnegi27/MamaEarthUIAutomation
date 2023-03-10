@@ -8,7 +8,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import com.mamaearth.Base.mamaearth_Base;
 import com.mamaearth.PageObject.mamaearth_Category_AllProducts;
-import com.mamaearth.PageObject.mamaearth_Category_Baby;
 import com.mamaearth.PageObject.mamaearth_Category_Beauty;
 import com.mamaearth.PageObject.mamaearth_Category_Beauty_FacialKits;
 import com.mamaearth.PageObject.mamaearth_Category_Beauty_Fragrance;
@@ -65,6 +64,7 @@ import com.mamaearth.PageObject.mamaearth_Category_Makeup_Lipsticks;
 import com.mamaearth.PageObject.mamaearth_Category_PlantGoodness;
 import com.mamaearth.PageObject.mamaearth_Category_StoreLocator;
 import com.mamaearth.PageObject.mamaearth_HomePage;
+import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby;
 import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
 public class TC_VerifyAllCategories extends mamaearth_Base{

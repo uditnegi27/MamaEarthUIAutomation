@@ -2697,3 +2697,8 @@ catch(e){
 2023-03-10 13:10:34,482  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
 2023-03-10 13:10:34,502  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
 2023-03-10 13:10:34,505  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-03-10 14:38:57,478  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-03-10 14:38:57,507  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-03-10 14:38:57,520  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-03-10 14:38:57,546  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-03-10 14:38:57,564  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************

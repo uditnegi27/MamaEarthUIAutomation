@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.mamaearth.Base.mamaearth_Base;
+import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby;
 
 public class mamaearth_Category_Ingredient extends mamaearth_Base{
 
