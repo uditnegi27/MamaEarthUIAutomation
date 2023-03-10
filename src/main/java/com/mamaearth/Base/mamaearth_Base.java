@@ -37,10 +37,10 @@ public class mamaearth_Base {
 	@SuppressWarnings("deprecation")
 	public static synchronized void initialization() throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "/Users/honasa/Downloads/chromedriver_mac64/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/honasa/Downloads/chromedriver_mac64/chromeDriver");
 		driver = new ChromeDriver();
 		
-		driver.get(prop.getProperty("url"));
+		driver.navigate().to(prop.getProperty("url"));
 		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();

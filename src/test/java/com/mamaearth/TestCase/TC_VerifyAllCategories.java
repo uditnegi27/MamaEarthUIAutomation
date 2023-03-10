@@ -41,6 +41,12 @@ import com.mamaearth.PageObject.mamaearth_Category_Hair_HairSerum;
 import com.mamaearth.PageObject.mamaearth_Category_Hair_Shampoo;
 import com.mamaearth.PageObject.mamaearth_Category_Ingredient;
 import com.mamaearth.PageObject.mamaearth_Category_Makeup;
+import com.mamaearth.PageObject.mamaearth_Category_Makeup_Compact;
+import com.mamaearth.PageObject.mamaearth_Category_Makeup_Concealer;
+import com.mamaearth.PageObject.mamaearth_Category_Makeup_Foundation;
+import com.mamaearth.PageObject.mamaearth_Category_Makeup_Kajal;
+import com.mamaearth.PageObject.mamaearth_Category_Makeup_LipBalm;
+import com.mamaearth.PageObject.mamaearth_Category_Makeup_Lipsticks;
 import com.mamaearth.PageObject.mamaearth_Category_PlantGoodness;
 import com.mamaearth.PageObject.mamaearth_Category_StoreLocator;
 import com.mamaearth.PageObject.mamaearth_HomePage;
@@ -87,6 +93,14 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 	
 	
 	mamaearth_Category_Makeup makeup;
+	mamaearth_Category_Makeup_Lipsticks lipsticks;
+	mamaearth_Category_Makeup_LipBalm lipBalm;
+	mamaearth_Category_Makeup_Foundation foundation;
+	mamaearth_Category_Makeup_Kajal kajal;
+	mamaearth_Category_Makeup_Compact compact;
+	mamaearth_Category_Makeup_Concealer concealer;
+	
+	
 	mamaearth_Category_Ingredient ingredient;
 	mamaearth_Category_Baby baby;
 	mamaearth_Category_GiftPacks giftPacks;
@@ -96,10 +110,6 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 	mamaearth_Category_StoreLocator storeLocator;
 	mamaearth_Category_GoodnessInsider goodnessInsider;
 	mamaearth_utils_CategoriesFunctions cf;
-	
-	
-	
-	
 	
 	
 	
@@ -332,14 +342,63 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 		Assert.assertTrue(response);
 	}
 	
-//	@Test(priority = 24)
-//	public void Test_mamaearth_category_Makeup_launching() throws IOException {
-//		cf = bodyLotion.categoriesRefrence();
-//		makeup = cf.click_on_Makeup_cateogry();
-//		boolean response = makeup.verfiy_Makeup_category_page();
-//		Assert.assertTrue(response);
-//	}
-//	
+	@Test(priority = 29)
+	public void Test_mamaearth_category_Makeup_launching() throws IOException {
+		cf = bodyLotion.categoriesRefrence();
+		makeup = cf.click_on_Makeup_cateogry();
+		boolean response = makeup.verfiy_Makeup_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 30)
+	public void Test_mamaearth_category_Makeup_Lipsticks_launching() throws IOException {
+		cf = makeup.categoriesRefrence();
+		lipsticks = cf.click_on_Makeup_Lipsticks_cateogry();
+		boolean response = lipsticks.verfiy_Makeup_Lipsticks_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 31)
+	public void Test_mamaearth_category_Makeup_LipBalm_launching() throws IOException {
+		cf = lipsticks.categoriesRefrence();
+		lipBalm = cf.click_on_Makeup_LipBalm_cateogry();
+		boolean response = lipBalm.verfiy_Makeup_LipBalm_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 32)
+	public void Test_mamaearth_category_Makeup_Foundation_launching() throws IOException {
+		cf = lipBalm.categoriesRefrence();
+		foundation = cf.click_on_Makeup_Foundation_cateogry();
+		boolean response = foundation.verfiy_Makeup_Foundations_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 33)
+	public void Test_mamaearth_category_Makeup_Kajal_launching() throws IOException {
+		cf = foundation.categoriesRefrence();
+		kajal = cf.click_on_Makeup_Kajal_cateogry();
+		boolean response = kajal.verfiy_Makeup_Kajal_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 34)
+	public void Test_mamaearth_category_Makeup_Compact_launching() throws IOException {
+		cf = kajal.categoriesRefrence();
+		compact = cf.click_on_Makeup_Compact_cateogry();
+		boolean response = compact.verfiy_Makeup_CompactPowder_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 35)
+	public void Test_mamaearth_category_Makeup_Concealer_launching() throws IOException {
+		cf = compact.categoriesRefrence();
+		concealer = cf.click_on_Makeup_Concealer_cateogry();
+		boolean response = concealer.verfiy_Makeup_Concealer_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	
 //	@Test(priority = 25)
 //	public void Test_mamaearth_category_Ingredient_launching() throws IOException {
 //		ingredient = makeup.click_on_Ingredient_cateogry();
