@@ -65,6 +65,12 @@ import com.mamaearth.PageObject.mamaearth_Category_PlantGoodness;
 import com.mamaearth.PageObject.mamaearth_Category_StoreLocator;
 import com.mamaearth.PageObject.mamaearth_HomePage;
 import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby;
+import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabyBath;
+import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabyBodyLotion;
+import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabyOil;
+import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabyOralcare;
+import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabyShampoo;
+import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabySkin;
 import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
 public class TC_VerifyAllCategories extends mamaearth_Base{
@@ -135,6 +141,14 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 	
 	
 	mamaearth_Category_Baby baby;
+	mamaearth_Category_Baby_BabyShampoo babyShampoo;
+	mamaearth_Category_Baby_BabyOralcare babyOralcare;
+	mamaearth_Category_Baby_BabyOil babyOil;
+	mamaearth_Category_Baby_BabySkin babySkin;
+	mamaearth_Category_Baby_BabyBath babyBath;
+	mamaearth_Category_Baby_BabyBodyLotion babyBodyLotion;
+	
+	
 	mamaearth_Category_GiftPacks giftPacks;
 	mamaearth_Category_AllProducts allProducts;
 	mamaearth_Category_Blog blog;
@@ -556,6 +570,62 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 		cf = retinol.categoriesRefrence();
 		honeyMalai = cf.click_on_Ingredient_HoneyMalai_cateogry();
 		boolean response = honeyMalai.verfiy_Ingredient_HoneyMalai_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 52)
+	public void Test_mamaearth_category_Baby_launching() throws IOException {
+		cf = honeyMalai.categoriesRefrence();
+		baby = cf.click_on_Baby_cateogry();
+		boolean response = baby.verfiy_Baby_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 53)
+	public void Test_mamaearth_category_Baby__BabyShampoo_launching() throws IOException {
+		cf = baby.categoriesRefrence();
+		babyShampoo = cf.click_on_Baby_BabyShampoo_cateogry();
+		boolean response = babyShampoo.verfiy_Baby_BabyShampoo_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 54)
+	public void Test_mamaearth_category_Baby__BabyOralcare_launching() throws IOException {
+		cf = babyShampoo.categoriesRefrence();
+		babyOralcare = cf.click_on_Baby_BabyOralcare_cateogry();
+		boolean response = babyOralcare.verfiy_Baby_BabyOralcare_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 55)
+	public void Test_mamaearth_category_Baby__BabyOil_launching() throws IOException {
+		cf = babyOralcare.categoriesRefrence();
+		babyOil = cf.click_on_Baby_BabyOil_cateogry();
+		boolean response = babyOil.verfiy_Baby_BabyOil_category_page();
+		Assert.assertTrue(response);
+	}
+	 
+	@Test(priority = 56)
+	public void Test_mamaearth_category_Baby__BabySkin_launching() throws IOException {
+		cf = babyOil.categoriesRefrence();
+		babySkin = cf.click_on_Baby_BabySkin_cateogry();
+		boolean response = babySkin.verfiy_Baby_BabySkin_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 57)
+	public void Test_mamaearth_category_Baby__BabyBath_launching() throws IOException {
+		cf = babySkin.categoriesRefrence();
+		babyBath = cf.click_on_Baby_BabyBath_cateogry();
+		boolean response = babyBath.verfiy_Baby_BabyBath_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 58)
+	public void Test_mamaearth_category_Baby__BabyBodyLotion_launching() throws IOException {
+		cf = babyBath.categoriesRefrence();
+		babyBodyLotion = cf.click_on_Baby_BabyBodyLotion_cateogry();
+		boolean response = babyBodyLotion.verfiy_Baby_BabyBodyLotion_category_page();
 		Assert.assertTrue(response);
 	}
 	
