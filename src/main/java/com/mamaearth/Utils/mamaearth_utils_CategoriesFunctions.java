@@ -55,6 +55,13 @@ import com.mamaearth.PageObject.mamaearth_Category_Makeup_Foundation;
 import com.mamaearth.PageObject.mamaearth_Category_Makeup_Kajal;
 import com.mamaearth.PageObject.mamaearth_Category_Makeup_LipBalm;
 import com.mamaearth.PageObject.mamaearth_Category_Makeup_Lipsticks;
+import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby;
+import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabyBath;
+import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabyBodyLotion;
+import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabyOil;
+import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabyOralcare;
+import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabyShampoo;
+import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabySkin;
 
 public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	
@@ -232,6 +239,30 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(),'Honey Malai')]")
 	WebElement Ingredient_HoneyMalai_category_button;
 	
+	
+	
+	
+	
+	@FindBy(xpath = "//li[@class='category']/child::a[contains(text(),'Baby')]")
+	WebElement Baby_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(),'Baby Shampoo')]")
+	WebElement Baby_BabyShampoo_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(), 'Baby Oralcare')]")
+	WebElement Baby_BabyOralcare_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(), 'Baby Oil')]")
+	WebElement Baby_BabyOil_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(), 'Baby Skin')]")
+	WebElement Baby_BabySkin_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(), 'Baby Bath')]")
+	WebElement Baby_BabyBath_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(), 'Baby Body Lotion')]")
+	WebElement Baby_BabyBodyLotion_category_button;
 	
 	
 	
@@ -763,6 +794,87 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 		Ingredient_HoneyMalai_category_button.click();
 		return new mamaearth_Category_Ingredient_HoneyMalai();
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	/*** This function will return the reference of the Baby category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Baby click_on_Baby_cateogry() {
+		Baby_category_button.click();
+		return new mamaearth_Category_Baby();
+	}
+	
+	/*** This function will return the Baby Shampoo category of Baby category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Baby_BabyShampoo click_on_Baby_BabyShampoo_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Baby_category_button);
+		Baby_BabyShampoo_category_button.click();
+		return new mamaearth_Category_Baby_BabyShampoo();
+	}
+	
+	/*** This function will return the Baby Oralcare category of Baby category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Baby_BabyOralcare click_on_Baby_BabyOralcare_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Baby_category_button);
+		Baby_BabyOralcare_category_button.click();
+		return new mamaearth_Category_Baby_BabyOralcare();
+	}
+	
+	/*** This function will return the Baby Oil category of Baby category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Baby_BabyOil click_on_Baby_BabyOil_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Baby_category_button);
+		Baby_BabyOil_category_button.click();
+		return new mamaearth_Category_Baby_BabyOil();
+	}
+	
+	/*** This function will return the Baby Skin category of Baby category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Baby_BabySkin click_on_Baby_BabySkin_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Baby_category_button);
+		Baby_BabySkin_category_button.click();
+		return new mamaearth_Category_Baby_BabySkin();
+	}
+	
+	/*** This function will return the Baby Bath category of Baby category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Baby_BabyBath click_on_Baby_BabyBath_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Baby_category_button);
+		Baby_BabyBath_category_button.click();
+		return new mamaearth_Category_Baby_BabyBath();
+	}
+	
+	/*** This function will return the Baby Body Lotion category of Baby category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Baby_BabyBodyLotion click_on_Baby_BabyBodyLotion_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Baby_category_button);
+		Baby_BabyBodyLotion_category_button.click();
+		return new mamaearth_Category_Baby_BabyBodyLotion();
+	}
+	
+	
+	
+	
+	
 	
 	
 	
