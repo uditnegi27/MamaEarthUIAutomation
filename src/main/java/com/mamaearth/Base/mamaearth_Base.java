@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import com.mamaearth.Utils.mamaearth_utils;
 import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
@@ -38,9 +39,14 @@ public class mamaearth_Base {
 	public static synchronized void initialization() throws InterruptedException {
 		
 		System.setProperty("webdriver.chrome.driver", "/Users/honasa/Downloads/chromedriver_mac64/chromeDriver");
-		driver = new ChromeDriver();
 		
-		driver.navigate().to(prop.getProperty("url"));
+		ChromeOptions options = new ChromeOptions();
+		
+		options.addArguments("--remote-allow-origins=*");
+		
+		driver = new ChromeDriver(options);
+		
+		driver.get(prop.getProperty("url"));
 		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
