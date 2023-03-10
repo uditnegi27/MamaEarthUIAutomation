@@ -40,6 +40,21 @@ import com.mamaearth.PageObject.mamaearth_Category_Hair_HairOilBooster;
 import com.mamaearth.PageObject.mamaearth_Category_Hair_HairSerum;
 import com.mamaearth.PageObject.mamaearth_Category_Hair_Shampoo;
 import com.mamaearth.PageObject.mamaearth_Category_Ingredient;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_AppleCiderVinegar;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Aqua;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Argan;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Bhringmla;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Charcoal;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Coco;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_GreenTea;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Henna;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_HoneyMalai;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Onion;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Retinol;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Rice;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_TeaTree;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Ubtan;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_VitaminC;
 import com.mamaearth.PageObject.mamaearth_Category_Makeup;
 import com.mamaearth.PageObject.mamaearth_Category_Makeup_Compact;
 import com.mamaearth.PageObject.mamaearth_Category_Makeup_Concealer;
@@ -102,6 +117,23 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 	
 	
 	mamaearth_Category_Ingredient ingredient;
+	mamaearth_Category_Ingredient_Onion onion;
+	mamaearth_Category_Ingredient_Henna henna;
+	mamaearth_Category_Ingredient_Rice rice;
+	mamaearth_Category_Ingredient_Ubtan ubtan;
+	mamaearth_Category_Ingredient_VitaminC vitaminC;
+	mamaearth_Category_Ingredient_GreenTea greenTea;
+	mamaearth_Category_Ingredient_TeaTree teaTree;
+	mamaearth_Category_Ingredient_Aqua aqua;
+	mamaearth_Category_Ingredient_Bhringmla bhringmla;
+	mamaearth_Category_Ingredient_Charcoal charcoal;
+	mamaearth_Category_Ingredient_Coco coco;
+	mamaearth_Category_Ingredient_Argan argan;
+	mamaearth_Category_Ingredient_AppleCiderVinegar appleCiderVinegar;
+	mamaearth_Category_Ingredient_Retinol retinol;
+	mamaearth_Category_Ingredient_HoneyMalai honeyMalai;
+	
+	
 	mamaearth_Category_Baby baby;
 	mamaearth_Category_GiftPacks giftPacks;
 	mamaearth_Category_AllProducts allProducts;
@@ -399,13 +431,134 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 	}
 	
 	
-//	@Test(priority = 25)
-//	public void Test_mamaearth_category_Ingredient_launching() throws IOException {
-//		ingredient = makeup.click_on_Ingredient_cateogry();
-//		boolean response = ingredient.verfiy_Ingredient_category_page();
-//		Assert.assertTrue(response);
-//	}
-//	
+	@Test(priority = 36)
+	public void Test_mamaearth_category_Ingredient_launching() throws IOException {
+		cf = concealer.categoriesRefrence();
+		ingredient = cf.click_on_Ingredient_cateogry();
+		boolean response = ingredient.verfiy_Ingredient_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 37)
+	public void Test_mamaearth_category_Ingredient_Onion_launching() throws IOException {
+		cf = ingredient.categoriesRefrence();
+		onion = cf.click_on_Ingredient_Onion_cateogry();
+		boolean response = onion.verfiy_Ingredient_Onion_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 38)
+	public void Test_mamaearth_category_Ingredient_Henna_launching() throws IOException {
+		cf = onion.categoriesRefrence();
+		henna = cf.click_on_Ingredient_Henna_cateogry();
+		boolean response = henna.verfiy_Ingredient_Henna_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 39)
+	public void Test_mamaearth_category_Ingredient_Rice_launching() throws IOException {
+		cf = henna.categoriesRefrence();
+		rice = cf.click_on_Ingredient_Rice_cateogry();
+		boolean response = rice.verfiy_Ingredient_Rice_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 40)
+	public void Test_mamaearth_category_Ingredient_Ubtan_launching() throws IOException {
+		cf = rice.categoriesRefrence();
+		ubtan = cf.click_on_Ingredient_Ubtan_cateogry();
+		boolean response = ubtan.verfiy_Ingredient_Ubtan_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 41)
+	public void Test_mamaearth_category_Ingredient_VitaminC_launching() throws IOException {
+		cf = ubtan.categoriesRefrence();
+		vitaminC = cf.click_on_Ingredient_VitaminC_cateogry();
+		boolean response = vitaminC.verfiy_Ingredient_VitaminC_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 42)
+	public void Test_mamaearth_category_Ingredient_GreenTea_launching() throws IOException {
+		cf = vitaminC.categoriesRefrence();
+		greenTea = cf.click_on_Ingredient_GreenTea_cateogry();
+		boolean response = greenTea.verfiy_Ingredient_GreenTea_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 43)
+	public void Test_mamaearth_category_Ingredient_TeaTree_launching() throws IOException {
+		cf = greenTea.categoriesRefrence();
+		teaTree = cf.click_on_Ingredient_TeaTree_cateogry();
+		boolean response = teaTree.verfiy_Ingredient_TeaTree_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 44)
+	public void Test_mamaearth_category_Ingredient_Aqua_launching() throws IOException {
+		cf = teaTree.categoriesRefrence();
+		aqua = cf.click_on_Ingredient_Aqau_cateogry();
+		boolean response = aqua.verfiy_Ingredient_Aqua_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 45)
+	public void Test_mamaearth_category_Ingredient_Bhringmla_launching() throws IOException {
+		cf = greenTea.categoriesRefrence();
+		bhringmla = cf.click_on_Ingredient_Bhringmla_cateogry();
+		boolean response = bhringmla.verfiy_Ingredient_Bhringmla_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 46)
+	public void Test_mamaearth_category_Ingredient_Charcoal_launching() throws IOException {
+		cf = bhringmla.categoriesRefrence();
+		charcoal = cf.click_on_Ingredient_Charcoal_cateogry();
+		boolean response = charcoal.verfiy_Ingredient_Charcoal_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 47)
+	public void Test_mamaearth_category_Ingredient_Coco_launching() throws IOException {
+		cf = charcoal.categoriesRefrence();
+		coco = cf.click_on_Ingredient_Coco_cateogry();
+		boolean response = coco.verfiy_Ingredient_Coco_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 48)
+	public void Test_mamaearth_category_Ingredient_Argan_launching() throws IOException {
+		cf = coco.categoriesRefrence();
+		argan = cf.click_on_Ingredient_Argan_cateogry();
+		boolean response = argan.verfiy_Ingredient_Argan_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 49)
+	public void Test_mamaearth_category_Ingredient_AppleCiderVinegar_launching() throws IOException {
+		cf = argan.categoriesRefrence();
+		appleCiderVinegar = cf.click_on_Ingredient_AppleCiderVinegar_cateogry();
+		boolean response = appleCiderVinegar.verfiy_Ingredient_AppleCiderVinegar_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 50)
+	public void Test_mamaearth_category_Ingredient_Retinol_launching() throws IOException {
+		cf = appleCiderVinegar.categoriesRefrence();
+		retinol = cf.click_on_Ingredient_Retinol_cateogry();
+		boolean response = retinol.verfiy_Ingredient_Retinol_category_page();
+		Assert.assertTrue(response);
+	}
+	
+	@Test(priority = 51)
+	public void Test_mamaearth_category_Ingredient_HoneyMalai_launching() throws IOException {
+		cf = retinol.categoriesRefrence();
+		honeyMalai = cf.click_on_Ingredient_HoneyMalai_cateogry();
+		boolean response = honeyMalai.verfiy_Ingredient_HoneyMalai_category_page();
+		Assert.assertTrue(response);
+	}
+	
 //	@Test(priority = 26)
 //	public void Test_mamaearth_category_Baby_launching() throws IOException {
 //		baby = ingredient.click_on_Baby_cateogry();
