@@ -32,6 +32,22 @@ import com.mamaearth.PageObject.mamaearth_Category_Hair_HairOil;
 import com.mamaearth.PageObject.mamaearth_Category_Hair_HairOilBooster;
 import com.mamaearth.PageObject.mamaearth_Category_Hair_HairSerum;
 import com.mamaearth.PageObject.mamaearth_Category_Hair_Shampoo;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_AppleCiderVinegar;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Aqua;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Argan;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Bhringmla;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Charcoal;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Coco;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_GreenTea;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Henna;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_HoneyMalai;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Onion;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Retinol;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Rice;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_TeaTree;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_Ubtan;
+import com.mamaearth.PageObject.mamaearth_Category_Ingredient_VitaminC;
 import com.mamaearth.PageObject.mamaearth_Category_Makeup;
 import com.mamaearth.PageObject.mamaearth_Category_Makeup_Compact;
 import com.mamaearth.PageObject.mamaearth_Category_Makeup_Concealer;
@@ -43,6 +59,9 @@ import com.mamaearth.PageObject.mamaearth_Category_Makeup_Lipsticks;
 public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	
 
+	
+	
+	
 	@FindBy(xpath = "//li[@class='category']/child::a[contains(text(),'Beauty')]")
 	WebElement beauty_category_button;
 	
@@ -160,6 +179,61 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	
 	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(), 'Concealer')]")
 	WebElement Makeup_Concealer_category_button;
+	
+	
+	
+	
+	
+	@FindBy(xpath = "//li[@class='category']/child::a[contains(text(),'Ingredient')]")
+	WebElement Ingredient_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(),'Onion')]")
+	WebElement Ingredient_Onion_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(),'Henna')]")
+	WebElement Ingredient_Henna_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(),'Rice')]")
+	WebElement Ingredient_Rice_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(),'Ubtan')]")
+	WebElement Ingredient_Ubtan_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(),'Vitamin C')]")
+	WebElement Ingredient_VitaminC_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(),'Green Tea')]")
+	WebElement Ingredient_GreenTea_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(),'Tea Tree')]")
+	WebElement Ingredient_TeaTree_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(),'Aqua')]")
+	WebElement Ingredient_Aqua_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(),'Bhringmla')]")
+	WebElement Ingredient_Bhringmla_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(),'Charcoal')]")
+	WebElement Ingredient_Charcoal_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(),'Coco')]")
+	WebElement Ingredient_Coco_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(),'Argan')]")
+	WebElement Ingredient_Argan_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(),'Apple cider Vinegar')]")
+	WebElement Ingredient_AppleCiderVinegar_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(),'Retinol')]")
+	WebElement Ingredient_Retinol_category_button;
+	
+	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(),'Honey Malai')]")
+	WebElement Ingredient_HoneyMalai_category_button;
+	
+	
+	
 	
 	
 	
@@ -522,5 +596,188 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 		Face_FaceMoisturizer_category_button.click();
 		return new mamaearth_Category_Face_FaceMoisturizer();
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*** This function will return the reference of the Ingredient category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Ingredient click_on_Ingredient_cateogry() {
+		Ingredient_category_button.click();
+		return new mamaearth_Category_Ingredient();
+	}
+	
+	/*** This function will return the Ingredient Onion category of Ingredient category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Ingredient_Onion click_on_Ingredient_Onion_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		Ingredient_Onion_category_button.click();
+		return new mamaearth_Category_Ingredient_Onion();
+	}
+	
+	/*** This function will return the Ingredient Henna category of Ingredient category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Ingredient_Henna click_on_Ingredient_Henna_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		Ingredient_Henna_category_button.click();
+		return new mamaearth_Category_Ingredient_Henna();
+	}
+	
+	/*** This function will return the Ingredient Rice category of Ingredient category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Ingredient_Rice click_on_Ingredient_Rice_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		Ingredient_Rice_category_button.click();
+		return new mamaearth_Category_Ingredient_Rice();
+	}
+	
+	/*** This function will return the Ingredient Ubtan category of Ingredient category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Ingredient_Ubtan click_on_Ingredient_Ubtan_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		Ingredient_Ubtan_category_button.click();
+		return new mamaearth_Category_Ingredient_Ubtan();
+	}
+	
+	/*** This function will return the Ingredient Vitamin C category of Ingredient category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Ingredient_VitaminC click_on_Ingredient_VitaminC_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		Ingredient_VitaminC_category_button.click();
+		return new mamaearth_Category_Ingredient_VitaminC();
+	}
+	
+	/*** This function will return the Ingredient GreenTea category of Ingredient category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Ingredient_GreenTea click_on_Ingredient_GreenTea_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		Ingredient_GreenTea_category_button.click();
+		return new mamaearth_Category_Ingredient_GreenTea();
+	}
+	
+	/*** This function will return the Ingredient TeaTree category of Ingredient category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Ingredient_TeaTree click_on_Ingredient_TeaTree_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		Ingredient_TeaTree_category_button.click();
+		return new mamaearth_Category_Ingredient_TeaTree();
+	}
+	
+	/*** This function will return the Ingredient Aqua category of Ingredient category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Ingredient_Aqua click_on_Ingredient_Aqau_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		Ingredient_Aqua_category_button.click();
+		return new mamaearth_Category_Ingredient_Aqua();
+	}
+	
+	/*** This function will return the Ingredient Bhringmla category of Ingredient category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Ingredient_Bhringmla click_on_Ingredient_Bhringmla_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		Ingredient_Bhringmla_category_button.click();
+		return new mamaearth_Category_Ingredient_Bhringmla();
+	}
+	
+	/*** This function will return the Ingredient Charcoal category of Ingredient category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Ingredient_Charcoal click_on_Ingredient_Charcoal_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		Ingredient_Charcoal_category_button.click();
+		return new mamaearth_Category_Ingredient_Charcoal();
+	}
+	
+	/*** This function will return the Ingredient Coco category of Ingredient category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Ingredient_Coco click_on_Ingredient_Coco_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		Ingredient_Coco_category_button.click();
+		return new mamaearth_Category_Ingredient_Coco();
+	}
+
+	/*** This function will return the Ingredient Argan category of Ingredient category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Ingredient_Argan click_on_Ingredient_Argan_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		Ingredient_Argan_category_button.click();
+		return new mamaearth_Category_Ingredient_Argan();
+	}
+
+	/*** This function will return the Ingredient Apple cider Vinegar category of Ingredient category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Ingredient_AppleCiderVinegar click_on_Ingredient_AppleCiderVinegar_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		Ingredient_AppleCiderVinegar_category_button.click();
+		return new mamaearth_Category_Ingredient_AppleCiderVinegar();
+	}
+	
+	/*** This function will return the Ingredient Retinol category of Ingredient category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Ingredient_Retinol click_on_Ingredient_Retinol_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		Ingredient_Retinol_category_button.click();
+		return new mamaearth_Category_Ingredient_Retinol();
+	}
+	
+	/*** This function will return the Ingredient HoneyMalai category of Ingredient category page class
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Category_Ingredient_HoneyMalai click_on_Ingredient_HoneyMalai_cateogry() {
+		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		Ingredient_HoneyMalai_category_button.click();
+		return new mamaearth_Category_Ingredient_HoneyMalai();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }
