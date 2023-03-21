@@ -1,14 +1,12 @@
 package com.mamaearth.PageObject;
 
-import java.io.IOException;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.mamaearth.Base.mamaearth_Base;
+import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
-public class mamaearth_Category_Ingredient_VitaminC extends mamaearth_Base {
+public class mamaearth_Category_Ingredient_VitaminC extends mamaearth_utils_CategoriesFunctions {
 	
 	@FindBy(xpath = "//div[@class='Breadcrumb-sc-1yvnq9e-0 dJsjSb']/following-sibling::h1[contains(text(), 'Vitamin C Products')]")
 	WebElement IngredientVitaminC_page_header;
@@ -29,7 +27,7 @@ public class mamaearth_Category_Ingredient_VitaminC extends mamaearth_Base {
 	 * 
 	 * 
 	 * ***/
-	public boolean verfiy_Ingredient_VitaminC_category_page() throws IOException {
+	public boolean verfiy_Ingredient_VitaminC_category_page() {
 			
 		boolean mamaearthLogo = mamaearth_logo.isDisplayed();
 		boolean GILogo = GI_button.isDisplayed();

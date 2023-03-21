@@ -1,14 +1,12 @@
 package com.mamaearth.PageObject;
 
-import java.io.IOException;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.mamaearth.Base.mamaearth_Base;
+import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
-public class mamaearth_Category_Makeup_Compact extends mamaearth_Base {
+public class mamaearth_Category_Makeup_Compact extends mamaearth_utils_CategoriesFunctions {
 	
 	@FindBy(xpath = "//h1[contains(text(), 'Compact Powder')]")
 	WebElement MakeupCompactPowder_page_header;
@@ -30,7 +28,7 @@ public class mamaearth_Category_Makeup_Compact extends mamaearth_Base {
 	 * 
 	 * 
 	 * ***/
-	public boolean verfiy_Makeup_CompactPowder_category_page() throws IOException {
+	public boolean verfiy_Makeup_CompactPowder_category_page() {
 			
 		boolean mamaearthLogo = mamaearth_logo.isDisplayed();
 		boolean GILogo = GI_button.isDisplayed();

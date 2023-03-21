@@ -52,11 +52,18 @@ public class mamaearth_utils extends mamaearth_Base{
 	 * 
 	 * 
 	 * ***/
-	public static void take_screenShot(String screenShotName) throws IOException {
+	public static void take_screenShot(String screenShotName) {
+		
 		TakesScreenshot screenShot = (TakesScreenshot)driver;
 		File capturedScreenShot = screenShot.getScreenshotAs(OutputType.FILE);
 		File sourceFile = new File("/Users/honasa/Desktop/image/"+screenShotName+".png");
-		FileUtils.copyFile(capturedScreenShot, sourceFile);
+		
+		try {
+			FileUtils.copyFile(capturedScreenShot, sourceFile);
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+		
 	}
 	
 	
@@ -69,7 +76,12 @@ public class mamaearth_utils extends mamaearth_Base{
 	public static void take_screenShotOfElement(String screenShotName, WebElement element) throws IOException{
 		File capturedScreenShot = element.getScreenshotAs(OutputType.FILE);
 		File sourceFile = new File("/Users/honasa/Desktop/image/"+screenShotName+".png");
-		FileUtils.copyFile(capturedScreenShot, sourceFile);
+		
+		try {
+			FileUtils.copyFile(capturedScreenShot, sourceFile);
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	

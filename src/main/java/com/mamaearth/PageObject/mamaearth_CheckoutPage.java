@@ -39,25 +39,41 @@ public class mamaearth_CheckoutPage extends mamaearth_Base{
 	@FindBy(xpath = "//button[contains(@class, 'tablinks')]")
 	WebElement sdsds;
 	
-	public void fill_address_details(String fName, String lName, String email, String number, String postalCode, String address) throws InterruptedException {
+	public void fill_address_details(String fName, String lName, String email, String number, String postalCode, String address) {
 		first_name_input.sendKeys(fName);
 		last_name_input.sendKeys(lName);
 		email_input.sendKeys(email);
 		phoneNumber_input.sendKeys(number);
 		postalCode_input.sendKeys(postalCode);
 		address_input.sendKeys(address);
-		Thread.sleep(5000);
+		
+		try {
+			Thread.sleep(4000);
+		}catch(InterruptedException e) {
+			e.printStackTrace();
+		}
+		
 	}
 	
-	public void select_COD() throws InterruptedException {
+	public void select_COD() {
 		List<WebElement> PaymentOptionsList = driver.findElements(By.xpath("//button[contains(@class, 'tablinks')]"));
 		PaymentOptionsList.get(4).click();
-		Thread.sleep(3000);
+		try {
+			Thread.sleep(4000);
+		}catch(InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
 	
-	public mamaearth_ThankyouPage payWithCOD() throws InterruptedException {
+	public mamaearth_ThankyouPage payWithCOD() {
 		cod_payment.click();
-		Thread.sleep(10000);
+		
+		try {
+			Thread.sleep(8000);
+		}catch(InterruptedException e) {
+			e.printStackTrace();
+		}
+		
 		return new mamaearth_ThankyouPage();
 	}
 }

@@ -1,15 +1,12 @@
 package com.mamaearth.PageObject;
 
-import java.io.IOException;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.mamaearth.Base.mamaearth_Base;
-//import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
+import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
-public class mamaearth_Category_Body_BodyLotion extends mamaearth_Base{
+public class mamaearth_Category_Body_BodyLotion extends mamaearth_utils_CategoriesFunctions {
 	
 	@FindBy(xpath = "//h1[contains(text(), 'Best Body Lotion in India')]")
 	WebElement BodyLotion_page_header;
@@ -30,7 +27,7 @@ public class mamaearth_Category_Body_BodyLotion extends mamaearth_Base{
 	 * 
 	 * 
 	 * ***/
-	public boolean verfiy_Body_BodyLotion_category_page() throws IOException {
+	public boolean verfiy_Body_BodyLotion_category_page() {
 			
 		boolean mamaearthLogo = mamaearth_logo.isDisplayed();
 		boolean GILogo = GI_button.isDisplayed();

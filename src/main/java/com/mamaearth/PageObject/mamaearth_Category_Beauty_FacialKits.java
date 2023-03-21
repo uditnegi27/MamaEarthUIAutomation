@@ -1,15 +1,12 @@
 package com.mamaearth.PageObject;
 
-import java.io.IOException;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.mamaearth.Base.mamaearth_Base;
 import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
-public class mamaearth_Category_Beauty_FacialKits extends mamaearth_Base{
+public class mamaearth_Category_Beauty_FacialKits extends mamaearth_utils_CategoriesFunctions{
 
 	@FindBy(xpath = "//div[@class='ProductList__Div-sc-1co8frz-3 cIAELX']//child::h1[contains(text(),'Facial Kits')]")
 	WebElement FragranceKits_page_header;
@@ -31,7 +28,7 @@ public class mamaearth_Category_Beauty_FacialKits extends mamaearth_Base{
 	 * 
 	 * 
 	 * ***/
-	public boolean verfiy_Beauty_FacialKits_category_page() throws IOException {
+	public boolean verfiy_Beauty_FacialKits_category_page() {
 			
 		boolean mamaearthLogo = mamaearth_logo.isDisplayed();
 		boolean GILogo = GI_button.isDisplayed();

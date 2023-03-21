@@ -35,14 +35,14 @@ public class TC_CheckcoutWithoutGI extends mamaearth_Base{
 	
 	
 	@BeforeMethod
-	public void setup() throws InterruptedException {
+	public void setup() {
 		log.info("Page initializing");
 		initialization();
 		log.info("Page initialized");
 	}
 	
 	@Test(dataProvider = "fill_address_details", priority = 2)
-	public void Test_GuestUser_WithoutCoupon_withoutGI_COD(String fName, String lName, String email, String number, String postalCode, String address) throws InterruptedException, IOException {
+	public void Test_GuestUser_WithoutCoupon_withoutGI_COD(String fName, String lName, String email, String number, String postalCode, String address) {
 		
 		
 		home = new mamaearth_HomePage();
@@ -69,7 +69,7 @@ public class TC_CheckcoutWithoutGI extends mamaearth_Base{
 	
 	
 	@Test(dataProvider = "fill_address_details", priority = 1)
-	public void Test_GuestUser_WithCoupon_withoutGI_COD(String fName, String lName, String email, String number, String postalCode, String address) throws InterruptedException, IOException {
+	public void Test_GuestUser_WithCoupon_withoutGI_COD(String fName, String lName, String email, String number, String postalCode, String address) {
 		
 		home = new mamaearth_HomePage();
 		log.info("Home page is opened");

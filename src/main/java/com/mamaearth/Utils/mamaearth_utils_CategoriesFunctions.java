@@ -62,11 +62,17 @@ import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabyOil;
 import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabyOralcare;
 import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabyShampoo;
 import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabySkin;
+import com.mamaearth.PageObject.StaticPages.mamaearth_AboutUs;
+import com.mamaearth.PageObject.StaticPages.mamaearth_ContactUs;
+import com.mamaearth.PageObject.StaticPages.mamaearth_PrivacyPolicy;
+import com.mamaearth.PageObject.StaticPages.mamaearth_Returns;
+import com.mamaearth.PageObject.StaticPages.mamaearth_Sitemap;
+import com.mamaearth.PageObject.StaticPages.mamaearth_TermsAndConditions;
+import com.mamaearth.PageObject.StaticPages.mamaearth_TermsAndConditions_Cashback;
+import com.mamaearth.PageObject.StaticPages.mamaearth_TrackOrder;
+import com.mamaearth.PageObject.StaticPages.mamaearth_WeAreSafe;
 
 public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
-	
-
-	
 	
 	
 	@FindBy(xpath = "//li[@class='category']/child::a[contains(text(),'Beauty')]")
@@ -263,6 +269,41 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	
 	@FindBy(xpath = "//div[@class='MegaDropdown-sc-iwzze0-1 dloynJ mega-dropdown']//child::a[contains(text(), 'Baby Body Lotion')]")
 	WebElement Baby_BabyBodyLotion_category_button;
+	
+	
+	
+	
+	
+	@FindBy(xpath = "//a[contains(text(), 'Privacy Policy')]")
+	WebElement PrivacyPolicy_StaticPage_button;
+	
+	@FindBy(xpath = "//a[contains(text(), 'Returns')]")
+	WebElement Returns_StaticPage_button;
+	
+	@FindBy(xpath = "//a[contains(text(), 'Privacy Policy')]//following::a[contains(text(), 'Terms & Conditions')][1]")
+	WebElement TermsAndConditions_StaticPage_button;
+	
+	@FindBy(xpath = "//a[contains(text(), 'Terms & Conditions- Cashback')]")
+	WebElement TermsAndConditionsCashback_StaticPage_button;
+	
+	@FindBy(xpath = "//a[contains(text(), 'FAQs')]")
+	WebElement FAQs_StaticPage_button;
+	
+	@FindBy(xpath = "//a[contains(text(), 'We’re Safe')]")
+	WebElement WeAreSafe_StaticPage_button;
+	
+	@FindBy(xpath = "//a[contains(text(), 'Track Order')]")
+	WebElement TrackOrder_StaticPage_button;
+	
+	@FindBy(xpath = "//a[contains(text(), 'We’re Safe')]/following::a[contains(text(), 'Contact Us')]")
+	WebElement ContactUS_StaticPage_button;
+	
+	@FindBy(xpath = "//a[contains(text(), 'Sitemap')]")
+	WebElement Sitemap_StaticPage_button;
+	
+	@FindBy(xpath = "//a[contains(text(), 'About Us')]")
+	WebElement aboutUS_StaticPage_button;
+	
 	
 	
 	
@@ -879,6 +920,96 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	
 	
 	
+	
+	/*** This function will return the Privacy Policy Static page 
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_PrivacyPolicy click_on_StaticPage_PrivacyPolicy_cateogry() {
+		PrivacyPolicy_StaticPage_button.click();
+		return new mamaearth_PrivacyPolicy();
+	}
+	
+	/*** This function will return the Returns Static page 
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Returns click_on_StaticPage_Returns_cateogry() {
+		aboutUS_StaticPage_button.click();
+		return new mamaearth_Returns();
+	}
+	
+	/*** This function will return the Terms & Conditions Static page 
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_AboutUs click_on_StaticPage_TermsAndConditions_cateogry() {
+		aboutUS_StaticPage_button.click();
+		return new mamaearth_AboutUs();
+	}
+	
+	/*** This function will return the Terms & Conditions- Cashback Static page 
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_TermsAndConditions click_on_StaticPage_TermsAndConditionsAndCashback_cateogry() {
+		aboutUS_StaticPage_button.click();
+		return new mamaearth_TermsAndConditions();
+	}
+	
+	/*** This function will return the FAQs Static page 
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_TermsAndConditions_Cashback click_on_StaticPage_FAQs_cateogry() {
+		aboutUS_StaticPage_button.click();
+		return new mamaearth_TermsAndConditions_Cashback();
+	}
+	
+	/*** This function will return the We’re Safe Static page 
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_WeAreSafe click_on_StaticPage_WeAreSafe_cateogry() {
+		aboutUS_StaticPage_button.click();
+		return new mamaearth_WeAreSafe();
+	}
+	
+	/*** This function will return the Track Order Static page 
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_TrackOrder click_on_StaticPage_TrackOrder_cateogry() {
+		aboutUS_StaticPage_button.click();
+		return new mamaearth_TrackOrder();
+	}
+	
+	/*** This function will return the Contact Us Static page 
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_ContactUs click_on_StaticPage_ContactUs_cateogry() {
+		aboutUS_StaticPage_button.click();
+		return new mamaearth_ContactUs();
+	}
+	
+	/*** This function will return the Sitemap Static page 
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_Sitemap click_on_StaticPage_Sitemap_cateogry() {
+		aboutUS_StaticPage_button.click();
+		return new mamaearth_Sitemap();
+	}
+	
+	/*** This function will return the About Us Static page 
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_AboutUs click_on_StaticPage_AboutUs_cateogry() {
+		aboutUS_StaticPage_button.click();
+		return new mamaearth_AboutUs();
+	}
 	
 	
 	

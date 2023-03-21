@@ -3,47 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mamaearth.TestCase.TC_VerifyAllCategories">
+      <class name="com.mamaearth.TestCase.TC_CheckcoutWithoutGI">
         <methods>
-          <include name="Test_mamaearth_category_Hair_HairMask_launching"/>
-          <include name="Test_mamaearth_category_Makeup_Kajal_launching"/>
-          <include name="Test_mamaearth_category_Makeup_Compact_launching"/>
-          <include name="Test_mamaearth_category_Body_UnderarmCream_launching"/>
-          <include name="Test_mamaearth_category_Face_FaceMask_launching"/>
-          <include name="Test_mamaearth_category_Face_FaceScrub_launching"/>
-          <include name="Test_mamaearth_category_Body_BodyWash_launching"/>
-          <include name="Test_mamaearth_category_Body_HandCream_launching"/>
-          <include name="Test_mamaearth_category_Hair_Conditioner_launching"/>
-          <include name="Test_mamaearth_category_Makeup_LipBalm_launching"/>
-          <include name="Test_mamaearth_category_Face_FaceSheetMask_launching"/>
-          <include name="Test_mamaearth_category_Face_FaceToner_launching"/>
-          <include name="Test_mamaearth_category_Beauty_FacialKits_launching"/>
-          <include name="Test_mamaearth_category_Face_FaceMoisturizer_launching"/>
-          <include name="Test_mamaearth_category_Makeup_launching"/>
-          <include name="Test_mamaearth_category_Face_FaceGel_launching"/>
-          <include name="Test_mamaearth_category_Beauty_launching"/>
-          <include name="Test_mamaearth_category_Makeup_Lipsticks_launching"/>
-          <include name="Test_mamaearth_category_Beauty_Fragrance_launching"/>
-          <include name="Test_mamaearth_category_Makeup_Concealer_launching"/>
-          <include name="Test_mamaearth_category_Hair_Shampoo_launching"/>
-          <include name="Test_mamaearth_launching"/>
-          <include name="tearDown"/>
-          <include name="Test_mamaearth_category_Face_FaceWash_launching"/>
-          <include name="Test_mamaearth_category_Body_BodyLotion_launching"/>
-          <include name="Test_mamaearth_category_Hair_HairOil_launching"/>
-          <include name="Test_mamaearth_category_Body_BodySoap_launching"/>
-          <include name="Test_mamaearth_category_Hair_HairOilBooster_launching"/>
+          <include name="teardown"/>
           <include name="setup"/>
-          <include name="Test_mamaearth_category_Body_BodyScrub_launching"/>
-          <include name="Test_mamaearth_category_Hair_HairSerum_launching"/>
-          <include name="Test_mamaearth_category_Makeup_Foundation_launching"/>
-          <include name="Test_mamaearth_category_Face_launching"/>
-          <include name="Test_mamaearth_category_Body_launching"/>
-          <include name="Test_mamaearth_category_Hair_launching"/>
-          <include name="Test_mamaearth_category_Face_FaceCream_launching"/>
-          <include name="Test_mamaearth_category_Face_FaceSerum_launching"/>
+          <include name="Test_GuestUser_WithCoupon_withoutGI_COD" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.mamaearth.TestCase.TC_VerifyAllCategories -->
+      </class> <!-- com.mamaearth.TestCase.TC_CheckcoutWithoutGI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

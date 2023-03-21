@@ -2,7 +2,6 @@ package com.mamaearth.TestCase;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
-import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 
@@ -17,19 +16,18 @@ public class TC_SearchingAndAlgolia extends mamaearth_Base{
 	
 	
 	@BeforeMethod
-	public void setup() throws InterruptedException {
+	public void setup() {
 		initialization();
 		
 	}
 	
 	@Test
-	public void TC1() throws  InterruptedException, IOException {
+	public void TC1() {
 		mamaearth_utils_Algolia.search_product_category(prop.getProperty("search_categoryName"));
 		Assert.assertTrue(mamaearth_utils_Algolia.verify_searched_product_category(prop.getProperty("search_categoryName")), "Products are not matching with the searched cateogry:  -->  ");
 	}
 	
 
-	
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();

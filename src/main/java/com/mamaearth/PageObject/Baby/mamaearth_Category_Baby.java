@@ -1,15 +1,13 @@
 package com.mamaearth.PageObject.Baby;
 
-import java.io.IOException;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.mamaearth.Base.mamaearth_Base;
 import com.mamaearth.PageObject.mamaearth_Category_GiftPacks;
+import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
-public class mamaearth_Category_Baby extends mamaearth_Base{
+public class mamaearth_Category_Baby extends mamaearth_utils_CategoriesFunctions {
 	
 
 	@FindBy(xpath = "//h1[contains(text(),'Baby Care Products')]")
@@ -34,7 +32,7 @@ public class mamaearth_Category_Baby extends mamaearth_Base{
 	 * All links on a page are working. Banners are loaded properly
 	 * 
 	 * ***/
-	public boolean verfiy_Baby_category_page() throws IOException {
+	public boolean verfiy_Baby_category_page() {
 			
 			boolean mamaearthLogo = mamaearth_logo.isDisplayed();
 			boolean GILogo = GI_button.isDisplayed();

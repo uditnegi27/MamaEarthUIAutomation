@@ -20,7 +20,7 @@ public class mamaearth_utils_CommonFuction extends mamaearth_Base{
 	 * 
 	 * 
 	 ***/
-	public static boolean verfiy_Images_ofProducts() throws IOException {
+	public static boolean verfiy_Images_ofProducts(){
 		
 		boolean defaultFlag = true;
 		
@@ -38,21 +38,33 @@ public class mamaearth_utils_CommonFuction extends mamaearth_Base{
 		}
 		
 		for(int i = 0; i<urlList.size(); i++) {
-			URL url = new URL(urlList.get(i));
-			HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-			connection.connect();
-			int response = connection.getResponseCode();
+			
+			String newURL = urlList.get(i);
+			int response = 0;
+			
+			try {
+				URL url = new URL(newURL);
+				HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+				connection.connect();
+				response = connection.getResponseCode();
+				connection.disconnect();
+			}
+			catch(IOException e) {
+				e.printStackTrace();
+			}
+			
 			if(response >= 400) defaultFlag = false;
-			connection.disconnect();
 		}
 		
-			
 		if(defaultFlag) {
 			System.out.println("All well"); 
 			return true;
 		}
-		else return false;
+		else {
+			return false;
+		}
 	}
+	
 	
 	
 	
@@ -62,7 +74,7 @@ public class mamaearth_utils_CommonFuction extends mamaearth_Base{
 	 * 
 	 * 
 	 * ***/
-	public static int get_count_of_brokenLinks() throws IOException {
+	public static int get_count_of_brokenLinks() {
 		List<WebElement> allurlLinks = driver.findElements(By.tagName("a"));
 		List<String> urlLinks= new ArrayList<>();
 		
@@ -84,13 +96,20 @@ public class mamaearth_utils_CommonFuction extends mamaearth_Base{
 		
 		for(int i=0; i<urlLinks.size(); i++) {
 			if(urlLinks.get(i).contains("http")) {
-				URL url = new URL(urlLinks.get(i));
-				HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-				connection.connect();
 				
-				int response = connection.getResponseCode();
+				String newURL = urlLinks.get(i);
+				int response = 0;
 				
-				connection.disconnect();
+				try {
+					URL url = new URL(newURL);
+					HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+					connection.connect();
+					response = connection.getResponseCode();
+					connection.disconnect();
+				}
+				catch(IOException e) {
+					e.printStackTrace();
+				}
 				
 				if(response >= 400) {
 					brokCount++;
@@ -100,13 +119,15 @@ public class mamaearth_utils_CommonFuction extends mamaearth_Base{
 		return brokCount;
 	}
 	
+	
+	
 
 	/*** This function will print all the broken links present on the opened browser page  
 	 * 
 	 * 
 	 * 
 	 * ****/
-	public static void print_all_broken_links() throws IOException {
+	public static void print_all_broken_links() {
 		
 		List<WebElement> allurlLinks = driver.findElements(By.tagName("a"));
 		List<String> urlLinks= new ArrayList<>();
@@ -132,13 +153,20 @@ public class mamaearth_utils_CommonFuction extends mamaearth_Base{
 		
 		for(int i=0; i<urlLinks.size(); i++) {
 			if(urlLinks.get(i).contains("http")) {
-				URL url = new URL(urlLinks.get(i));
-				HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-				connection.connect();
 				
-				int response = connection.getResponseCode();
+				String newURL = urlLinks.get(i);
+				int response = 0;
 				
-				connection.disconnect();
+				try {
+					URL url = new URL(newURL);
+					HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+					connection.connect();
+					response = connection.getResponseCode();
+					connection.disconnect();
+				}
+				catch(IOException e) {
+					e.printStackTrace();
+				}
 				
 				if(response >= 400) {
 					brokCount++;

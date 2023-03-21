@@ -2702,3 +2702,221 @@ catch(e){
 2023-03-10 14:38:57,520  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
 2023-03-10 14:38:57,546  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
 2023-03-10 14:38:57,564  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-03-10 15:28:01,362  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-03-10 15:28:01,394  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-03-10 15:28:01,394  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-03-10 15:28:01,415  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-03-10 15:28:01,415  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-03-10 15:33:34,386  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-10 15:33:43,468  INFO [main] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-03-10 15:33:43,474  INFO [main] TC_CheckcoutWithoutGI:75 - Home page is opened
+2023-03-10 15:33:46,586  INFO [main] TC_CheckcoutWithoutGI:77 - Page is opened
+2023-03-10 15:33:47,332  INFO [main] TC_CheckcoutWithoutGI:79 - Product added to a cart
+2023-03-10 15:33:47,599  INFO [main] TC_CheckcoutWithoutGI:81 - Cart page is opened
+2023-03-10 15:33:51,158  INFO [main] TC_CheckcoutWithoutGI:87 - Checkout page is opened
+2023-03-10 15:33:57,696  INFO [main] TC_CheckcoutWithoutGI:90 - Details are filled
+2023-03-10 15:34:00,920  INFO [main] TC_CheckcoutWithoutGI:92 - Payment COD is selected
+2023-03-10 15:34:11,062  INFO [main] TC_CheckcoutWithoutGI:94 - Payment successful and thankyou page is appeared
+2023-03-10 15:34:11,404  INFO [main] TC_CheckcoutWithoutGI:96 - Screenshot taken
+2023-03-10 15:34:11,654  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-10 15:34:20,251  INFO [main] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-03-10 15:34:20,270  INFO [main] TC_CheckcoutWithoutGI:49 - Home page is opened
+2023-03-10 15:34:23,379  INFO [main] TC_CheckcoutWithoutGI:51 - Page is opened
+2023-03-10 15:34:24,115  INFO [main] TC_CheckcoutWithoutGI:53 - Product added to a cart
+2023-03-10 15:34:24,414  INFO [main] TC_CheckcoutWithoutGI:55 - Cart page is opened
+2023-03-10 15:34:25,797  INFO [main] TC_CheckcoutWithoutGI:57 - Checkout page is opened
+2023-03-10 15:34:32,482  INFO [main] TC_CheckcoutWithoutGI:60 - Details are filled
+2023-03-10 15:34:35,698  INFO [main] TC_CheckcoutWithoutGI:62 - Payment COD is selected
+2023-03-10 15:34:45,837  INFO [main] TC_CheckcoutWithoutGI:64 - Payment successful and thankyou page is appeared
+2023-03-10 15:34:46,311  INFO [main] TC_CheckcoutWithoutGI:66 - Screenshot taken
+2023-03-10 15:36:20,677  INFO [TestNG-test=Login Test-1] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-10 15:36:30,151  INFO [TestNG-test=Login Test-1] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-03-10 15:36:30,174  INFO [TestNG-test=Login Test-1] TC_CheckcoutWithoutGI:75 - Home page is opened
+2023-03-10 15:36:33,321  INFO [TestNG-test=Login Test-1] TC_CheckcoutWithoutGI:77 - Page is opened
+2023-03-10 15:36:34,060  INFO [TestNG-test=Login Test-1] TC_CheckcoutWithoutGI:79 - Product added to a cart
+2023-03-10 15:36:34,338  INFO [TestNG-test=Login Test-1] TC_CheckcoutWithoutGI:81 - Cart page is opened
+2023-03-10 15:36:40,097  INFO [TestNG-test=Login Test-1] TC_CheckcoutWithoutGI:87 - Checkout page is opened
+2023-03-10 15:36:46,775  INFO [TestNG-test=Login Test-1] TC_CheckcoutWithoutGI:90 - Details are filled
+2023-03-10 15:36:49,986  INFO [TestNG-test=Login Test-1] TC_CheckcoutWithoutGI:92 - Payment COD is selected
+2023-03-14 00:12:46,669  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-03-14 00:12:46,704  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-03-14 00:12:46,727  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-03-14 00:12:46,766  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-03-14 00:12:46,768  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-03-14 00:16:51,359  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-14 00:17:01,085  INFO [main] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-03-14 00:17:01,111  INFO [main] TC_CheckcoutWithoutGI:75 - Home page is opened
+2023-03-14 00:17:04,253  INFO [main] TC_CheckcoutWithoutGI:77 - Page is opened
+2023-03-14 00:17:05,898  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-14 00:17:15,029  INFO [main] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-03-14 00:17:15,032  INFO [main] TC_CheckcoutWithoutGI:49 - Home page is opened
+2023-03-14 00:17:18,155  INFO [main] TC_CheckcoutWithoutGI:51 - Page is opened
+2023-03-14 00:17:18,976  INFO [main] TC_CheckcoutWithoutGI:53 - Product added to a cart
+2023-03-14 00:17:19,689  INFO [main] TC_CheckcoutWithoutGI:55 - Cart page is opened
+2023-03-14 00:17:22,068  INFO [main] TC_CheckcoutWithoutGI:57 - Checkout page is opened
+2023-03-14 00:17:29,042  INFO [main] TC_CheckcoutWithoutGI:60 - Details are filled
+2023-03-14 00:17:32,253  INFO [main] TC_CheckcoutWithoutGI:62 - Payment COD is selected
+2023-03-14 00:17:42,368  INFO [main] TC_CheckcoutWithoutGI:64 - Payment successful and thankyou page is appeared
+2023-03-14 00:17:42,722  INFO [main] TC_CheckcoutWithoutGI:66 - Screenshot taken
+2023-03-14 00:18:04,779  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-14 00:18:15,442  INFO [main] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-03-14 00:18:15,464  INFO [main] TC_CheckcoutWithoutGI:75 - Home page is opened
+2023-03-14 00:18:18,592  INFO [main] TC_CheckcoutWithoutGI:77 - Page is opened
+2023-03-14 00:18:20,035  INFO [main] TC_CheckcoutWithoutGI:79 - Product added to a cart
+2023-03-14 00:18:20,538  INFO [main] TC_CheckcoutWithoutGI:81 - Cart page is opened
+2023-03-14 00:18:24,916  INFO [main] TC_CheckcoutWithoutGI:87 - Checkout page is opened
+2023-03-14 00:18:31,909  INFO [main] TC_CheckcoutWithoutGI:90 - Details are filled
+2023-03-14 00:18:35,092  INFO [main] TC_CheckcoutWithoutGI:92 - Payment COD is selected
+2023-03-14 00:18:45,215  INFO [main] TC_CheckcoutWithoutGI:94 - Payment successful and thankyou page is appeared
+2023-03-14 00:18:45,949  INFO [main] TC_CheckcoutWithoutGI:96 - Screenshot taken
+2023-03-14 00:18:46,320  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-14 00:18:58,061  INFO [main] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-03-14 00:18:58,064  INFO [main] TC_CheckcoutWithoutGI:49 - Home page is opened
+2023-03-14 00:19:01,186  INFO [main] TC_CheckcoutWithoutGI:51 - Page is opened
+2023-03-14 00:19:02,664  INFO [main] TC_CheckcoutWithoutGI:53 - Product added to a cart
+2023-03-14 00:19:04,904  INFO [main] TC_CheckcoutWithoutGI:55 - Cart page is opened
+2023-03-14 00:19:05,527  INFO [main] TC_CheckcoutWithoutGI:57 - Checkout page is opened
+2023-03-14 00:19:12,692  INFO [main] TC_CheckcoutWithoutGI:60 - Details are filled
+2023-03-14 00:19:15,928  INFO [main] TC_CheckcoutWithoutGI:62 - Payment COD is selected
+2023-03-14 00:19:26,067  INFO [main] TC_CheckcoutWithoutGI:64 - Payment successful and thankyou page is appeared
+2023-03-14 00:19:47,122  INFO [main] TC_CheckcoutWithoutGI:66 - Screenshot taken
+2023-03-14 17:57:00,539  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-03-14 17:57:00,562  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-03-14 17:57:00,562  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-03-14 17:57:00,584  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-03-14 17:57:00,584  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-03-14 18:02:15,638  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-14 18:02:27,340  INFO [main] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-03-14 18:02:27,371  INFO [main] TC_CheckcoutWithoutGI:75 - Home page is opened
+2023-03-14 18:02:30,508  INFO [main] TC_CheckcoutWithoutGI:77 - Page is opened
+2023-03-14 18:02:31,270  INFO [main] TC_CheckcoutWithoutGI:79 - Product added to a cart
+2023-03-14 18:02:31,619  INFO [main] TC_CheckcoutWithoutGI:81 - Cart page is opened
+2023-03-14 18:02:35,340  INFO [main] TC_CheckcoutWithoutGI:87 - Checkout page is opened
+2023-03-14 18:02:42,117  INFO [main] TC_CheckcoutWithoutGI:90 - Details are filled
+2023-03-14 18:02:45,332  INFO [main] TC_CheckcoutWithoutGI:92 - Payment COD is selected
+2023-03-14 18:02:55,454  INFO [main] TC_CheckcoutWithoutGI:94 - Payment successful and thankyou page is appeared
+2023-03-14 18:03:16,578  INFO [main] TC_CheckcoutWithoutGI:96 - Screenshot taken
+2023-03-14 18:03:16,954  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-14 18:03:26,555  INFO [main] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-03-14 18:03:26,557  INFO [main] TC_CheckcoutWithoutGI:49 - Home page is opened
+2023-03-14 18:03:29,742  INFO [main] TC_CheckcoutWithoutGI:51 - Page is opened
+2023-03-14 18:03:30,662  INFO [main] TC_CheckcoutWithoutGI:53 - Product added to a cart
+2023-03-14 18:03:31,010  INFO [main] TC_CheckcoutWithoutGI:55 - Cart page is opened
+2023-03-14 18:03:32,379  INFO [main] TC_CheckcoutWithoutGI:57 - Checkout page is opened
+2023-03-14 18:03:41,340  INFO [main] TC_CheckcoutWithoutGI:60 - Details are filled
+2023-03-14 18:03:44,532  INFO [main] TC_CheckcoutWithoutGI:62 - Payment COD is selected
+2023-03-14 18:03:54,653  INFO [main] TC_CheckcoutWithoutGI:64 - Payment successful and thankyou page is appeared
+2023-03-14 18:03:55,324  INFO [main] TC_CheckcoutWithoutGI:66 - Screenshot taken
+2023-03-16 11:31:55,036  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-03-16 11:31:55,059  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-03-16 11:31:55,060  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-03-16 11:31:55,078  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-03-16 11:31:55,079  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-03-16 11:37:04,833  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-16 11:37:15,640  INFO [main] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-03-16 11:37:15,664  INFO [main] TC_CheckcoutWithoutGI:75 - Home page is opened
+2023-03-16 11:37:18,803  INFO [main] TC_CheckcoutWithoutGI:77 - Page is opened
+2023-03-16 11:37:19,560  INFO [main] TC_CheckcoutWithoutGI:79 - Product added to a cart
+2023-03-16 11:37:19,875  INFO [main] TC_CheckcoutWithoutGI:81 - Cart page is opened
+2023-03-16 11:37:23,459  INFO [main] TC_CheckcoutWithoutGI:87 - Checkout page is opened
+2023-03-16 11:37:30,132  INFO [main] TC_CheckcoutWithoutGI:90 - Details are filled
+2023-03-16 11:37:33,341  INFO [main] TC_CheckcoutWithoutGI:92 - Payment COD is selected
+2023-03-16 11:37:43,461  INFO [main] TC_CheckcoutWithoutGI:94 - Payment successful and thankyou page is appeared
+2023-03-16 11:37:43,806  INFO [main] TC_CheckcoutWithoutGI:96 - Screenshot taken
+2023-03-16 11:37:44,154  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-16 11:37:53,208  INFO [main] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-03-16 11:37:53,211  INFO [main] TC_CheckcoutWithoutGI:49 - Home page is opened
+2023-03-16 11:37:56,359  INFO [main] TC_CheckcoutWithoutGI:51 - Page is opened
+2023-03-16 11:37:57,106  INFO [main] TC_CheckcoutWithoutGI:53 - Product added to a cart
+2023-03-16 11:37:57,375  INFO [main] TC_CheckcoutWithoutGI:55 - Cart page is opened
+2023-03-16 11:37:58,930  INFO [main] TC_CheckcoutWithoutGI:57 - Checkout page is opened
+2023-03-16 11:38:05,659  INFO [main] TC_CheckcoutWithoutGI:60 - Details are filled
+2023-03-16 11:38:08,866  INFO [main] TC_CheckcoutWithoutGI:62 - Payment COD is selected
+2023-03-16 11:38:18,988  INFO [main] TC_CheckcoutWithoutGI:64 - Payment successful and thankyou page is appeared
+2023-03-16 11:38:19,257  INFO [main] TC_CheckcoutWithoutGI:66 - Screenshot taken
+2023-03-16 12:09:29,695  INFO [TestNG-test=Test-2] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-16 15:15:12,671  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-03-16 15:15:12,696  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-03-16 15:15:12,697  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-03-16 15:15:12,723  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-03-16 15:15:12,729  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-03-16 16:32:03,232  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-16 16:32:13,568  INFO [main] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-03-16 16:32:13,600  INFO [main] TC_CheckcoutWithoutGI:75 - Home page is opened
+2023-03-16 16:32:16,739  INFO [main] TC_CheckcoutWithoutGI:77 - Page is opened
+2023-03-16 16:32:18,310  INFO [main] TC_CheckcoutWithoutGI:79 - Product added to a cart
+2023-03-16 16:32:18,618  INFO [main] TC_CheckcoutWithoutGI:81 - Cart page is opened
+2023-03-16 16:32:22,081  INFO [main] TC_CheckcoutWithoutGI:87 - Checkout page is opened
+2023-03-16 16:32:31,124  INFO [main] TC_CheckcoutWithoutGI:90 - Details are filled
+2023-03-16 16:32:34,321  INFO [main] TC_CheckcoutWithoutGI:92 - Payment COD is selected
+2023-03-16 16:32:44,425  INFO [main] TC_CheckcoutWithoutGI:94 - Payment successful and thankyou page is appeared
+2023-03-16 16:32:45,218  INFO [main] TC_CheckcoutWithoutGI:96 - Screenshot taken
+2023-03-16 16:32:45,583  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-16 16:32:58,238  INFO [main] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-03-16 16:32:58,240  INFO [main] TC_CheckcoutWithoutGI:49 - Home page is opened
+2023-03-16 16:33:01,379  INFO [main] TC_CheckcoutWithoutGI:51 - Page is opened
+2023-03-16 16:33:02,087  INFO [main] TC_CheckcoutWithoutGI:53 - Product added to a cart
+2023-03-16 16:33:02,401  INFO [main] TC_CheckcoutWithoutGI:55 - Cart page is opened
+2023-03-16 16:33:03,740  INFO [main] TC_CheckcoutWithoutGI:57 - Checkout page is opened
+2023-03-16 16:33:11,798  INFO [main] TC_CheckcoutWithoutGI:60 - Details are filled
+2023-03-16 16:33:15,035  INFO [main] TC_CheckcoutWithoutGI:62 - Payment COD is selected
+2023-03-16 16:33:25,161  INFO [main] TC_CheckcoutWithoutGI:64 - Payment successful and thankyou page is appeared
+2023-03-16 16:33:26,147  INFO [main] TC_CheckcoutWithoutGI:66 - Screenshot taken
+2023-03-16 16:34:38,960  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-03-16 16:34:38,988  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-03-16 16:34:38,991  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-03-16 16:34:39,013  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-03-16 16:34:39,013  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-03-16 17:27:10,703  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-03-16 17:27:10,734  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-03-16 17:27:10,734  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-03-20 18:00:32,465  INFO [main] mamaearth_Category_Face:38 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-03-20 18:00:32,502  INFO [main] mamaearth_Category_Face:40 - Presence of a mamaearth logo is verified
+2023-03-20 18:00:32,503  INFO [main] mamaearth_Category_Face:42 - ***************    Verifying the presence of a GI logo    *****************
+2023-03-20 18:00:32,533  INFO [main] mamaearth_Category_Face:44 - Presence of a GI logo is verified
+2023-03-20 18:00:32,534  INFO [main] mamaearth_Category_Face:46 - ***************    Verifying the title of a page    *****************
+2023-03-20 18:05:45,601  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-20 18:06:03,728  INFO [main] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-03-20 18:06:03,764  INFO [main] TC_CheckcoutWithoutGI:75 - Home page is opened
+2023-03-20 18:06:12,959  INFO [main] TC_CheckcoutWithoutGI:77 - Page is opened
+2023-03-20 18:06:13,532  INFO [main] TC_CheckcoutWithoutGI:79 - Product added to a cart
+2023-03-20 18:06:13,815  INFO [main] TC_CheckcoutWithoutGI:81 - Cart page is opened
+2023-03-20 18:06:19,516  INFO [main] TC_CheckcoutWithoutGI:87 - Checkout page is opened
+2023-03-20 18:06:26,489  INFO [main] TC_CheckcoutWithoutGI:90 - Details are filled
+2023-03-20 18:06:29,865  INFO [main] TC_CheckcoutWithoutGI:92 - Payment COD is selected
+2023-03-20 18:06:40,006  INFO [main] TC_CheckcoutWithoutGI:94 - Payment successful and thankyou page is appeared
+2023-03-20 18:06:40,830  INFO [main] TC_CheckcoutWithoutGI:96 - Screenshot taken
+2023-03-20 18:06:41,144  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-20 18:06:52,201  INFO [main] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-03-20 18:06:52,204  INFO [main] TC_CheckcoutWithoutGI:49 - Home page is opened
+2023-03-20 18:07:03,031  INFO [main] TC_CheckcoutWithoutGI:51 - Page is opened
+2023-03-20 18:07:04,059  INFO [main] TC_CheckcoutWithoutGI:53 - Product added to a cart
+2023-03-20 18:07:04,470  INFO [main] TC_CheckcoutWithoutGI:55 - Cart page is opened
+2023-03-20 18:07:06,181  INFO [main] TC_CheckcoutWithoutGI:57 - Checkout page is opened
+2023-03-20 18:07:15,356  INFO [main] TC_CheckcoutWithoutGI:60 - Details are filled
+2023-03-20 18:07:18,607  INFO [main] TC_CheckcoutWithoutGI:62 - Payment COD is selected
+2023-03-20 18:07:28,773  INFO [main] TC_CheckcoutWithoutGI:64 - Payment successful and thankyou page is appeared
+2023-03-20 18:07:29,624  INFO [main] TC_CheckcoutWithoutGI:66 - Screenshot taken
+2023-03-21 15:58:49,038  INFO [main] mamaearth_Category_Face:37 - ***************    Verifying the presence of a mamaearth logo    *****************
+2023-03-21 15:58:49,069  INFO [main] mamaearth_Category_Face:39 - Presence of a mamaearth logo is verified
+2023-03-21 15:58:49,086  INFO [main] mamaearth_Category_Face:41 - ***************    Verifying the presence of a GI logo    *****************
+2023-03-21 15:58:49,108  INFO [main] mamaearth_Category_Face:43 - Presence of a GI logo is verified
+2023-03-21 15:58:49,127  INFO [main] mamaearth_Category_Face:45 - ***************    Verifying the title of a page    *****************
+2023-03-21 16:04:10,465  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-21 16:04:57,809  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-21 16:05:17,399  INFO [main] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-03-21 16:05:17,464  INFO [main] TC_CheckcoutWithoutGI:75 - Home page is opened
+2023-03-21 16:05:24,961  INFO [main] TC_CheckcoutWithoutGI:77 - Page is opened
+2023-03-21 16:05:25,653  INFO [main] TC_CheckcoutWithoutGI:79 - Product added to a cart
+2023-03-21 16:05:26,244  INFO [main] TC_CheckcoutWithoutGI:81 - Cart page is opened
+2023-03-21 16:05:33,728  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-03-21 16:05:47,727  INFO [main] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-03-21 16:05:47,732  INFO [main] TC_CheckcoutWithoutGI:49 - Home page is opened
+2023-03-21 16:05:57,286  INFO [main] TC_CheckcoutWithoutGI:51 - Page is opened
+2023-03-21 16:05:58,138  INFO [main] TC_CheckcoutWithoutGI:53 - Product added to a cart
+2023-03-21 16:05:58,368  INFO [main] TC_CheckcoutWithoutGI:55 - Cart page is opened
+2023-03-21 16:06:00,492  INFO [main] TC_CheckcoutWithoutGI:57 - Checkout page is opened
+2023-03-21 16:06:10,255  INFO [main] TC_CheckcoutWithoutGI:60 - Details are filled
+2023-03-21 16:06:13,513  INFO [main] TC_CheckcoutWithoutGI:62 - Payment COD is selected
+2023-03-21 16:06:23,645  INFO [main] TC_CheckcoutWithoutGI:64 - Payment successful and thankyou page is appeared
+2023-03-21 16:06:24,572  INFO [main] TC_CheckcoutWithoutGI:66 - Screenshot taken

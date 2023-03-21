@@ -1,6 +1,5 @@
 package com.mamaearth.Utils;
 
-import java.io.IOException;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -24,7 +23,7 @@ public class mamaearth_utils_Algolia extends mamaearth_Base{
 	 * 
 	 * 
 	 ***/
-	public static void search_product_category(String category_name) throws IOException {
+	public static void search_product_category(String category_name) {
 		driver.findElement(By.xpath("//div[@class='MainMenu__InputPlaceHolder-sc-3fgvo-2 hjBSMZ']//parent::div[@class='ShortSearchBar']//p")).click();
 		WebElement search_box = driver.findElement(By.xpath("//input[@class='StyledInput-sc-1m95fu4-0 dQlmoN search-input']"));
 		mamaearth_utils_ActionFunction.double_click(search_box);
@@ -40,8 +39,15 @@ public class mamaearth_utils_Algolia extends mamaearth_Base{
 	 * 
 	 * 
 	 ***/
-	public static boolean verify_searched_product_category(String category_name) throws IOException, InterruptedException {
-		Thread.sleep(5000);
+	public static boolean verify_searched_product_category(String category_name) {
+		
+		try {
+			Thread.sleep(3000);
+		}
+		catch(InterruptedException e) {
+			e.printStackTrace();
+		}
+		
 		List<WebElement> elementList = driver.findElements(By.xpath("//div[@class='title']//parent::a//child::div[@class='title']"));
 		boolean titleflag = true;
 		for(int i=0; i<5; i++) {

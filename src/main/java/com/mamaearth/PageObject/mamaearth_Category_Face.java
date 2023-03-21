@@ -1,16 +1,13 @@
 package com.mamaearth.PageObject;
 
-import java.io.IOException;
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.mamaearth.Base.mamaearth_Base;
 import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
-public class mamaearth_Category_Face extends mamaearth_Base{
+public class mamaearth_Category_Face extends mamaearth_utils_CategoriesFunctions {
 	
 	public Logger log = Logger.getLogger(mamaearth_Category_Face.class);
 
@@ -33,7 +30,7 @@ public class mamaearth_Category_Face extends mamaearth_Base{
 	 * All links on a page are working. Banners are loaded properly
 	 * 
 	 * ***/
-	public boolean verfiy_Face_category_page() throws IOException {
+	public boolean verfiy_Face_category_page() {
 		
 		log.info("***************    Verifying the presence of a mamaearth logo    *****************");
 		boolean mamaearthLogo = mamaearth_logo.isDisplayed();
