@@ -1,11 +1,9 @@
 package com.mamaearth.PageObject.StaticPages;
 
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-//import com.mamaearth.Base.mamaearth_Base;
 import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
 public class mamaearth_AboutUs extends mamaearth_utils_CategoriesFunctions {
@@ -39,7 +37,6 @@ public class mamaearth_AboutUs extends mamaearth_utils_CategoriesFunctions {
 			
 		boolean mamaearthLogo = mamaearth_logo.isDisplayed();
 		boolean GILogo = GI_button.isDisplayed();
-		
 		boolean titleFlag_1 = true;
 		boolean titleFlag_2 = true;
 		boolean titleFlag_3 = true;
@@ -55,5 +52,4 @@ public class mamaearth_AboutUs extends mamaearth_utils_CategoriesFunctions {
 		if(mamaearthLogo && GILogo && titleFlag_1 && titleFlag_2 && titleFlag_3) return true;
 		else return false;
 	}
-
 }

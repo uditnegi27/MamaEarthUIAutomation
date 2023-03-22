@@ -64,6 +64,7 @@ import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabyShampoo;
 import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabySkin;
 import com.mamaearth.PageObject.StaticPages.mamaearth_AboutUs;
 import com.mamaearth.PageObject.StaticPages.mamaearth_ContactUs;
+import com.mamaearth.PageObject.StaticPages.mamaearth_FAQs;
 import com.mamaearth.PageObject.StaticPages.mamaearth_PrivacyPolicy;
 import com.mamaearth.PageObject.StaticPages.mamaearth_Returns;
 import com.mamaearth.PageObject.StaticPages.mamaearth_Sitemap;
@@ -925,8 +926,8 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * 
 	 * ***/
-	public mamaearth_PrivacyPolicy click_on_StaticPage_PrivacyPolicy_cateogry() {
-		PrivacyPolicy_StaticPage_button.click();
+	public mamaearth_PrivacyPolicy open_StaticPage_PrivacyPolicy_cateogry() {
+		driver.navigate().to("https://mamaearth.in/privacy-policy");
 		return new mamaearth_PrivacyPolicy();
 	}
 	
@@ -934,8 +935,8 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * 
 	 * ***/
-	public mamaearth_Returns click_on_StaticPage_Returns_cateogry() {
-		aboutUS_StaticPage_button.click();
+	public mamaearth_Returns open_StaticPage_Returns_cateogry() {
+		driver.navigate().to("https://mamaearth.in/return-policy");
 		return new mamaearth_Returns();
 	}
 	
@@ -943,35 +944,35 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * 
 	 * ***/
-	public mamaearth_AboutUs click_on_StaticPage_TermsAndConditions_cateogry() {
-		aboutUS_StaticPage_button.click();
-		return new mamaearth_AboutUs();
+	public mamaearth_TermsAndConditions open_StaticPage_TermsAndConditions_cateogry() {
+		driver.navigate().to("https://mamaearth.in/terms-and-conditions");
+		return new mamaearth_TermsAndConditions();
 	}
 	
 	/*** This function will return the Terms & Conditions- Cashback Static page 
 	 * 
 	 * 
 	 * ***/
-	public mamaearth_TermsAndConditions click_on_StaticPage_TermsAndConditionsAndCashback_cateogry() {
-		aboutUS_StaticPage_button.click();
-		return new mamaearth_TermsAndConditions();
+	public mamaearth_TermsAndConditions_Cashback open_StaticPage_TermsAndConditionsAndCashback_cateogry() {
+		driver.navigate().to("https://mamaearth.in/terms-and-conditions-cashback");
+		return new mamaearth_TermsAndConditions_Cashback();
 	}
 	
 	/*** This function will return the FAQs Static page 
 	 * 
 	 * 
 	 * ***/
-	public mamaearth_TermsAndConditions_Cashback click_on_StaticPage_FAQs_cateogry() {
-		aboutUS_StaticPage_button.click();
-		return new mamaearth_TermsAndConditions_Cashback();
+	public mamaearth_FAQs open_StaticPage_FAQs_cateogry() {
+		driver.navigate().to("https://mamaearth.in/questions-2");
+		return new mamaearth_FAQs();
 	}
 	
 	/*** This function will return the We’re Safe Static page 
 	 * 
 	 * 
 	 * ***/
-	public mamaearth_WeAreSafe click_on_StaticPage_WeAreSafe_cateogry() {
-		aboutUS_StaticPage_button.click();
+	public mamaearth_WeAreSafe open_StaticPage_WeAreSafe_cateogry() {
+		driver.navigate().to("https://mamaearth.in/were-safe-2");
 		return new mamaearth_WeAreSafe();
 	}
 	
@@ -979,8 +980,8 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * 
 	 * ***/
-	public mamaearth_TrackOrder click_on_StaticPage_TrackOrder_cateogry() {
-		aboutUS_StaticPage_button.click();
+	public mamaearth_TrackOrder open_StaticPage_TrackOrder_cateogry() {
+		driver.navigate().to("https://mamaearth.in/order-track");
 		return new mamaearth_TrackOrder();
 	}
 	
@@ -988,8 +989,8 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * 
 	 * ***/
-	public mamaearth_ContactUs click_on_StaticPage_ContactUs_cateogry() {
-		aboutUS_StaticPage_button.click();
+	public mamaearth_ContactUs open_StaticPage_ContactUs_cateogry() {
+		driver.navigate().to("https://mamaearth.in/contact-us");
 		return new mamaearth_ContactUs();
 	}
 	
@@ -997,8 +998,8 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * 
 	 * ***/
-	public mamaearth_Sitemap click_on_StaticPage_Sitemap_cateogry() {
-		aboutUS_StaticPage_button.click();
+	public mamaearth_Sitemap open_StaticPage_Sitemap_cateogry() {
+		driver.navigate().to("https://mamaearth.in/sitemap");
 		return new mamaearth_Sitemap();
 	}
 	
@@ -1006,8 +1007,8 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * 
 	 * ***/
-	public mamaearth_AboutUs click_on_StaticPage_AboutUs_cateogry() {
-		aboutUS_StaticPage_button.click();
+	public mamaearth_AboutUs open_StaticPage_AboutUs_cateogry() {
+		driver.navigate().to("https://mamaearth.in/our-story");
 		return new mamaearth_AboutUs();
 	}
 	

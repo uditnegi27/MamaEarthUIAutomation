@@ -78,7 +78,7 @@ public class mamaearth_Base {
 //	    
 //		localStorage.setItem("pwaState", jsonObject.toJSONString());
 		
-		driver.navigate().refresh();
+//		driver.navigate().refresh();
 		
 	}
 	

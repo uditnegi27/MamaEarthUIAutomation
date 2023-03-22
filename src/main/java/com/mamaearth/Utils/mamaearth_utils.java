@@ -46,6 +46,16 @@ public class mamaearth_utils extends mamaearth_Base{
 	
 	
 	
+	/*** This function will give page load time to page
+	 * 
+	 * 
+	 * ***/
+	public static void pageLoad_wait(Duration stayTime) {
+		driver.manage().timeouts().pageLoadTimeout(stayTime);
+	}
+	
+	
+	
 	/*** This function will take the screenshot of the page and store on the folder which path user will give in the argument
 	 * @throws IOException 
 	 * 

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mamaearth.TestCase.TC_CheckcoutWithoutGI">
+      <class name="com.mamaearth.TestCase.TC_StaticPagesVerification">
         <methods>
-          <include name="teardown"/>
+          <include name="TearDown"/>
+          <include name="Test_mamaearth_Returns_Page"/>
           <include name="setup"/>
-          <include name="Test_GuestUser_WithCoupon_withoutGI_COD" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.mamaearth.TestCase.TC_CheckcoutWithoutGI -->
+      </class> <!-- com.mamaearth.TestCase.TC_StaticPagesVerification -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
