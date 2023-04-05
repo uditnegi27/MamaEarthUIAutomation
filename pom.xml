@@ -36,7 +36,6 @@
 	    <groupId>org.testng</groupId>
 	    <artifactId>testng</artifactId>
 	    <version>7.7.0</version>
-	    <scope>test</scope>
 	</dependency>
 	
 	<dependency>
@@ -73,14 +72,12 @@
 	    <groupId>io.rest-assured</groupId>
 	    <artifactId>json-schema-validator</artifactId>
 	    <version>5.1.1</version>
-	    <scope>test</scope>
 	</dependency>
 	
 	<dependency>
 	    <groupId>io.rest-assured</groupId>
 	    <artifactId>json-path</artifactId>
 	    <version>5.1.1</version>
-	    <scope>test</scope>
 	</dependency>
 	
 	<dependency>
