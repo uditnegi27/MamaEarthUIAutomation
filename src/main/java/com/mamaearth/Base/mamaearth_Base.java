@@ -50,7 +50,7 @@ public class mamaearth_Base {
 		ChromeOptions options = new ChromeOptions();
 		
 		options.addArguments("--remote-allow-origins=*");
-		options.setHeadless(false);
+		options.setHeadless(true);
 		
 		driver = WebDriverManager.chromedriver().capabilities(options).create();
 		

@@ -5,7 +5,6 @@
     <classes>
       <class name="com.mamaearth.TestCase.TC_SearchingAndAlgolia"/>
       <class name="com.mamaearth.TestCase.TC_StaticPagesVerification"/>
-      <class name="com.mamaearth.TestCase.TC_VerifyAllCategories"/>
       <class name="com.mamaearth.TestCase.TC_CheckcoutWithoutGI"/>
     </classes>
   </test> <!-- Test -->

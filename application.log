@@ -3300,3 +3300,25 @@ catch(e){
 2023-04-05 14:41:38,665  INFO [main] TC_CheckcoutWithoutGI:62 - Payment COD is selected
 2023-04-05 14:41:46,770  INFO [main] TC_CheckcoutWithoutGI:64 - Payment successful and thankyou page is appeared
 2023-04-05 14:41:47,484  INFO [main] TC_CheckcoutWithoutGI:66 - Screenshot taken
+2023-04-05 16:15:21,999  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-04-05 16:15:29,694  INFO [main] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-04-05 16:15:29,699  INFO [main] TC_CheckcoutWithoutGI:75 - Home page is opened
+2023-04-05 16:15:32,876  INFO [main] TC_CheckcoutWithoutGI:77 - Page is opened
+2023-04-05 16:15:33,355  INFO [main] TC_CheckcoutWithoutGI:79 - Product added to a cart
+2023-04-05 16:15:33,591  INFO [main] TC_CheckcoutWithoutGI:81 - Cart page is opened
+2023-04-05 16:15:37,184  INFO [main] TC_CheckcoutWithoutGI:87 - Checkout page is opened
+2023-04-05 16:15:43,262  INFO [main] TC_CheckcoutWithoutGI:90 - Details are filled
+2023-04-05 16:15:47,484  INFO [main] TC_CheckcoutWithoutGI:92 - Payment COD is selected
+2023-04-05 16:15:55,604  INFO [main] TC_CheckcoutWithoutGI:94 - Payment successful and thankyou page is appeared
+2023-04-05 16:15:55,824  INFO [main] TC_CheckcoutWithoutGI:96 - Screenshot taken
+2023-04-05 16:15:56,069  INFO [main] TC_CheckcoutWithoutGI:39 - Page initializing
+2023-04-05 16:16:03,524  INFO [main] TC_CheckcoutWithoutGI:41 - Page initialized
+2023-04-05 16:16:03,527  INFO [main] TC_CheckcoutWithoutGI:49 - Home page is opened
+2023-04-05 16:16:06,660  INFO [main] TC_CheckcoutWithoutGI:51 - Page is opened
+2023-04-05 16:16:07,128  INFO [main] TC_CheckcoutWithoutGI:53 - Product added to a cart
+2023-04-05 16:16:07,362  INFO [main] TC_CheckcoutWithoutGI:55 - Cart page is opened
+2023-04-05 16:16:08,823  INFO [main] TC_CheckcoutWithoutGI:57 - Checkout page is opened
+2023-04-05 16:16:15,222  INFO [main] TC_CheckcoutWithoutGI:60 - Details are filled
+2023-04-05 16:16:19,441  INFO [main] TC_CheckcoutWithoutGI:62 - Payment COD is selected
+2023-04-05 16:16:27,572  INFO [main] TC_CheckcoutWithoutGI:64 - Payment successful and thankyou page is appeared
+2023-04-05 16:16:27,810  INFO [main] TC_CheckcoutWithoutGI:66 - Screenshot taken
