@@ -8,7 +8,7 @@ import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
 public class mamaearth_Category_Ingredient_Bhringmla extends mamaearth_utils_CategoriesFunctions {
 	
-	@FindBy(xpath = "//h1[contains(text(), 'Amla Products for Hair')]")
+	@FindBy(xpath = "//h1[contains(text(), 'Bhringraj for Hair Products')]")
 	WebElement IngredientBhringmla_page_header;
 	
 	@FindBy(xpath = "//a[@class='mamaearth-logo-wrapper']")
@@ -34,7 +34,7 @@ public class mamaearth_Category_Ingredient_Bhringmla extends mamaearth_utils_Cat
 		
 		boolean titleFlag = true;
 		String title = IngredientBhringmla_page_header.getText();
-		if(!title.equals("Amla Products for Hair")) titleFlag = false;
+		if(!title.equals("Bhringraj for Hair Products")) titleFlag = false;
 		
 		if(mamaearthLogo && GILogo && titleFlag) return true;
 		else return false;

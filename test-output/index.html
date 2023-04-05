@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-Category_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Category Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Category_Test_Suite" class="navigator-link ">
+                    <span>categorySanity.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Category_Test_Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Category_Test_Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Category_Test_Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Category_Test_Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Category_Test_Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Category_Test_Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,21 +93,315 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">58 methods, 4 failed,   54 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Category_Test_Suite" class="hide-methods failed suite-Category_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Category_Test_Suite -->
+                      <a href="#" panel-name="suite-Category_Test_Suite" class="show-methods failed suite-Category_Test_Suite"> (show)</a> <!-- show-methods failed suite-Category_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Category_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Body_BodyLotion_launching">Test_mamaearth_category_Body_BodyLotion_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Face_FaceMoisturizer_launching">Test_mamaearth_category_Face_FaceMoisturizer_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Ingredient_Bhringmla_launching">Test_mamaearth_category_Ingredient_Bhringmla_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Ingredient_Ubtan_launching">Test_mamaearth_category_Ingredient_Ubtan_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Category_Test_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Category_Test_Suite" class="hide-methods passed suite-Category_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Category_Test_Suite -->
+                      <a href="#" panel-name="suite-Category_Test_Suite" class="show-methods passed suite-Category_Test_Suite"> (show)</a> <!-- show-methods passed suite-Category_Test_Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Category_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.mamaearth.TestCase.TC_SearchingAndAlgolia" class="method navigator-link" hash-for-method="Test_Search_ProductSearch">Test_Search_ProductSearch</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Baby__BabyBath_launching">Test_mamaearth_category_Baby__BabyBath_launching</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Baby__BabyBodyLotion_launching">Test_mamaearth_category_Baby__BabyBodyLotion_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Baby__BabyOil_launching">Test_mamaearth_category_Baby__BabyOil_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Baby__BabyOralcare_launching">Test_mamaearth_category_Baby__BabyOralcare_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Baby__BabyShampoo_launching">Test_mamaearth_category_Baby__BabyShampoo_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Baby__BabySkin_launching">Test_mamaearth_category_Baby__BabySkin_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Baby_launching">Test_mamaearth_category_Baby_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Beauty_FacialKits_launching">Test_mamaearth_category_Beauty_FacialKits_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Beauty_Fragrance_launching">Test_mamaearth_category_Beauty_Fragrance_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Beauty_launching">Test_mamaearth_category_Beauty_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Body_BodyScrub_launching">Test_mamaearth_category_Body_BodyScrub_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Body_BodySoap_launching">Test_mamaearth_category_Body_BodySoap_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Body_BodyWash_launching">Test_mamaearth_category_Body_BodyWash_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Body_HandCream_launching">Test_mamaearth_category_Body_HandCream_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Body_UnderarmCream_launching">Test_mamaearth_category_Body_UnderarmCream_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Body_launching">Test_mamaearth_category_Body_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Face_FaceCream_launching">Test_mamaearth_category_Face_FaceCream_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Face_FaceGel_launching">Test_mamaearth_category_Face_FaceGel_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Face_FaceMask_launching">Test_mamaearth_category_Face_FaceMask_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Face_FaceScrub_launching">Test_mamaearth_category_Face_FaceScrub_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Face_FaceSerum_launching">Test_mamaearth_category_Face_FaceSerum_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Face_FaceSheetMask_launching">Test_mamaearth_category_Face_FaceSheetMask_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Face_FaceToner_launching">Test_mamaearth_category_Face_FaceToner_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Face_FaceWash_launching">Test_mamaearth_category_Face_FaceWash_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Face_launching">Test_mamaearth_category_Face_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Hair_Conditioner_launching">Test_mamaearth_category_Hair_Conditioner_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Hair_HairMask_launching">Test_mamaearth_category_Hair_HairMask_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Hair_HairOilBooster_launching">Test_mamaearth_category_Hair_HairOilBooster_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Hair_HairOil_launching">Test_mamaearth_category_Hair_HairOil_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Hair_HairSerum_launching">Test_mamaearth_category_Hair_HairSerum_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Hair_Shampoo_launching">Test_mamaearth_category_Hair_Shampoo_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Hair_launching">Test_mamaearth_category_Hair_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Ingredient_AppleCiderVinegar_launching">Test_mamaearth_category_Ingredient_AppleCiderVinegar_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Ingredient_Aqua_launching">Test_mamaearth_category_Ingredient_Aqua_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Ingredient_Argan_launching">Test_mamaearth_category_Ingredient_Argan_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Ingredient_Charcoal_launching">Test_mamaearth_category_Ingredient_Charcoal_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Ingredient_Coco_launching">Test_mamaearth_category_Ingredient_Coco_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Ingredient_GreenTea_launching">Test_mamaearth_category_Ingredient_GreenTea_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Ingredient_Henna_launching">Test_mamaearth_category_Ingredient_Henna_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Ingredient_HoneyMalai_launching">Test_mamaearth_category_Ingredient_HoneyMalai_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Ingredient_Onion_launching">Test_mamaearth_category_Ingredient_Onion_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Ingredient_Retinol_launching">Test_mamaearth_category_Ingredient_Retinol_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Ingredient_Rice_launching">Test_mamaearth_category_Ingredient_Rice_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Ingredient_TeaTree_launching">Test_mamaearth_category_Ingredient_TeaTree_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Ingredient_VitaminC_launching">Test_mamaearth_category_Ingredient_VitaminC_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Ingredient_launching">Test_mamaearth_category_Ingredient_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Makeup_Compact_launching">Test_mamaearth_category_Makeup_Compact_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Makeup_Concealer_launching">Test_mamaearth_category_Makeup_Concealer_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Makeup_Foundation_launching">Test_mamaearth_category_Makeup_Foundation_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Makeup_Kajal_launching">Test_mamaearth_category_Makeup_Kajal_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Makeup_LipBalm_launching">Test_mamaearth_category_Makeup_LipBalm_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Makeup_Lipsticks_launching">Test_mamaearth_category_Makeup_Lipsticks_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_category_Makeup_launching">Test_mamaearth_category_Makeup_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Category_Test_Suite" title="com.mamaearth.TestCase.TC_VerifyAllCategories" class="method navigator-link" hash-for-method="Test_mamaearth_launching">Test_mamaearth_launching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Category_Test_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,122 +412,1013 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Category_Test_Suite" class="panel Category_Test_Suite">
+          <div class="suite-Category_Test_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.mamaearth.TestCase.TC_SearchingAndAlgolia</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.mamaearth.TestCase.TC_VerifyAllCategories</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Test_Search_ProductSearch">
-                  </a> <!-- Test_Search_ProductSearch -->
-                  <span class="method-name">Test_Search_ProductSearch</span>
+                  <a name="Test_mamaearth_category_Body_BodyLotion_launching">
+                  </a> <!-- Test_mamaearth_category_Body_BodyLotion_launching -->
+                  <span class="method-name">Test_mamaearth_category_Body_BodyLotion_launching</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Body_BodyLotion_launching(TC_VerifyAllCategories.java:322)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Face_FaceMoisturizer_launching">
+                  </a> <!-- Test_mamaearth_category_Face_FaceMoisturizer_launching -->
+                  <span class="method-name">Test_mamaearth_category_Face_FaceMoisturizer_launching</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceMoisturizer_launching(TC_VerifyAllCategories.java:308)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Ingredient_Bhringmla_launching">
+                  </a> <!-- Test_mamaearth_category_Ingredient_Bhringmla_launching -->
+                  <span class="method-name">Test_mamaearth_category_Ingredient_Bhringmla_launching</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Bhringmla_launching(TC_VerifyAllCategories.java:476)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Ingredient_Ubtan_launching">
+                  </a> <!-- Test_mamaearth_category_Ingredient_Ubtan_launching -->
+                  <span class="method-name">Test_mamaearth_category_Ingredient_Ubtan_launching</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Ubtan_launching(TC_VerifyAllCategories.java:441)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Category_Test_Suite-class-failed -->
+          <div class="suite-Category_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mamaearth.TestCase.TC_VerifyAllCategories</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Baby__BabyBath_launching">
+                  </a> <!-- Test_mamaearth_category_Baby__BabyBath_launching -->
+                  <span class="method-name">Test_mamaearth_category_Baby__BabyBath_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Baby__BabyBodyLotion_launching">
+                  </a> <!-- Test_mamaearth_category_Baby__BabyBodyLotion_launching -->
+                  <span class="method-name">Test_mamaearth_category_Baby__BabyBodyLotion_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Baby__BabyOil_launching">
+                  </a> <!-- Test_mamaearth_category_Baby__BabyOil_launching -->
+                  <span class="method-name">Test_mamaearth_category_Baby__BabyOil_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Baby__BabyOralcare_launching">
+                  </a> <!-- Test_mamaearth_category_Baby__BabyOralcare_launching -->
+                  <span class="method-name">Test_mamaearth_category_Baby__BabyOralcare_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Baby__BabyShampoo_launching">
+                  </a> <!-- Test_mamaearth_category_Baby__BabyShampoo_launching -->
+                  <span class="method-name">Test_mamaearth_category_Baby__BabyShampoo_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Baby__BabySkin_launching">
+                  </a> <!-- Test_mamaearth_category_Baby__BabySkin_launching -->
+                  <span class="method-name">Test_mamaearth_category_Baby__BabySkin_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Baby_launching">
+                  </a> <!-- Test_mamaearth_category_Baby_launching -->
+                  <span class="method-name">Test_mamaearth_category_Baby_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Beauty_FacialKits_launching">
+                  </a> <!-- Test_mamaearth_category_Beauty_FacialKits_launching -->
+                  <span class="method-name">Test_mamaearth_category_Beauty_FacialKits_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Beauty_Fragrance_launching">
+                  </a> <!-- Test_mamaearth_category_Beauty_Fragrance_launching -->
+                  <span class="method-name">Test_mamaearth_category_Beauty_Fragrance_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Beauty_launching">
+                  </a> <!-- Test_mamaearth_category_Beauty_launching -->
+                  <span class="method-name">Test_mamaearth_category_Beauty_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Body_BodyScrub_launching">
+                  </a> <!-- Test_mamaearth_category_Body_BodyScrub_launching -->
+                  <span class="method-name">Test_mamaearth_category_Body_BodyScrub_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Body_BodySoap_launching">
+                  </a> <!-- Test_mamaearth_category_Body_BodySoap_launching -->
+                  <span class="method-name">Test_mamaearth_category_Body_BodySoap_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Body_BodyWash_launching">
+                  </a> <!-- Test_mamaearth_category_Body_BodyWash_launching -->
+                  <span class="method-name">Test_mamaearth_category_Body_BodyWash_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Body_HandCream_launching">
+                  </a> <!-- Test_mamaearth_category_Body_HandCream_launching -->
+                  <span class="method-name">Test_mamaearth_category_Body_HandCream_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Body_UnderarmCream_launching">
+                  </a> <!-- Test_mamaearth_category_Body_UnderarmCream_launching -->
+                  <span class="method-name">Test_mamaearth_category_Body_UnderarmCream_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Body_launching">
+                  </a> <!-- Test_mamaearth_category_Body_launching -->
+                  <span class="method-name">Test_mamaearth_category_Body_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Face_FaceCream_launching">
+                  </a> <!-- Test_mamaearth_category_Face_FaceCream_launching -->
+                  <span class="method-name">Test_mamaearth_category_Face_FaceCream_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Face_FaceGel_launching">
+                  </a> <!-- Test_mamaearth_category_Face_FaceGel_launching -->
+                  <span class="method-name">Test_mamaearth_category_Face_FaceGel_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Face_FaceMask_launching">
+                  </a> <!-- Test_mamaearth_category_Face_FaceMask_launching -->
+                  <span class="method-name">Test_mamaearth_category_Face_FaceMask_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Face_FaceScrub_launching">
+                  </a> <!-- Test_mamaearth_category_Face_FaceScrub_launching -->
+                  <span class="method-name">Test_mamaearth_category_Face_FaceScrub_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Face_FaceSerum_launching">
+                  </a> <!-- Test_mamaearth_category_Face_FaceSerum_launching -->
+                  <span class="method-name">Test_mamaearth_category_Face_FaceSerum_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Face_FaceSheetMask_launching">
+                  </a> <!-- Test_mamaearth_category_Face_FaceSheetMask_launching -->
+                  <span class="method-name">Test_mamaearth_category_Face_FaceSheetMask_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Face_FaceToner_launching">
+                  </a> <!-- Test_mamaearth_category_Face_FaceToner_launching -->
+                  <span class="method-name">Test_mamaearth_category_Face_FaceToner_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Face_FaceWash_launching">
+                  </a> <!-- Test_mamaearth_category_Face_FaceWash_launching -->
+                  <span class="method-name">Test_mamaearth_category_Face_FaceWash_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Face_launching">
+                  </a> <!-- Test_mamaearth_category_Face_launching -->
+                  <span class="method-name">Test_mamaearth_category_Face_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Hair_Conditioner_launching">
+                  </a> <!-- Test_mamaearth_category_Hair_Conditioner_launching -->
+                  <span class="method-name">Test_mamaearth_category_Hair_Conditioner_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Hair_HairMask_launching">
+                  </a> <!-- Test_mamaearth_category_Hair_HairMask_launching -->
+                  <span class="method-name">Test_mamaearth_category_Hair_HairMask_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Hair_HairOilBooster_launching">
+                  </a> <!-- Test_mamaearth_category_Hair_HairOilBooster_launching -->
+                  <span class="method-name">Test_mamaearth_category_Hair_HairOilBooster_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Hair_HairOil_launching">
+                  </a> <!-- Test_mamaearth_category_Hair_HairOil_launching -->
+                  <span class="method-name">Test_mamaearth_category_Hair_HairOil_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Hair_HairSerum_launching">
+                  </a> <!-- Test_mamaearth_category_Hair_HairSerum_launching -->
+                  <span class="method-name">Test_mamaearth_category_Hair_HairSerum_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Hair_Shampoo_launching">
+                  </a> <!-- Test_mamaearth_category_Hair_Shampoo_launching -->
+                  <span class="method-name">Test_mamaearth_category_Hair_Shampoo_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Hair_launching">
+                  </a> <!-- Test_mamaearth_category_Hair_launching -->
+                  <span class="method-name">Test_mamaearth_category_Hair_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Ingredient_AppleCiderVinegar_launching">
+                  </a> <!-- Test_mamaearth_category_Ingredient_AppleCiderVinegar_launching -->
+                  <span class="method-name">Test_mamaearth_category_Ingredient_AppleCiderVinegar_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Ingredient_Aqua_launching">
+                  </a> <!-- Test_mamaearth_category_Ingredient_Aqua_launching -->
+                  <span class="method-name">Test_mamaearth_category_Ingredient_Aqua_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Ingredient_Argan_launching">
+                  </a> <!-- Test_mamaearth_category_Ingredient_Argan_launching -->
+                  <span class="method-name">Test_mamaearth_category_Ingredient_Argan_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Ingredient_Charcoal_launching">
+                  </a> <!-- Test_mamaearth_category_Ingredient_Charcoal_launching -->
+                  <span class="method-name">Test_mamaearth_category_Ingredient_Charcoal_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Ingredient_Coco_launching">
+                  </a> <!-- Test_mamaearth_category_Ingredient_Coco_launching -->
+                  <span class="method-name">Test_mamaearth_category_Ingredient_Coco_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Ingredient_GreenTea_launching">
+                  </a> <!-- Test_mamaearth_category_Ingredient_GreenTea_launching -->
+                  <span class="method-name">Test_mamaearth_category_Ingredient_GreenTea_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Ingredient_Henna_launching">
+                  </a> <!-- Test_mamaearth_category_Ingredient_Henna_launching -->
+                  <span class="method-name">Test_mamaearth_category_Ingredient_Henna_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Ingredient_HoneyMalai_launching">
+                  </a> <!-- Test_mamaearth_category_Ingredient_HoneyMalai_launching -->
+                  <span class="method-name">Test_mamaearth_category_Ingredient_HoneyMalai_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Ingredient_Onion_launching">
+                  </a> <!-- Test_mamaearth_category_Ingredient_Onion_launching -->
+                  <span class="method-name">Test_mamaearth_category_Ingredient_Onion_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Ingredient_Retinol_launching">
+                  </a> <!-- Test_mamaearth_category_Ingredient_Retinol_launching -->
+                  <span class="method-name">Test_mamaearth_category_Ingredient_Retinol_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Ingredient_Rice_launching">
+                  </a> <!-- Test_mamaearth_category_Ingredient_Rice_launching -->
+                  <span class="method-name">Test_mamaearth_category_Ingredient_Rice_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Ingredient_TeaTree_launching">
+                  </a> <!-- Test_mamaearth_category_Ingredient_TeaTree_launching -->
+                  <span class="method-name">Test_mamaearth_category_Ingredient_TeaTree_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Ingredient_VitaminC_launching">
+                  </a> <!-- Test_mamaearth_category_Ingredient_VitaminC_launching -->
+                  <span class="method-name">Test_mamaearth_category_Ingredient_VitaminC_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Ingredient_launching">
+                  </a> <!-- Test_mamaearth_category_Ingredient_launching -->
+                  <span class="method-name">Test_mamaearth_category_Ingredient_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Makeup_Compact_launching">
+                  </a> <!-- Test_mamaearth_category_Makeup_Compact_launching -->
+                  <span class="method-name">Test_mamaearth_category_Makeup_Compact_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Makeup_Concealer_launching">
+                  </a> <!-- Test_mamaearth_category_Makeup_Concealer_launching -->
+                  <span class="method-name">Test_mamaearth_category_Makeup_Concealer_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Makeup_Foundation_launching">
+                  </a> <!-- Test_mamaearth_category_Makeup_Foundation_launching -->
+                  <span class="method-name">Test_mamaearth_category_Makeup_Foundation_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Makeup_Kajal_launching">
+                  </a> <!-- Test_mamaearth_category_Makeup_Kajal_launching -->
+                  <span class="method-name">Test_mamaearth_category_Makeup_Kajal_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Makeup_LipBalm_launching">
+                  </a> <!-- Test_mamaearth_category_Makeup_LipBalm_launching -->
+                  <span class="method-name">Test_mamaearth_category_Makeup_LipBalm_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Makeup_Lipsticks_launching">
+                  </a> <!-- Test_mamaearth_category_Makeup_Lipsticks_launching -->
+                  <span class="method-name">Test_mamaearth_category_Makeup_Lipsticks_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_category_Makeup_launching">
+                  </a> <!-- Test_mamaearth_category_Makeup_launching -->
+                  <span class="method-name">Test_mamaearth_category_Makeup_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mamaearth_launching">
+                  </a> <!-- Test_mamaearth_launching -->
+                  <span class="method-name">Test_mamaearth_launching</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Category_Test_Suite-class-passed -->
+        </div> <!-- panel Category_Test_Suite -->
+        <div panel-name="test-xml-Category_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/vc/xx8_9t4d2c93dg547hpy1fp40000gn/T/testng-eclipse--1960036331/testng-customsuite.xml</span>
+            <span class="header-content">/Users/honasa/Desktop/SeleniumSeesion/mamaEarth_UI_Automation/src/main/resources/categorySanity.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;Category Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Category Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.mamaearth.TestCase.TC_SearchingAndAlgolia&quot;/&gt;
+      &lt;class name=&quot;com.mamaearth.TestCase.TC_VerifyAllCategories&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Category Test --&gt;
+&lt;/suite&gt; &lt;!-- Category Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Category_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Category Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Category Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Category_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Category Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Category_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Category Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Category_Test_Suite');
+function tableData_Category_Test_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(58);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Test_Search_ProductSearch')
-data.setCell(0, 2, 'com.mamaearth.TestCase.TC_SearchingAndAlgolia')
-data.setCell(0, 3, 5291);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'Test_mamaearth_category_Beauty_launching')
+data.setCell(0, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(0, 3, 3182);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Test_mamaearth_category_Face_FaceSheetMask_launching')
+data.setCell(1, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(1, 3, 2437);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Test_mamaearth_category_Beauty_Fragrance_launching')
+data.setCell(2, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(2, 3, 1798);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Test_mamaearth_category_Baby_launching')
+data.setCell(3, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(3, 3, 1789);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Test_mamaearth_category_Face_launching')
+data.setCell(4, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(4, 3, 1689);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Test_mamaearth_category_Face_FaceCream_launching')
+data.setCell(5, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(5, 3, 1632);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Test_mamaearth_category_Hair_Shampoo_launching')
+data.setCell(6, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(6, 3, 1553);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Test_mamaearth_category_Ingredient_VitaminC_launching')
+data.setCell(7, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(7, 3, 1547);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Test_mamaearth_category_Ingredient_Ubtan_launching')
+data.setCell(8, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(8, 3, 1471);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Test_mamaearth_category_Face_FaceWash_launching')
+data.setCell(9, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(9, 3, 1397);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Test_mamaearth_category_Makeup_Lipsticks_launching')
+data.setCell(10, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(10, 3, 1366);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Test_mamaearth_category_Face_FaceMask_launching')
+data.setCell(11, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(11, 3, 1348);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Test_mamaearth_category_Ingredient_HoneyMalai_launching')
+data.setCell(12, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(12, 3, 1304);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Test_mamaearth_category_Ingredient_GreenTea_launching')
+data.setCell(13, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(13, 3, 1297);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Test_mamaearth_category_Hair_HairOil_launching')
+data.setCell(14, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(14, 3, 1296);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Test_mamaearth_category_Face_FaceSerum_launching')
+data.setCell(15, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(15, 3, 1294);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Test_mamaearth_category_Ingredient_AppleCiderVinegar_launching')
+data.setCell(16, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(16, 3, 1290);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Test_mamaearth_category_Ingredient_TeaTree_launching')
+data.setCell(17, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(17, 3, 1289);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Test_mamaearth_category_Makeup_launching')
+data.setCell(18, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(18, 3, 1283);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Test_mamaearth_category_Hair_launching')
+data.setCell(19, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(19, 3, 1279);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Test_mamaearth_category_Baby__BabyShampoo_launching')
+data.setCell(20, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(20, 3, 1273);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Test_mamaearth_category_Ingredient_Charcoal_launching')
+data.setCell(21, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(21, 3, 1265);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Test_mamaearth_category_Ingredient_Coco_launching')
+data.setCell(22, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(22, 3, 1264);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Test_mamaearth_category_Ingredient_Rice_launching')
+data.setCell(23, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(23, 3, 1246);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Test_mamaearth_category_Hair_Conditioner_launching')
+data.setCell(24, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(24, 3, 1242);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Test_mamaearth_category_Body_BodyLotion_launching')
+data.setCell(25, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(25, 3, 1235);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Test_mamaearth_category_Ingredient_Argan_launching')
+data.setCell(26, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(26, 3, 1228);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Test_mamaearth_category_Ingredient_Retinol_launching')
+data.setCell(27, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(27, 3, 1227);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Test_mamaearth_category_Baby__BabyBath_launching')
+data.setCell(28, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(28, 3, 1198);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Test_mamaearth_category_Body_launching')
+data.setCell(29, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(29, 3, 1176);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'Test_mamaearth_category_Ingredient_Onion_launching')
+data.setCell(30, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(30, 3, 1176);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'Test_mamaearth_category_Ingredient_Aqua_launching')
+data.setCell(31, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(31, 3, 1172);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'Test_mamaearth_category_Face_FaceMoisturizer_launching')
+data.setCell(32, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(32, 3, 1162);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'Test_mamaearth_category_Ingredient_Henna_launching')
+data.setCell(33, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(33, 3, 1148);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'Test_mamaearth_category_Body_UnderarmCream_launching')
+data.setCell(34, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(34, 3, 1147);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'Test_mamaearth_category_Hair_HairMask_launching')
+data.setCell(35, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(35, 3, 1119);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'Test_mamaearth_category_Baby__BabyOralcare_launching')
+data.setCell(36, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(36, 3, 1116);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'Test_mamaearth_category_Makeup_LipBalm_launching')
+data.setCell(37, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(37, 3, 1114);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'Test_mamaearth_category_Baby__BabyBodyLotion_launching')
+data.setCell(38, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(38, 3, 1107);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'Test_mamaearth_category_Hair_HairSerum_launching')
+data.setCell(39, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(39, 3, 1102);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'Test_mamaearth_category_Beauty_FacialKits_launching')
+data.setCell(40, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(40, 3, 1063);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'Test_mamaearth_category_Baby__BabyOil_launching')
+data.setCell(41, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(41, 3, 1041);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'Test_mamaearth_category_Face_FaceGel_launching')
+data.setCell(42, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(42, 3, 1023);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'Test_mamaearth_category_Ingredient_Bhringmla_launching')
+data.setCell(43, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(43, 3, 1002);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'Test_mamaearth_category_Makeup_Kajal_launching')
+data.setCell(44, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(44, 3, 979);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'Test_mamaearth_category_Ingredient_launching')
+data.setCell(45, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(45, 3, 956);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'Test_mamaearth_category_Makeup_Foundation_launching')
+data.setCell(46, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(46, 3, 947);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'Test_mamaearth_category_Baby__BabySkin_launching')
+data.setCell(47, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(47, 3, 942);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'Test_mamaearth_category_Body_BodyWash_launching')
+data.setCell(48, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(48, 3, 941);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'Test_mamaearth_category_Face_FaceScrub_launching')
+data.setCell(49, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(49, 3, 936);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'Test_mamaearth_category_Body_BodySoap_launching')
+data.setCell(50, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(50, 3, 928);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'Test_mamaearth_category_Face_FaceToner_launching')
+data.setCell(51, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(51, 3, 876);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'Test_mamaearth_category_Makeup_Compact_launching')
+data.setCell(52, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(52, 3, 870);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'Test_mamaearth_category_Makeup_Concealer_launching')
+data.setCell(53, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(53, 3, 854);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'Test_mamaearth_category_Body_HandCream_launching')
+data.setCell(54, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(54, 3, 849);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'Test_mamaearth_category_Body_BodyScrub_launching')
+data.setCell(55, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(55, 3, 842);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'Test_mamaearth_category_Hair_HairOilBooster_launching')
+data.setCell(56, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(56, 3, 822);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'Test_mamaearth_launching')
+data.setCell(57, 2, 'com.mamaearth.TestCase.TC_VerifyAllCategories')
+data.setCell(57, 3, 71);
+window.suiteTableData['Category_Test_Suite']= { tableData: data, tableDiv: 'times-div-Category_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Category_Test_Suite">
+              </div> <!-- times-div-Category_Test_Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Category_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Category Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Category_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Category_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.mamaearth.TestCase.TC_SearchingAndAlgolia</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
+              <div class="chronological-class-name">com.mamaearth.TestCase.TC_VerifyAllCategories</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">Test_Search_ProductSearch</span>
-                <span class="method-start">10041 ms</span>
+                <span class="method-name">Test_mamaearth_launching</span>
+                <span class="method-start">9417 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Beauty_launching</span>
+                <span class="method-start">9493 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Beauty_Fragrance_launching</span>
+                <span class="method-start">12677 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Beauty_FacialKits_launching</span>
+                <span class="method-start">14478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Hair_launching</span>
+                <span class="method-start">15543 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Hair_Shampoo_launching</span>
+                <span class="method-start">16824 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Hair_Conditioner_launching</span>
+                <span class="method-start">18378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Hair_HairOil_launching</span>
+                <span class="method-start">19621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Hair_HairMask_launching</span>
+                <span class="method-start">20918 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Hair_HairSerum_launching</span>
+                <span class="method-start">22038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Hair_HairOilBooster_launching</span>
+                <span class="method-start">23142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Face_launching</span>
+                <span class="method-start">23965 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Face_FaceWash_launching</span>
+                <span class="method-start">25655 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Face_FaceMask_launching</span>
+                <span class="method-start">27054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Face_FaceCream_launching</span>
+                <span class="method-start">28404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Face_FaceSerum_launching</span>
+                <span class="method-start">30037 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Face_FaceScrub_launching</span>
+                <span class="method-start">31333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Face_FaceToner_launching</span>
+                <span class="method-start">32271 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Face_FaceGel_launching</span>
+                <span class="method-start">33149 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Face_FaceSheetMask_launching</span>
+                <span class="method-start">34173 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test_mamaearth_category_Face_FaceMoisturizer_launching</span>
+                <span class="method-start">36611 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Body_launching</span>
+                <span class="method-start">37775 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test_mamaearth_category_Body_BodyLotion_launching</span>
+                <span class="method-start">38952 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Body_UnderarmCream_launching</span>
+                <span class="method-start">40188 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Body_BodyScrub_launching</span>
+                <span class="method-start">41336 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Body_HandCream_launching</span>
+                <span class="method-start">42179 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Body_BodyWash_launching</span>
+                <span class="method-start">43029 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Body_BodySoap_launching</span>
+                <span class="method-start">43971 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Makeup_launching</span>
+                <span class="method-start">44900 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Makeup_Lipsticks_launching</span>
+                <span class="method-start">46184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Makeup_LipBalm_launching</span>
+                <span class="method-start">47551 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Makeup_Foundation_launching</span>
+                <span class="method-start">48666 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Makeup_Kajal_launching</span>
+                <span class="method-start">49618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Makeup_Compact_launching</span>
+                <span class="method-start">50598 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Makeup_Concealer_launching</span>
+                <span class="method-start">51469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Ingredient_launching</span>
+                <span class="method-start">52324 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Ingredient_Onion_launching</span>
+                <span class="method-start">53281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Ingredient_Henna_launching</span>
+                <span class="method-start">54458 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Ingredient_Rice_launching</span>
+                <span class="method-start">55607 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test_mamaearth_category_Ingredient_Ubtan_launching</span>
+                <span class="method-start">56854 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Ingredient_VitaminC_launching</span>
+                <span class="method-start">58326 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Ingredient_GreenTea_launching</span>
+                <span class="method-start">59874 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Ingredient_TeaTree_launching</span>
+                <span class="method-start">61172 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Ingredient_Aqua_launching</span>
+                <span class="method-start">62461 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test_mamaearth_category_Ingredient_Bhringmla_launching</span>
+                <span class="method-start">63634 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Ingredient_Charcoal_launching</span>
+                <span class="method-start">64637 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Ingredient_Coco_launching</span>
+                <span class="method-start">65903 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Ingredient_Argan_launching</span>
+                <span class="method-start">67168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Ingredient_AppleCiderVinegar_launching</span>
+                <span class="method-start">68397 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Ingredient_Retinol_launching</span>
+                <span class="method-start">69687 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Ingredient_HoneyMalai_launching</span>
+                <span class="method-start">70915 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Baby_launching</span>
+                <span class="method-start">72220 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Baby__BabyShampoo_launching</span>
+                <span class="method-start">74010 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Baby__BabyOralcare_launching</span>
+                <span class="method-start">75284 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Baby__BabyOil_launching</span>
+                <span class="method-start">76401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Baby__BabySkin_launching</span>
+                <span class="method-start">77443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Baby__BabyBath_launching</span>
+                <span class="method-start">78386 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_mamaearth_category_Baby__BabyBodyLotion_launching</span>
+                <span class="method-start">79585 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15333 ms</span>
-              </div> <!-- configuration-method after -->
+                <span class="method-start">80693 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

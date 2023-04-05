@@ -9,7 +9,7 @@ import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 public class mamaearth_Category_Face_FaceMoisturizer extends mamaearth_utils_CategoriesFunctions{
 	
 
-	@FindBy(xpath = "//h1[contains(text(), 'Best Face Moisturizer in India')]")
+	@FindBy(xpath = "//h1[contains(text(), 'Face Moisturizer in India')]")
 	WebElement FaceMoisturizer_page_header;
 	
 	@FindBy(xpath = "//a[@class='mamaearth-logo-wrapper']")
@@ -35,7 +35,7 @@ public class mamaearth_Category_Face_FaceMoisturizer extends mamaearth_utils_Cat
 		
 		boolean titleFlag = true;
 		String title = FaceMoisturizer_page_header.getText();
-		if(!title.equals("Best Face Moisturizer in India")) titleFlag = false;
+		if(!title.equals("Face Moisturizer in India")) titleFlag = false;
 		
 		if(mamaearthLogo && GILogo && titleFlag) return true;
 		else return false;

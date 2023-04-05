@@ -8,7 +8,7 @@ import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
 public class mamaearth_Category_Body_BodyLotion extends mamaearth_utils_CategoriesFunctions {
 	
-	@FindBy(xpath = "//h1[contains(text(), 'Best Body Lotion in India')]")
+	@FindBy(xpath = "//h1[contains(text(), 'Body Lotion for Women & Men')]")
 	WebElement BodyLotion_page_header;
 	
 	@FindBy(xpath = "//a[@class='mamaearth-logo-wrapper']")
@@ -34,7 +34,7 @@ public class mamaearth_Category_Body_BodyLotion extends mamaearth_utils_Categori
 		
 		boolean titleFlag = true;
 		String title = BodyLotion_page_header.getText();
-		if(!title.equals("Best Body Lotion in India")) titleFlag = false;
+		if(!title.equals("Body Lotion for Women & Men")) titleFlag = false;
 		
 		if(mamaearthLogo && GILogo && titleFlag) return true;
 		else return false;

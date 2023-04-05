@@ -8,7 +8,7 @@ import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
 public class mamaearth_Category_Ingredient_Ubtan extends mamaearth_utils_CategoriesFunctions {
 
-	@FindBy(xpath = "//h1[contains(text(), 'Ubtan Products')]")
+	@FindBy(xpath = "//h1[contains(text(), 'Ubtan for Glowing Skin Products')]")
 	WebElement IngredientUbtan_page_header;
 	
 	@FindBy(xpath = "//a[@class='mamaearth-logo-wrapper']")
@@ -34,7 +34,7 @@ public class mamaearth_Category_Ingredient_Ubtan extends mamaearth_utils_Categor
 		
 		boolean titleFlag = true;
 		String title = IngredientUbtan_page_header.getText();
-		if(!title.equals("Ubtan Products")) titleFlag = false;
+		if(!title.equals("Ubtan for Glowing Skin Products")) titleFlag = false;
 		
 		if(mamaearthLogo && GILogo && titleFlag) return true;
 		else return false;
