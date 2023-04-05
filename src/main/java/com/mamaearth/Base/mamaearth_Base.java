@@ -54,8 +54,9 @@ public class mamaearth_Base {
 		
 		driver = WebDriverManager.chromedriver().capabilities(options).create();
 		
-		driver.get(prop.getProperty("url"));
+//		driver.get(prop.getProperty("url"));
 		
+		driver.get("https://mamaearth.in/");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		
