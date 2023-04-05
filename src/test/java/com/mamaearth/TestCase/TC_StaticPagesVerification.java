@@ -94,7 +94,6 @@ public class TC_StaticPagesVerification extends mamaearth_Base {
 	}
 	
 	
-	
 	@AfterMethod
 	public void TearDown() throws InterruptedException {
 		driver.quit();

@@ -32,7 +32,7 @@ public class mamaearth_Base {
 	public mamaearth_Base() {
 		try {
 			prop = new Properties();
-			FileInputStream file = new FileInputStream("/Users/honasa/Desktop/SeleniumSeesion/mamaEarth_UI_Automation/src/main/java/com/mamaearth/config/config.properties");
+			FileInputStream file = new FileInputStream("./src/main/java/com/mamaearth/config/config.properties");
 			prop.load(file);
 		}
 		catch (FileNotFoundException e) {
@@ -50,13 +50,12 @@ public class mamaearth_Base {
 		ChromeOptions options = new ChromeOptions();
 		
 		options.addArguments("--remote-allow-origins=*");
-		options.setHeadless(true);
+		options.setHeadless(false);
 		
 		driver = WebDriverManager.chromedriver().capabilities(options).create();
 		
-//		driver.get(prop.getProperty("url"));
+		driver.get(prop.getProperty("url"));
 		
-		driver.get("https://mamaearth.in/");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		
