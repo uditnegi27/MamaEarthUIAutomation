@@ -113,8 +113,9 @@
           <version>2.22.1</version>
           <configuration>
           	<suiteXmlFiles>
-          		<suiteXmlFile>src/main/resources/sanity.xml</suiteXmlFile>
           		<suiteXmlFile>src/main/resources/categorySanity.xml</suiteXmlFile>
+          		<suiteXmlFile>src/main/resources/sanity.xml</suiteXmlFile>
+          		
           	</suiteXmlFiles>
           </configuration>
         </plugin>
