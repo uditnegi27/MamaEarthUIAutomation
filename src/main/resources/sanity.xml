@@ -4,8 +4,8 @@
   <test name="Test">
     <classes>
       <class name="com.mamaearth.TestCase.TC_SearchingAndAlgolia"/>
-      <class name="com.mamaearth.TestCase.TC_SearchingAndAlgolia"/>
-      <class name="com.mamaearth.TestCase.TC_VerifyAllCategories"/>
+      <class name="com.mamaearth.TestCase.TC_CheckcoutWithoutGI"/>
+      <class name="com.mamaearth.TestCase.TC_StaticPagesVerification"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
