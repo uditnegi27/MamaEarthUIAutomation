@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeMethod;
 
 import com.mamaearth.Base.mamaearth_Base;
 import com.mamaearth.PageObject.mamaearth_HomePage;
+import com.mamaearth.Utils.mamaearth_utils;
 import com.mamaearth.Utils.mamaearth_utils_Algolia;
 
 public class TC_SearchingAndAlgolia extends mamaearth_Base{
@@ -22,9 +23,11 @@ public class TC_SearchingAndAlgolia extends mamaearth_Base{
 	}
 	
 	@Test
-	public void TC1() {
+	public void Test_Search_ProductSearch() {
 		mamaearth_utils_Algolia.search_product_category(prop.getProperty("search_categoryName"));
+		mamaearth_utils.take_screenShot("test");
 		Assert.assertTrue(mamaearth_utils_Algolia.verify_searched_product_category(prop.getProperty("search_categoryName")), "Products are not matching with the searched cateogry:  -->  ");
+		
 	}
 	
 

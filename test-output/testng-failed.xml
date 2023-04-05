@@ -1,15 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.mamaearth.TestCase.TC_StaticPagesVerification">
+      <class name="com.mamaearth.TestCase.TC_VerifyAllCategories">
         <methods>
-          <include name="TearDown"/>
-          <include name="Test_mamaearth_Returns_Page"/>
+          <include name="Test_mamaearth_category_Hair_HairMask_launching"/>
+          <include name="Test_mamaearth_category_Makeup_Kajal_launching"/>
+          <include name="Test_mamaearth_category_Makeup_Compact_launching"/>
+          <include name="Test_mamaearth_category_Face_FaceMask_launching"/>
+          <include name="Test_mamaearth_category_Face_FaceScrub_launching"/>
+          <include name="Test_mamaearth_category_Body_BodyWash_launching"/>
+          <include name="Test_mamaearth_category_Makeup_LipBalm_launching"/>
+          <include name="Test_mamaearth_category_Face_FaceMoisturizer_launching"/>
+          <include name="Test_mamaearth_category_Ingredient_launching"/>
+          <include name="Test_mamaearth_category_Ingredient_Onion_launching"/>
+          <include name="Test_mamaearth_category_Face_FaceGel_launching"/>
+          <include name="Test_mamaearth_category_Makeup_Lipsticks_launching"/>
+          <include name="Test_mamaearth_category_Baby__BabyBath_launching"/>
+          <include name="Test_mamaearth_category_Baby_launching"/>
+          <include name="Test_mamaearth_category_Ingredient_AppleCiderVinegar_launching"/>
+          <include name="Test_mamaearth_category_Face_FaceWash_launching"/>
+          <include name="Test_mamaearth_category_Body_BodyLotion_launching"/>
+          <include name="Test_mamaearth_category_Hair_HairOil_launching"/>
+          <include name="Test_mamaearth_category_Ingredient_Ubtan_launching"/>
+          <include name="Test_mamaearth_category_Ingredient_Retinol_launching"/>
+          <include name="Test_mamaearth_category_Ingredient_Bhringmla_launching"/>
+          <include name="Test_mamaearth_category_Makeup_Foundation_launching"/>
+          <include name="Test_mamaearth_category_Ingredient_Rice_launching"/>
+          <include name="Test_mamaearth_category_Baby__BabyOil_launching"/>
+          <include name="Test_mamaearth_category_Face_launching"/>
+          <include name="Test_mamaearth_category_Face_FaceCream_launching"/>
+          <include name="Test_mamaearth_category_Face_FaceSerum_launching"/>
+          <include name="Test_mamaearth_category_Ingredient_VitaminC_launching"/>
+          <include name="Test_mamaearth_category_Body_UnderarmCream_launching"/>
+          <include name="Test_mamaearth_category_Ingredient_Coco_launching"/>
+          <include name="Test_mamaearth_category_Body_HandCream_launching"/>
+          <include name="Test_mamaearth_category_Hair_Conditioner_launching"/>
+          <include name="Test_mamaearth_category_Ingredient_HoneyMalai_launching"/>
+          <include name="Test_mamaearth_category_Face_FaceSheetMask_launching"/>
+          <include name="Test_mamaearth_category_Face_FaceToner_launching"/>
+          <include name="Test_mamaearth_category_Beauty_FacialKits_launching"/>
+          <include name="Test_mamaearth_category_Makeup_launching"/>
+          <include name="Test_mamaearth_category_Ingredient_GreenTea_launching"/>
+          <include name="Test_mamaearth_category_Beauty_Fragrance_launching"/>
+          <include name="Test_mamaearth_category_Makeup_Concealer_launching"/>
+          <include name="Test_mamaearth_category_Hair_Shampoo_launching"/>
+          <include name="tearDown"/>
+          <include name="Test_mamaearth_category_Ingredient_Henna_launching"/>
+          <include name="Test_mamaearth_category_Ingredient_Charcoal_launching"/>
+          <include name="Test_mamaearth_category_Ingredient_TeaTree_launching"/>
+          <include name="Test_mamaearth_category_Baby__BabyOralcare_launching"/>
+          <include name="Test_mamaearth_category_Ingredient_Aqua_launching"/>
+          <include name="Test_mamaearth_category_Body_BodySoap_launching"/>
+          <include name="Test_mamaearth_category_Ingredient_Argan_launching"/>
+          <include name="Test_mamaearth_category_Hair_HairOilBooster_launching"/>
           <include name="setup"/>
+          <include name="Test_mamaearth_category_Body_BodyScrub_launching"/>
+          <include name="Test_mamaearth_category_Hair_HairSerum_launching"/>
+          <include name="Test_mamaearth_category_Baby__BabyShampoo_launching"/>
+          <include name="Test_mamaearth_category_Baby__BabySkin_launching"/>
+          <include name="Test_mamaearth_category_Body_launching"/>
+          <include name="Test_mamaearth_category_Hair_launching"/>
+          <include name="Test_mamaearth_category_Baby__BabyBodyLotion_launching"/>
         </methods>
-      </class> <!-- com.mamaearth.TestCase.TC_StaticPagesVerification -->
+      </class> <!-- com.mamaearth.TestCase.TC_VerifyAllCategories -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

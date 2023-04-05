@@ -11,7 +11,6 @@ import java.util.concurrent.TimeUnit;
 //import org.json.simple.JSONValue;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 //import org.openqa.selenium.html5.LocalStorage;
 //import org.openqa.selenium.html5.WebStorage;
@@ -20,7 +19,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import com.mamaearth.Utils.mamaearth_utils;
 import com.mamaearth.Utils.mamaearth_utils_CategoriesFunctions;
 
-
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 
@@ -47,14 +46,13 @@ public class mamaearth_Base {
 	
 	@SuppressWarnings("deprecation")
 	public static synchronized void initialization() {
-		
-		System.setProperty("webdriver.chrome.driver", "/Users/honasa/Downloads/chromedriver_mac64/chromeDriver");
-		
+				
 		ChromeOptions options = new ChromeOptions();
 		
 		options.addArguments("--remote-allow-origins=*");
+		options.setHeadless(false);
 		
-		driver = new ChromeDriver(options);
+		driver = WebDriverManager.chromedriver().capabilities(options).create();
 		
 		driver.get(prop.getProperty("url"));
 		

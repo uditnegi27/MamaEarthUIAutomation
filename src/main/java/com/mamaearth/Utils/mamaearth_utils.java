@@ -66,7 +66,8 @@ public class mamaearth_utils extends mamaearth_Base{
 		
 		TakesScreenshot screenShot = (TakesScreenshot)driver;
 		File capturedScreenShot = screenShot.getScreenshotAs(OutputType.FILE);
-		File sourceFile = new File("/Users/honasa/Desktop/image/"+screenShotName+".png");
+//		File sourceFile = new File("/Users/honasa/Desktop/image/"+screenShotName+".png");
+		File sourceFile = new File("./screenShort/"+screenShotName+".png");
 		
 		try {
 			FileUtils.copyFile(capturedScreenShot, sourceFile);
@@ -85,7 +86,7 @@ public class mamaearth_utils extends mamaearth_Base{
 	 * ***/
 	public static void take_screenShotOfElement(String screenShotName, WebElement element) throws IOException{
 		File capturedScreenShot = element.getScreenshotAs(OutputType.FILE);
-		File sourceFile = new File("/Users/honasa/Desktop/image/"+screenShotName+".png");
+		File sourceFile = new File("./screenShort/"+screenShotName+".png");
 		
 		try {
 			FileUtils.copyFile(capturedScreenShot, sourceFile);

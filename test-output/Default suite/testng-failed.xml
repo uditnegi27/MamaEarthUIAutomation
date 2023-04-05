@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mamaearth.TestCase.TC_StaticPagesVerification">
+      <class name="com.mamaearth.TestCase.TC_SearchingAndAlgolia">
         <methods>
-          <include name="TearDown"/>
-          <include name="Test_mamaearth_Returns_Page"/>
+          <include name="TC1"/>
           <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.mamaearth.TestCase.TC_StaticPagesVerification -->
+      </class> <!-- com.mamaearth.TestCase.TC_SearchingAndAlgolia -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
