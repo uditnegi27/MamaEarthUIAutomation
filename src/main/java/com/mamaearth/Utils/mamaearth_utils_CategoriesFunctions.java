@@ -358,7 +358,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Body_BodyLotion click_on_Body_BodyLotion_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Body_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Body_category_button);
 		Body_BodyLotion_category_button.click();
 		return new mamaearth_Category_Body_BodyLotion();
 	}
@@ -368,7 +368,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Body_UnderarmCream click_on_Body_UnderarmCream_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Body_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Body_category_button);
 		Body_UnderarmCream_category_button.click();
 		return new mamaearth_Category_Body_UnderarmCream();
 	}
@@ -378,7 +378,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Body_BodyScrub click_on_Body_BodyScrub_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Body_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Body_category_button);
 		Body_BodyScrub_category_button.click();
 		return new mamaearth_Category_Body_BodyScrub();
 	}
@@ -388,7 +388,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Body_HandCream click_on_Body_HandCream_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Body_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Body_category_button);
 		Body_HandCream_category_button.click();
 		return new mamaearth_Category_Body_HandCream();
 	}
@@ -398,7 +398,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Body_BodyWash click_on_Body_BodyWash_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Body_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Body_category_button);
 		Body_BodyWash_category_button.click();
 		return new mamaearth_Category_Body_BodyWash();
 	}
@@ -408,7 +408,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Body_BodySoap click_on_Body_BodySoap_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Body_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Body_category_button);
 		Body_BodySoap_category_button.click();
 		return new mamaearth_Category_Body_BodySoap();
 	}
@@ -436,7 +436,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Makeup_Lipsticks click_on_Makeup_Lipsticks_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Makeup_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Makeup_category_button);
 		Makeup_Lipsticks_category_button.click();
 		return new mamaearth_Category_Makeup_Lipsticks();
 	}
@@ -446,7 +446,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Makeup_LipBalm click_on_Makeup_LipBalm_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Makeup_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Makeup_category_button);
 		Makeup_LipBalm_category_button.click();
 		return new mamaearth_Category_Makeup_LipBalm();
 	}
@@ -456,7 +456,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Makeup_Foundation click_on_Makeup_Foundation_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Makeup_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Makeup_category_button);
 		Makeup_Foundation_category_button.click();
 		return new mamaearth_Category_Makeup_Foundation();
 	}
@@ -466,7 +466,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Makeup_Kajal click_on_Makeup_Kajal_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Makeup_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Makeup_category_button);
 		Makeup_Kajal_category_button.click();
 		return new mamaearth_Category_Makeup_Kajal();
 	}
@@ -476,7 +476,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Makeup_Compact click_on_Makeup_Compact_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Makeup_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Makeup_category_button);
 		Makeup_Compact_category_button.click();
 		return new mamaearth_Category_Makeup_Compact();
 	}
@@ -486,7 +486,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Makeup_Concealer click_on_Makeup_Concealer_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Makeup_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Makeup_category_button);
 		Makeup_Concealer_category_button.click();
 		return new mamaearth_Category_Makeup_Concealer();
 	}
@@ -504,7 +504,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Beauty_Fragrance click_on_Beauty_Fragrance_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(beauty_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(beauty_category_button);
 		Beauty_Fragrance_category_button.click();
 		return new mamaearth_Category_Beauty_Fragrance();
 	}
@@ -515,7 +515,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Beauty_FacialKits click_on_Beauty_FacialKits_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(beauty_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(beauty_category_button);
 		Beauty_FacialKits_category_button.click();
 		return new mamaearth_Category_Beauty_FacialKits();
 	}
@@ -525,7 +525,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Hair_Shampoo click_on_Hair_Shampoo_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(hair_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(hair_category_button);
 		Hair_Shampoo_category_button.click();
 		return new mamaearth_Category_Hair_Shampoo();
 	}
@@ -535,7 +535,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Hair_Conditioner click_on_Hair_Conditioner_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(hair_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(hair_category_button);
 		Hair_Conditioner_category_button.click();
 		return new mamaearth_Category_Hair_Conditioner();
 	}
@@ -545,7 +545,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Hair_HairOil click_on_Hair_HairOil_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(hair_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(hair_category_button);
 		Hair_HairOil_category_button.click();
 		return new mamaearth_Category_Hair_HairOil();
 	}
@@ -555,7 +555,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Hair_HairMask click_on_Hair_HairMask_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(hair_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(hair_category_button);
 		Hair_HairMask_category_button.click();
 		return new mamaearth_Category_Hair_HairMask();
 	}
@@ -565,7 +565,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Hair_HairSerum click_on_Hair_HairSerum_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(hair_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(hair_category_button);
 		Hair_HairSerum_category_button.click();
 		return new mamaearth_Category_Hair_HairSerum();
 	}
@@ -575,7 +575,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Hair_HairOilBooster click_on_Hair_HairOilBooster_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(hair_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(hair_category_button);
 		Hair_HairOilBooster_category_button.click();
 		return new mamaearth_Category_Hair_HairOilBooster();
 	}
@@ -585,7 +585,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Face_FaceWash click_on_Face_FaceWash_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(face_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(face_category_button);
 		Face_FaceWash_category_button.click();
 		return new mamaearth_Category_Face_FaceWash();
 	}
@@ -595,7 +595,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Face_FaceMask click_on_Face_FaceMask_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(face_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(face_category_button);
 		Face_FaceMask_category_button.click();
 		return new mamaearth_Category_Face_FaceMask();
 	}
@@ -605,7 +605,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Face_FaceCream click_on_Face_FaceCream_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(face_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(face_category_button);
 		Face_FaceCream_category_button.click();
 		return new mamaearth_Category_Face_FaceCream();
 	}
@@ -615,7 +615,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Face_FaceSerum click_on_Face_FaceSerum_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(face_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(face_category_button);
 		Face_FaceSerum_category_button.click();
 		return new mamaearth_Category_Face_FaceSerum();
 	}
@@ -625,7 +625,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Face_FaceScrub click_on_Face_FaceScrub_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(face_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(face_category_button);
 		Face_FaceScrub_category_button.click();
 		return new mamaearth_Category_Face_FaceScrub();
 	}
@@ -635,7 +635,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Face_FaceToner click_on_Face_FaceToner_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(face_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(face_category_button);
 		Face_FaceToner_category_button.click();
 		return new mamaearth_Category_Face_FaceToner();
 	}
@@ -645,7 +645,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Face_FaceGel click_on_Face_FaceGel_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(face_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(face_category_button);
 		Face_FaceGel_category_button.click();
 		return new mamaearth_Category_Face_FaceGel();
 	}
@@ -655,7 +655,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Face_FaceSheetMask click_on_Face_FaceSheetMask_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(face_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(face_category_button);
 		Face_FaceSheetMask_category_button.click();
 		return new mamaearth_Category_Face_FaceSheetMask();
 	}
@@ -665,7 +665,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Face_FaceMoisturizer click_on_Face_FaceMoisturizer_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(face_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(face_category_button);
 		Face_FaceMoisturizer_category_button.click();
 		return new mamaearth_Category_Face_FaceMoisturizer();
 	}
@@ -692,7 +692,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Ingredient_Onion click_on_Ingredient_Onion_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Ingredient_category_button);
 		Ingredient_Onion_category_button.click();
 		return new mamaearth_Category_Ingredient_Onion();
 	}
@@ -702,7 +702,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Ingredient_Henna click_on_Ingredient_Henna_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Ingredient_category_button);
 		Ingredient_Henna_category_button.click();
 		return new mamaearth_Category_Ingredient_Henna();
 	}
@@ -712,7 +712,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Ingredient_Rice click_on_Ingredient_Rice_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Ingredient_category_button);
 		Ingredient_Rice_category_button.click();
 		return new mamaearth_Category_Ingredient_Rice();
 	}
@@ -722,7 +722,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Ingredient_Ubtan click_on_Ingredient_Ubtan_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Ingredient_category_button);
 		Ingredient_Ubtan_category_button.click();
 		return new mamaearth_Category_Ingredient_Ubtan();
 	}
@@ -732,7 +732,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Ingredient_VitaminC click_on_Ingredient_VitaminC_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Ingredient_category_button);
 		Ingredient_VitaminC_category_button.click();
 		return new mamaearth_Category_Ingredient_VitaminC();
 	}
@@ -742,7 +742,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Ingredient_GreenTea click_on_Ingredient_GreenTea_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Ingredient_category_button);
 		Ingredient_GreenTea_category_button.click();
 		return new mamaearth_Category_Ingredient_GreenTea();
 	}
@@ -752,7 +752,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Ingredient_TeaTree click_on_Ingredient_TeaTree_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Ingredient_category_button);
 		Ingredient_TeaTree_category_button.click();
 		return new mamaearth_Category_Ingredient_TeaTree();
 	}
@@ -762,7 +762,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Ingredient_Aqua click_on_Ingredient_Aqau_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Ingredient_category_button);
 		Ingredient_Aqua_category_button.click();
 		return new mamaearth_Category_Ingredient_Aqua();
 	}
@@ -772,7 +772,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Ingredient_Bhringmla click_on_Ingredient_Bhringmla_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Ingredient_category_button);
 		Ingredient_Bhringmla_category_button.click();
 		return new mamaearth_Category_Ingredient_Bhringmla();
 	}
@@ -782,7 +782,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Ingredient_Charcoal click_on_Ingredient_Charcoal_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Ingredient_category_button);
 		Ingredient_Charcoal_category_button.click();
 		return new mamaearth_Category_Ingredient_Charcoal();
 	}
@@ -792,7 +792,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Ingredient_Coco click_on_Ingredient_Coco_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Ingredient_category_button);
 		Ingredient_Coco_category_button.click();
 		return new mamaearth_Category_Ingredient_Coco();
 	}
@@ -802,7 +802,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Ingredient_Argan click_on_Ingredient_Argan_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Ingredient_category_button);
 		Ingredient_Argan_category_button.click();
 		return new mamaearth_Category_Ingredient_Argan();
 	}
@@ -812,7 +812,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Ingredient_AppleCiderVinegar click_on_Ingredient_AppleCiderVinegar_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Ingredient_category_button);
 		Ingredient_AppleCiderVinegar_category_button.click();
 		return new mamaearth_Category_Ingredient_AppleCiderVinegar();
 	}
@@ -822,7 +822,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Ingredient_Retinol click_on_Ingredient_Retinol_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Ingredient_category_button);
 		Ingredient_Retinol_category_button.click();
 		return new mamaearth_Category_Ingredient_Retinol();
 	}
@@ -832,7 +832,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Ingredient_HoneyMalai click_on_Ingredient_HoneyMalai_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Ingredient_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Ingredient_category_button);
 		Ingredient_HoneyMalai_category_button.click();
 		return new mamaearth_Category_Ingredient_HoneyMalai();
 	}
@@ -858,7 +858,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Baby_BabyShampoo click_on_Baby_BabyShampoo_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Baby_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Baby_category_button);
 		Baby_BabyShampoo_category_button.click();
 		return new mamaearth_Category_Baby_BabyShampoo();
 	}
@@ -868,7 +868,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Baby_BabyOralcare click_on_Baby_BabyOralcare_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Baby_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Baby_category_button);
 		Baby_BabyOralcare_category_button.click();
 		return new mamaearth_Category_Baby_BabyOralcare();
 	}
@@ -878,7 +878,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Baby_BabyOil click_on_Baby_BabyOil_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Baby_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Baby_category_button);
 		Baby_BabyOil_category_button.click();
 		return new mamaearth_Category_Baby_BabyOil();
 	}
@@ -888,7 +888,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Baby_BabySkin click_on_Baby_BabySkin_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Baby_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Baby_category_button);
 		Baby_BabySkin_category_button.click();
 		return new mamaearth_Category_Baby_BabySkin();
 	}
@@ -898,7 +898,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Baby_BabyBath click_on_Baby_BabyBath_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Baby_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Baby_category_button);
 		Baby_BabyBath_category_button.click();
 		return new mamaearth_Category_Baby_BabyBath();
 	}
@@ -908,7 +908,7 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	 * 
 	 * ***/
 	public mamaearth_Category_Baby_BabyBodyLotion click_on_Baby_BabyBodyLotion_cateogry() {
-		mamaearth_utils_ActionFunction.move_cursor_to_element(Baby_category_button);
+		mamaearth_utils_actionFunction.move_cursor_to_element(Baby_category_button);
 		Baby_BabyBodyLotion_category_button.click();
 		return new mamaearth_Category_Baby_BabyBodyLotion();
 	}

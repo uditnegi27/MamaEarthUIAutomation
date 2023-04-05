@@ -26,7 +26,7 @@ public class mamaearth_utils_Algolia extends mamaearth_Base{
 	public static void search_product_category(String category_name) {
 		driver.findElement(By.xpath("//div[@class='MainMenu__InputPlaceHolder-sc-3fgvo-2 hjBSMZ']//parent::div[@class='ShortSearchBar']//p")).click();
 		WebElement search_box = driver.findElement(By.xpath("//input[@class='StyledInput-sc-1m95fu4-0 dQlmoN search-input']"));
-		mamaearth_utils_ActionFunction.double_click(search_box);
+		mamaearth_utils_actionFunction.double_click(search_box);
 		search_box.clear();
 		search_box.sendKeys(category_name);
 		search_box.sendKeys(Keys.ENTER);

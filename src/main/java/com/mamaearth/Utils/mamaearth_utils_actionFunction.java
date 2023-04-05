@@ -5,7 +5,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import com.mamaearth.Base.mamaearth_Base;
 
-public class mamaearth_utils_ActionFunction extends mamaearth_Base{
+public class mamaearth_utils_actionFunction extends mamaearth_Base{
 	
 	static Actions action = new Actions(driver);
 	
