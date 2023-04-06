@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Sanity Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Apr 06 11:41:41 IST 2023</td>
+<td>Started on:</td><td>Thu Apr 06 12:09:55 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>189 seconds (189773 ms)</td>
+<tr><td>Total time:</td><td>137 seconds (137446 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,13 +75,113 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.mamaearth.TestCase.TC_CheckcoutWithoutGI.Test_GuestUser_WithCoupon_withoutGI_COD()'><b>Test_GuestUser_WithCoupon_withoutGI_COD</b><br>Test class: com.mamaearth.TestCase.TC_CheckcoutWithoutGI<br>Parameters: udit, sharma, uudfjksdf125@gmail.com, 9090989098, 110031, B- 385/s, Street no.9</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=111.0.5563.146)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5.1&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d7c28da433ec49648f08a7bbb06af963, isElementDisplayed {id=2e7cce27-dab6-42a3-8da0-7dc214a11967}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:64596}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:64596/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (d7c28da433ec49648f08a7bbb06af963)] -&gt; xpath: //span[@class=&apos;addTocart_pdp&apos;]]
+Session ID: d7c28da433ec49648f08a7bbb06af963
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.mamaearth.Utils.mamaearth_utils.waitToElementClickable(mamaearth_utils.java:25)
+	at com.mamaearth.PageObject.mamaearth_PdpPage.add_product_to_cart(mamaearth_PdpPage.java:26)
+	at com.mamaearth.TestCase.TC_CheckcoutWithoutGI.Test_GuestUser_WithCoupon_withoutGI_COD(TC_CheckcoutWithoutGI.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace427274463", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace427274463'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=111.0.5563.146)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5.1&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d7c28da433ec49648f08a7bbb06af963, isElementDisplayed {id=2e7cce27-dab6-42a3-8da0-7dc214a11967}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:64596}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:64596/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (d7c28da433ec49648f08a7bbb06af963)] -&gt; xpath: //span[@class=&apos;addTocart_pdp&apos;]]
+Session ID: d7c28da433ec49648f08a7bbb06af963
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.mamaearth.Utils.mamaearth_utils.waitToElementClickable(mamaearth_utils.java:25)
+	at com.mamaearth.PageObject.mamaearth_PdpPage.add_product_to_cart(mamaearth_PdpPage.java:26)
+	at com.mamaearth.TestCase.TC_CheckcoutWithoutGI.Test_GuestUser_WithCoupon_withoutGI_COD(TC_CheckcoutWithoutGI.java:78)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>com.mamaearth.TestCase.TC_CheckcoutWithoutGI@247d8ae</td></tr>
+<tr>
 <td title='com.mamaearth.TestCase.TC_SearchingAndAlgolia.Test_Search_ProductSearch()'><b>Test_Search_ProductSearch</b><br>Test class: com.mamaearth.TestCase.TC_SearchingAndAlgolia</td>
 <td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5.1&apos;, java.version: &apos;18.0.1.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, actions {actions=[org.openqa.selenium.interactions.Sequence@5c79c5ec]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:57607}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57607/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Command: [null, actions {actions=[org.openqa.selenium.interactions.Sequence@6c8d638a]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:63196}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63196/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:145)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
@@ -93,13 +193,13 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
 	at com.mamaearth.Utils.mamaearth_utils_Algolia.search_product_category(mamaearth_utils_Algolia.java:29)
 	at com.mamaearth.TestCase.TC_SearchingAndAlgolia.Test_Search_ProductSearch(TC_SearchingAndAlgolia.java:27)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1285933977", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1285933977'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace17921215", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace17921215'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5.1&apos;, java.version: &apos;18.0.1.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, actions {actions=[org.openqa.selenium.interactions.Sequence@5c79c5ec]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:57607}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57607/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Command: [null, actions {actions=[org.openqa.selenium.interactions.Sequence@6c8d638a]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:63196}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63196/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:145)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
@@ -138,7 +238,7 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.mamaearth.TestCase.TC_SearchingAndAlgolia@20d525</td></tr>
+<td>com.mamaearth.TestCase.TC_SearchingAndAlgolia@2002fc1d</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -148,50 +248,45 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_TermsAndConditions_Page()'><b>Test_mamaearth_TermsAndConditions_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
+<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_TermsAndConditionsAndCashback_Page()'><b>Test_mamaearth_TermsAndConditionsAndCashback_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
 <td></td>
-<td>2</td>
-<td>com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae</td></tr>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_StaticPagesVerification@6200f9cb</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_AboutUS_Page()'><b>Test_mamaearth_AboutUS_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_StaticPagesVerification@6200f9cb</td></tr>
 <tr>
 <td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_Returns_Page()'><b>Test_mamaearth_Returns_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
 <td></td>
-<td>2</td>
-<td>com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae</td></tr>
+<td>3</td>
+<td>com.mamaearth.TestCase.TC_StaticPagesVerification@6200f9cb</td></tr>
 <tr>
-<td title='com.mamaearth.TestCase.TC_CheckcoutWithoutGI.Test_GuestUser_WithoutCoupon_withoutGI_COD()'><b>Test_GuestUser_WithoutCoupon_withoutGI_COD</b><br>Test class: com.mamaearth.TestCase.TC_CheckcoutWithoutGI<br>Parameters: udit, sharma, uudfjksdf125@gmail.com, 9090989098, 110031, B- 385/s, Street no.9</td>
+<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_WeAreSafe_Page()'><b>Test_mamaearth_WeAreSafe_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
 <td></td>
-<td>27</td>
-<td>com.mamaearth.TestCase.TC_CheckcoutWithoutGI@550ee7e5</td></tr>
+<td>2</td>
+<td>com.mamaearth.TestCase.TC_StaticPagesVerification@6200f9cb</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_PrivacyPolicy_Page()'><b>Test_mamaearth_PrivacyPolicy_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_StaticPagesVerification@6200f9cb</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_TermsAndConditions_Page()'><b>Test_mamaearth_TermsAndConditions_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
+<td></td>
+<td>2</td>
+<td>com.mamaearth.TestCase.TC_StaticPagesVerification@6200f9cb</td></tr>
 <tr>
 <td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_FAQs_Page()'><b>Test_mamaearth_FAQs_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
 <td></td>
 <td>2</td>
-<td>com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae</td></tr>
+<td>com.mamaearth.TestCase.TC_StaticPagesVerification@6200f9cb</td></tr>
 <tr>
-<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_WeAreSafe_Page()'><b>Test_mamaearth_WeAreSafe_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
+<td title='com.mamaearth.TestCase.TC_CheckcoutWithoutGI.Test_GuestUser_WithoutCoupon_withoutGI_COD()'><b>Test_GuestUser_WithoutCoupon_withoutGI_COD</b><br>Test class: com.mamaearth.TestCase.TC_CheckcoutWithoutGI<br>Parameters: udit, sharma, uudfjksdf125@gmail.com, 9090989098, 110031, B- 385/s, Street no.9</td>
 <td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_PrivacyPolicy_Page()'><b>Test_mamaearth_PrivacyPolicy_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
-<td></td>
-<td>9</td>
-<td>com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_AboutUS_Page()'><b>Test_mamaearth_AboutUS_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
-<td></td>
-<td>3</td>
-<td>com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_CheckcoutWithoutGI.Test_GuestUser_WithCoupon_withoutGI_COD()'><b>Test_GuestUser_WithCoupon_withoutGI_COD</b><br>Test class: com.mamaearth.TestCase.TC_CheckcoutWithoutGI<br>Parameters: udit, sharma, uudfjksdf125@gmail.com, 9090989098, 110031, B- 385/s, Street no.9</td>
-<td></td>
-<td>27</td>
-<td>com.mamaearth.TestCase.TC_CheckcoutWithoutGI@550ee7e5</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_TermsAndConditionsAndCashback_Page()'><b>Test_mamaearth_TermsAndConditionsAndCashback_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
-<td></td>
-<td>3</td>
-<td>com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae</td></tr>
+<td>26</td>
+<td>com.mamaearth.TestCase.TC_CheckcoutWithoutGI@247d8ae</td></tr>
 </table><p>
 </body>
 </html>
