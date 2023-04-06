@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Sanity Test(failed)">
     <classes>
-      <class name="com.mamaearth.TestCase.TC_VerifyAllCategories">
+      <class name="com.mamaearth.TestCase.TC_SearchingAndAlgolia">
         <methods>
-          <include name="Test_mamaearth_category_Face_FaceMoisturizer_launching"/>
           <include name="setup"/>
-          <include name="Test_mamaearth_category_Ingredient_Bhringmla_launching"/>
+          <include name="Test_Search_ProductSearch"/>
           <include name="tearDown"/>
-          <include name="Test_mamaearth_category_Body_BodyLotion_launching"/>
-          <include name="Test_mamaearth_category_Ingredient_Ubtan_launching"/>
         </methods>
-      </class> <!-- com.mamaearth.TestCase.TC_VerifyAllCategories -->
+      </class> <!-- com.mamaearth.TestCase.TC_SearchingAndAlgolia -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Sanity Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

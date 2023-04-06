@@ -1,253 +1,500 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="58" passed="58" failed="0" skipped="0">
+<testng-results ignored="0" total="68" passed="67" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-05T23:14:50 IST" name="Category Test Suite" finished-at="2023-04-05T23:16:11 IST" duration-ms="80764">
+  <suite started-at="2023-04-06T11:39:34 IST" name="Suite" finished-at="2023-04-06T11:44:51 IST" duration-ms="316958">
     <groups>
     </groups>
-    <test started-at="2023-04-05T23:14:50 IST" name="Category Test" finished-at="2023-04-05T23:16:11 IST" duration-ms="80764">
+    <test started-at="2023-04-06T11:39:34 IST" name="Category Test" finished-at="2023-04-06T11:41:36 IST" duration-ms="122149">
       <class name="com.mamaearth.TestCase.TC_VerifyAllCategories">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:14:50 IST" name="setup" finished-at="2023-04-05T23:14:59 IST" duration-ms="9090" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:39:34 IST" name="setup" finished-at="2023-04-06T11:39:50 IST" duration-ms="15504" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_mamaearth_launching()[pri:1, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:14:59 IST" name="Test_mamaearth_launching" finished-at="2023-04-05T23:14:59 IST" duration-ms="68" status="PASS">
+        <test-method signature="Test_mamaearth_launching()[pri:1, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:39:50 IST" name="Test_mamaearth_launching" finished-at="2023-04-06T11:39:50 IST" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_launching -->
-        <test-method signature="Test_mamaearth_category_Beauty_launching()[pri:2, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:14:59 IST" name="Test_mamaearth_category_Beauty_launching" finished-at="2023-04-05T23:15:03 IST" duration-ms="3436" status="PASS">
+        <test-method signature="Test_mamaearth_category_Beauty_launching()[pri:2, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:39:50 IST" name="Test_mamaearth_category_Beauty_launching" finished-at="2023-04-06T11:39:58 IST" duration-ms="8252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Beauty_launching -->
-        <test-method signature="Test_mamaearth_category_Beauty_Fragrance_launching()[pri:3, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:03 IST" name="Test_mamaearth_category_Beauty_Fragrance_launching" finished-at="2023-04-05T23:15:04 IST" duration-ms="1625" status="PASS">
+        <test-method signature="Test_mamaearth_category_Beauty_Fragrance_launching()[pri:3, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:39:58 IST" name="Test_mamaearth_category_Beauty_Fragrance_launching" finished-at="2023-04-06T11:40:00 IST" duration-ms="2079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Beauty_Fragrance_launching -->
-        <test-method signature="Test_mamaearth_category_Beauty_FacialKits_launching()[pri:4, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:04 IST" name="Test_mamaearth_category_Beauty_FacialKits_launching" finished-at="2023-04-05T23:15:05 IST" duration-ms="921" status="PASS">
+        <test-method signature="Test_mamaearth_category_Beauty_FacialKits_launching()[pri:4, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:00 IST" name="Test_mamaearth_category_Beauty_FacialKits_launching" finished-at="2023-04-06T11:40:02 IST" duration-ms="1793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Beauty_FacialKits_launching -->
-        <test-method signature="Test_mamaearth_category_Hair_launching()[pri:5, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:05 IST" name="Test_mamaearth_category_Hair_launching" finished-at="2023-04-05T23:15:07 IST" duration-ms="1439" status="PASS">
+        <test-method signature="Test_mamaearth_category_Hair_launching()[pri:5, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:02 IST" name="Test_mamaearth_category_Hair_launching" finished-at="2023-04-06T11:40:04 IST" duration-ms="2490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Hair_launching -->
-        <test-method signature="Test_mamaearth_category_Hair_Shampoo_launching()[pri:6, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:07 IST" name="Test_mamaearth_category_Hair_Shampoo_launching" finished-at="2023-04-05T23:15:08 IST" duration-ms="1471" status="PASS">
+        <test-method signature="Test_mamaearth_category_Hair_Shampoo_launching()[pri:6, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:04 IST" name="Test_mamaearth_category_Hair_Shampoo_launching" finished-at="2023-04-06T11:40:06 IST" duration-ms="2090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Hair_Shampoo_launching -->
-        <test-method signature="Test_mamaearth_category_Hair_Conditioner_launching()[pri:7, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:08 IST" name="Test_mamaearth_category_Hair_Conditioner_launching" finished-at="2023-04-05T23:15:09 IST" duration-ms="1148" status="PASS">
+        <test-method signature="Test_mamaearth_category_Hair_Conditioner_launching()[pri:7, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:06 IST" name="Test_mamaearth_category_Hair_Conditioner_launching" finished-at="2023-04-06T11:40:09 IST" duration-ms="2233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Hair_Conditioner_launching -->
-        <test-method signature="Test_mamaearth_category_Hair_HairOil_launching()[pri:8, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:09 IST" name="Test_mamaearth_category_Hair_HairOil_launching" finished-at="2023-04-05T23:15:11 IST" duration-ms="1295" status="PASS">
+        <test-method signature="Test_mamaearth_category_Hair_HairOil_launching()[pri:8, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:09 IST" name="Test_mamaearth_category_Hair_HairOil_launching" finished-at="2023-04-06T11:40:11 IST" duration-ms="1873" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Hair_HairOil_launching -->
-        <test-method signature="Test_mamaearth_category_Hair_HairMask_launching()[pri:9, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:11 IST" name="Test_mamaearth_category_Hair_HairMask_launching" finished-at="2023-04-05T23:15:12 IST" duration-ms="1224" status="PASS">
+        <test-method signature="Test_mamaearth_category_Hair_HairMask_launching()[pri:9, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:11 IST" name="Test_mamaearth_category_Hair_HairMask_launching" finished-at="2023-04-06T11:40:12 IST" duration-ms="1656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Hair_HairMask_launching -->
-        <test-method signature="Test_mamaearth_category_Hair_HairSerum_launching()[pri:10, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:12 IST" name="Test_mamaearth_category_Hair_HairSerum_launching" finished-at="2023-04-05T23:15:13 IST" duration-ms="1268" status="PASS">
+        <test-method signature="Test_mamaearth_category_Hair_HairSerum_launching()[pri:10, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:12 IST" name="Test_mamaearth_category_Hair_HairSerum_launching" finished-at="2023-04-06T11:40:15 IST" duration-ms="2712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Hair_HairSerum_launching -->
-        <test-method signature="Test_mamaearth_category_Hair_HairOilBooster_launching()[pri:11, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:13 IST" name="Test_mamaearth_category_Hair_HairOilBooster_launching" finished-at="2023-04-05T23:15:14 IST" duration-ms="944" status="PASS">
+        <test-method signature="Test_mamaearth_category_Hair_HairOilBooster_launching()[pri:11, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:15 IST" name="Test_mamaearth_category_Hair_HairOilBooster_launching" finished-at="2023-04-06T11:40:18 IST" duration-ms="2689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Hair_HairOilBooster_launching -->
-        <test-method signature="Test_mamaearth_category_Face_launching()[pri:12, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:14 IST" name="Test_mamaearth_category_Face_launching" finished-at="2023-04-05T23:15:16 IST" duration-ms="1582" status="PASS">
+        <test-method signature="Test_mamaearth_category_Face_launching()[pri:12, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:18 IST" name="Test_mamaearth_category_Face_launching" finished-at="2023-04-06T11:40:21 IST" duration-ms="3253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Face_launching -->
-        <test-method signature="Test_mamaearth_category_Face_FaceWash_launching()[pri:13, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:16 IST" name="Test_mamaearth_category_Face_FaceWash_launching" finished-at="2023-04-05T23:15:17 IST" duration-ms="1336" status="PASS">
+        <test-method signature="Test_mamaearth_category_Face_FaceWash_launching()[pri:13, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:21 IST" name="Test_mamaearth_category_Face_FaceWash_launching" finished-at="2023-04-06T11:40:23 IST" duration-ms="2132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Face_FaceWash_launching -->
-        <test-method signature="Test_mamaearth_category_Face_FaceMask_launching()[pri:14, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:17 IST" name="Test_mamaearth_category_Face_FaceMask_launching" finished-at="2023-04-05T23:15:18 IST" duration-ms="1064" status="PASS">
+        <test-method signature="Test_mamaearth_category_Face_FaceMask_launching()[pri:14, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:23 IST" name="Test_mamaearth_category_Face_FaceMask_launching" finished-at="2023-04-06T11:40:25 IST" duration-ms="1657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Face_FaceMask_launching -->
-        <test-method signature="Test_mamaearth_category_Face_FaceCream_launching()[pri:15, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:18 IST" name="Test_mamaearth_category_Face_FaceCream_launching" finished-at="2023-04-05T23:15:19 IST" duration-ms="1274" status="PASS">
+        <test-method signature="Test_mamaearth_category_Face_FaceCream_launching()[pri:15, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:25 IST" name="Test_mamaearth_category_Face_FaceCream_launching" finished-at="2023-04-06T11:40:27 IST" duration-ms="1826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Face_FaceCream_launching -->
-        <test-method signature="Test_mamaearth_category_Face_FaceSerum_launching()[pri:16, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:19 IST" name="Test_mamaearth_category_Face_FaceSerum_launching" finished-at="2023-04-05T23:15:21 IST" duration-ms="1316" status="PASS">
+        <test-method signature="Test_mamaearth_category_Face_FaceSerum_launching()[pri:16, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:27 IST" name="Test_mamaearth_category_Face_FaceSerum_launching" finished-at="2023-04-06T11:40:28 IST" duration-ms="1422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Face_FaceSerum_launching -->
-        <test-method signature="Test_mamaearth_category_Face_FaceScrub_launching()[pri:17, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:21 IST" name="Test_mamaearth_category_Face_FaceScrub_launching" finished-at="2023-04-05T23:15:22 IST" duration-ms="1093" status="PASS">
+        <test-method signature="Test_mamaearth_category_Face_FaceScrub_launching()[pri:17, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:28 IST" name="Test_mamaearth_category_Face_FaceScrub_launching" finished-at="2023-04-06T11:40:29 IST" duration-ms="1153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Face_FaceScrub_launching -->
-        <test-method signature="Test_mamaearth_category_Face_FaceToner_launching()[pri:18, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:22 IST" name="Test_mamaearth_category_Face_FaceToner_launching" finished-at="2023-04-05T23:15:23 IST" duration-ms="978" status="PASS">
+        <test-method signature="Test_mamaearth_category_Face_FaceToner_launching()[pri:18, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:29 IST" name="Test_mamaearth_category_Face_FaceToner_launching" finished-at="2023-04-06T11:40:30 IST" duration-ms="1201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Face_FaceToner_launching -->
-        <test-method signature="Test_mamaearth_category_Face_FaceGel_launching()[pri:19, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:23 IST" name="Test_mamaearth_category_Face_FaceGel_launching" finished-at="2023-04-05T23:15:24 IST" duration-ms="915" status="PASS">
+        <test-method signature="Test_mamaearth_category_Face_FaceGel_launching()[pri:19, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:30 IST" name="Test_mamaearth_category_Face_FaceGel_launching" finished-at="2023-04-06T11:40:32 IST" duration-ms="1274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Face_FaceGel_launching -->
-        <test-method signature="Test_mamaearth_category_Face_FaceSheetMask_launching()[pri:20, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:24 IST" name="Test_mamaearth_category_Face_FaceSheetMask_launching" finished-at="2023-04-05T23:15:26 IST" duration-ms="2448" status="PASS">
+        <test-method signature="Test_mamaearth_category_Face_FaceSheetMask_launching()[pri:20, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:32 IST" name="Test_mamaearth_category_Face_FaceSheetMask_launching" finished-at="2023-04-06T11:40:35 IST" duration-ms="3034" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Face_FaceSheetMask_launching -->
-        <test-method signature="Test_mamaearth_category_Face_FaceMoisturizer_launching()[pri:21, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:26 IST" name="Test_mamaearth_category_Face_FaceMoisturizer_launching" finished-at="2023-04-05T23:15:27 IST" duration-ms="1276" status="PASS">
+        <test-method signature="Test_mamaearth_category_Face_FaceMoisturizer_launching()[pri:21, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:35 IST" name="Test_mamaearth_category_Face_FaceMoisturizer_launching" finished-at="2023-04-06T11:40:36 IST" duration-ms="1522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Face_FaceMoisturizer_launching -->
-        <test-method signature="Test_mamaearth_category_Body_launching()[pri:22, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:27 IST" name="Test_mamaearth_category_Body_launching" finished-at="2023-04-05T23:15:29 IST" duration-ms="1202" status="PASS">
+        <test-method signature="Test_mamaearth_category_Body_launching()[pri:22, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:36 IST" name="Test_mamaearth_category_Body_launching" finished-at="2023-04-06T11:40:38 IST" duration-ms="1700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Body_launching -->
-        <test-method signature="Test_mamaearth_category_Body_BodyLotion_launching()[pri:23, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:29 IST" name="Test_mamaearth_category_Body_BodyLotion_launching" finished-at="2023-04-05T23:15:30 IST" duration-ms="1282" status="PASS">
+        <test-method signature="Test_mamaearth_category_Body_BodyLotion_launching()[pri:23, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:38 IST" name="Test_mamaearth_category_Body_BodyLotion_launching" finished-at="2023-04-06T11:40:39 IST" duration-ms="1602" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Body_BodyLotion_launching -->
-        <test-method signature="Test_mamaearth_category_Body_UnderarmCream_launching()[pri:24, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:30 IST" name="Test_mamaearth_category_Body_UnderarmCream_launching" finished-at="2023-04-05T23:15:31 IST" duration-ms="1086" status="PASS">
+        <test-method signature="Test_mamaearth_category_Body_UnderarmCream_launching()[pri:24, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:39 IST" name="Test_mamaearth_category_Body_UnderarmCream_launching" finished-at="2023-04-06T11:40:41 IST" duration-ms="1325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Body_UnderarmCream_launching -->
-        <test-method signature="Test_mamaearth_category_Body_BodyScrub_launching()[pri:25, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:31 IST" name="Test_mamaearth_category_Body_BodyScrub_launching" finished-at="2023-04-05T23:15:32 IST" duration-ms="808" status="PASS">
+        <test-method signature="Test_mamaearth_category_Body_BodyScrub_launching()[pri:25, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:41 IST" name="Test_mamaearth_category_Body_BodyScrub_launching" finished-at="2023-04-06T11:40:42 IST" duration-ms="1300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Body_BodyScrub_launching -->
-        <test-method signature="Test_mamaearth_category_Body_HandCream_launching()[pri:26, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:32 IST" name="Test_mamaearth_category_Body_HandCream_launching" finished-at="2023-04-05T23:15:33 IST" duration-ms="825" status="PASS">
+        <test-method signature="Test_mamaearth_category_Body_HandCream_launching()[pri:26, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:42 IST" name="Test_mamaearth_category_Body_HandCream_launching" finished-at="2023-04-06T11:40:43 IST" duration-ms="1218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Body_HandCream_launching -->
-        <test-method signature="Test_mamaearth_category_Body_BodyWash_launching()[pri:27, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:33 IST" name="Test_mamaearth_category_Body_BodyWash_launching" finished-at="2023-04-05T23:15:33 IST" duration-ms="868" status="PASS">
+        <test-method signature="Test_mamaearth_category_Body_BodyWash_launching()[pri:27, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:43 IST" name="Test_mamaearth_category_Body_BodyWash_launching" finished-at="2023-04-06T11:40:44 IST" duration-ms="1110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Body_BodyWash_launching -->
-        <test-method signature="Test_mamaearth_category_Body_BodySoap_launching()[pri:28, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:33 IST" name="Test_mamaearth_category_Body_BodySoap_launching" finished-at="2023-04-05T23:15:35 IST" duration-ms="1127" status="PASS">
+        <test-method signature="Test_mamaearth_category_Body_BodySoap_launching()[pri:28, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:44 IST" name="Test_mamaearth_category_Body_BodySoap_launching" finished-at="2023-04-06T11:40:46 IST" duration-ms="1725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Body_BodySoap_launching -->
-        <test-method signature="Test_mamaearth_category_Makeup_launching()[pri:29, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:35 IST" name="Test_mamaearth_category_Makeup_launching" finished-at="2023-04-05T23:15:36 IST" duration-ms="1217" status="PASS">
+        <test-method signature="Test_mamaearth_category_Makeup_launching()[pri:29, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:46 IST" name="Test_mamaearth_category_Makeup_launching" finished-at="2023-04-06T11:40:48 IST" duration-ms="1793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Makeup_launching -->
-        <test-method signature="Test_mamaearth_category_Makeup_Lipsticks_launching()[pri:30, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:36 IST" name="Test_mamaearth_category_Makeup_Lipsticks_launching" finished-at="2023-04-05T23:15:37 IST" duration-ms="1345" status="PASS">
+        <test-method signature="Test_mamaearth_category_Makeup_Lipsticks_launching()[pri:30, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:48 IST" name="Test_mamaearth_category_Makeup_Lipsticks_launching" finished-at="2023-04-06T11:40:50 IST" duration-ms="1656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Makeup_Lipsticks_launching -->
-        <test-method signature="Test_mamaearth_category_Makeup_LipBalm_launching()[pri:31, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:37 IST" name="Test_mamaearth_category_Makeup_LipBalm_launching" finished-at="2023-04-05T23:15:38 IST" duration-ms="1018" status="PASS">
+        <test-method signature="Test_mamaearth_category_Makeup_LipBalm_launching()[pri:31, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:50 IST" name="Test_mamaearth_category_Makeup_LipBalm_launching" finished-at="2023-04-06T11:40:51 IST" duration-ms="1838" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Makeup_LipBalm_launching -->
-        <test-method signature="Test_mamaearth_category_Makeup_Foundation_launching()[pri:32, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:38 IST" name="Test_mamaearth_category_Makeup_Foundation_launching" finished-at="2023-04-05T23:15:39 IST" duration-ms="884" status="PASS">
+        <test-method signature="Test_mamaearth_category_Makeup_Foundation_launching()[pri:32, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:51 IST" name="Test_mamaearth_category_Makeup_Foundation_launching" finished-at="2023-04-06T11:40:53 IST" duration-ms="1953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Makeup_Foundation_launching -->
-        <test-method signature="Test_mamaearth_category_Makeup_Kajal_launching()[pri:33, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:39 IST" name="Test_mamaearth_category_Makeup_Kajal_launching" finished-at="2023-04-05T23:15:40 IST" duration-ms="900" status="PASS">
+        <test-method signature="Test_mamaearth_category_Makeup_Kajal_launching()[pri:33, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:53 IST" name="Test_mamaearth_category_Makeup_Kajal_launching" finished-at="2023-04-06T11:40:55 IST" duration-ms="1425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Makeup_Kajal_launching -->
-        <test-method signature="Test_mamaearth_category_Makeup_Compact_launching()[pri:34, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:40 IST" name="Test_mamaearth_category_Makeup_Compact_launching" finished-at="2023-04-05T23:15:41 IST" duration-ms="849" status="PASS">
+        <test-method signature="Test_mamaearth_category_Makeup_Compact_launching()[pri:34, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:55 IST" name="Test_mamaearth_category_Makeup_Compact_launching" finished-at="2023-04-06T11:40:56 IST" duration-ms="1603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Makeup_Compact_launching -->
-        <test-method signature="Test_mamaearth_category_Makeup_Concealer_launching()[pri:35, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:41 IST" name="Test_mamaearth_category_Makeup_Concealer_launching" finished-at="2023-04-05T23:15:42 IST" duration-ms="993" status="PASS">
+        <test-method signature="Test_mamaearth_category_Makeup_Concealer_launching()[pri:35, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:56 IST" name="Test_mamaearth_category_Makeup_Concealer_launching" finished-at="2023-04-06T11:40:58 IST" duration-ms="1344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Makeup_Concealer_launching -->
-        <test-method signature="Test_mamaearth_category_Ingredient_launching()[pri:36, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:42 IST" name="Test_mamaearth_category_Ingredient_launching" finished-at="2023-04-05T23:15:43 IST" duration-ms="934" status="PASS">
+        <test-method signature="Test_mamaearth_category_Ingredient_launching()[pri:36, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:58 IST" name="Test_mamaearth_category_Ingredient_launching" finished-at="2023-04-06T11:40:59 IST" duration-ms="1645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Ingredient_launching -->
-        <test-method signature="Test_mamaearth_category_Ingredient_Onion_launching()[pri:37, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:43 IST" name="Test_mamaearth_category_Ingredient_Onion_launching" finished-at="2023-04-05T23:15:44 IST" duration-ms="1152" status="PASS">
+        <test-method signature="Test_mamaearth_category_Ingredient_Onion_launching()[pri:37, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:40:59 IST" name="Test_mamaearth_category_Ingredient_Onion_launching" finished-at="2023-04-06T11:41:01 IST" duration-ms="1655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Ingredient_Onion_launching -->
-        <test-method signature="Test_mamaearth_category_Ingredient_Henna_launching()[pri:38, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:44 IST" name="Test_mamaearth_category_Ingredient_Henna_launching" finished-at="2023-04-05T23:15:45 IST" duration-ms="1546" status="PASS">
+        <test-method signature="Test_mamaearth_category_Ingredient_Henna_launching()[pri:38, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:01 IST" name="Test_mamaearth_category_Ingredient_Henna_launching" finished-at="2023-04-06T11:41:02 IST" duration-ms="1429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Ingredient_Henna_launching -->
-        <test-method signature="Test_mamaearth_category_Ingredient_Rice_launching()[pri:39, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:45 IST" name="Test_mamaearth_category_Ingredient_Rice_launching" finished-at="2023-04-05T23:15:47 IST" duration-ms="1349" status="PASS">
+        <test-method signature="Test_mamaearth_category_Ingredient_Rice_launching()[pri:39, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:02 IST" name="Test_mamaearth_category_Ingredient_Rice_launching" finished-at="2023-04-06T11:41:04 IST" duration-ms="1968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Ingredient_Rice_launching -->
-        <test-method signature="Test_mamaearth_category_Ingredient_Ubtan_launching()[pri:40, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:47 IST" name="Test_mamaearth_category_Ingredient_Ubtan_launching" finished-at="2023-04-05T23:15:48 IST" duration-ms="1537" status="PASS">
+        <test-method signature="Test_mamaearth_category_Ingredient_Ubtan_launching()[pri:40, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:04 IST" name="Test_mamaearth_category_Ingredient_Ubtan_launching" finished-at="2023-04-06T11:41:06 IST" duration-ms="2015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Ingredient_Ubtan_launching -->
-        <test-method signature="Test_mamaearth_category_Ingredient_VitaminC_launching()[pri:41, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:48 IST" name="Test_mamaearth_category_Ingredient_VitaminC_launching" finished-at="2023-04-05T23:15:50 IST" duration-ms="1671" status="PASS">
+        <test-method signature="Test_mamaearth_category_Ingredient_VitaminC_launching()[pri:41, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:06 IST" name="Test_mamaearth_category_Ingredient_VitaminC_launching" finished-at="2023-04-06T11:41:09 IST" duration-ms="2340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Ingredient_VitaminC_launching -->
-        <test-method signature="Test_mamaearth_category_Ingredient_GreenTea_launching()[pri:42, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:50 IST" name="Test_mamaearth_category_Ingredient_GreenTea_launching" finished-at="2023-04-05T23:15:51 IST" duration-ms="1392" status="PASS">
+        <test-method signature="Test_mamaearth_category_Ingredient_GreenTea_launching()[pri:42, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:09 IST" name="Test_mamaearth_category_Ingredient_GreenTea_launching" finished-at="2023-04-06T11:41:10 IST" duration-ms="1655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Ingredient_GreenTea_launching -->
-        <test-method signature="Test_mamaearth_category_Ingredient_TeaTree_launching()[pri:43, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:51 IST" name="Test_mamaearth_category_Ingredient_TeaTree_launching" finished-at="2023-04-05T23:15:53 IST" duration-ms="1244" status="PASS">
+        <test-method signature="Test_mamaearth_category_Ingredient_TeaTree_launching()[pri:43, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:10 IST" name="Test_mamaearth_category_Ingredient_TeaTree_launching" finished-at="2023-04-06T11:41:12 IST" duration-ms="1630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Ingredient_TeaTree_launching -->
-        <test-method signature="Test_mamaearth_category_Ingredient_Aqua_launching()[pri:44, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:53 IST" name="Test_mamaearth_category_Ingredient_Aqua_launching" finished-at="2023-04-05T23:15:54 IST" duration-ms="996" status="PASS">
+        <test-method signature="Test_mamaearth_category_Ingredient_Aqua_launching()[pri:44, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:12 IST" name="Test_mamaearth_category_Ingredient_Aqua_launching" finished-at="2023-04-06T11:41:14 IST" duration-ms="1432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Ingredient_Aqua_launching -->
-        <test-method signature="Test_mamaearth_category_Ingredient_Bhringmla_launching()[pri:45, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:54 IST" name="Test_mamaearth_category_Ingredient_Bhringmla_launching" finished-at="2023-04-05T23:15:55 IST" duration-ms="1054" status="PASS">
+        <test-method signature="Test_mamaearth_category_Ingredient_Bhringmla_launching()[pri:45, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:14 IST" name="Test_mamaearth_category_Ingredient_Bhringmla_launching" finished-at="2023-04-06T11:41:15 IST" duration-ms="1146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Ingredient_Bhringmla_launching -->
-        <test-method signature="Test_mamaearth_category_Ingredient_Charcoal_launching()[pri:46, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:55 IST" name="Test_mamaearth_category_Ingredient_Charcoal_launching" finished-at="2023-04-05T23:15:56 IST" duration-ms="1300" status="PASS">
+        <test-method signature="Test_mamaearth_category_Ingredient_Charcoal_launching()[pri:46, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:15 IST" name="Test_mamaearth_category_Ingredient_Charcoal_launching" finished-at="2023-04-06T11:41:16 IST" duration-ms="1684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Ingredient_Charcoal_launching -->
-        <test-method signature="Test_mamaearth_category_Ingredient_Coco_launching()[pri:47, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:56 IST" name="Test_mamaearth_category_Ingredient_Coco_launching" finished-at="2023-04-05T23:15:57 IST" duration-ms="1261" status="PASS">
+        <test-method signature="Test_mamaearth_category_Ingredient_Coco_launching()[pri:47, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:16 IST" name="Test_mamaearth_category_Ingredient_Coco_launching" finished-at="2023-04-06T11:41:19 IST" duration-ms="2298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Ingredient_Coco_launching -->
-        <test-method signature="Test_mamaearth_category_Ingredient_Argan_launching()[pri:48, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:57 IST" name="Test_mamaearth_category_Ingredient_Argan_launching" finished-at="2023-04-05T23:15:58 IST" duration-ms="1207" status="PASS">
+        <test-method signature="Test_mamaearth_category_Ingredient_Argan_launching()[pri:48, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:19 IST" name="Test_mamaearth_category_Ingredient_Argan_launching" finished-at="2023-04-06T11:41:22 IST" duration-ms="3103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Ingredient_Argan_launching -->
-        <test-method signature="Test_mamaearth_category_Ingredient_AppleCiderVinegar_launching()[pri:49, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:15:58 IST" name="Test_mamaearth_category_Ingredient_AppleCiderVinegar_launching" finished-at="2023-04-05T23:16:00 IST" duration-ms="1272" status="PASS">
+        <test-method signature="Test_mamaearth_category_Ingredient_AppleCiderVinegar_launching()[pri:49, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:22 IST" name="Test_mamaearth_category_Ingredient_AppleCiderVinegar_launching" finished-at="2023-04-06T11:41:23 IST" duration-ms="1513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Ingredient_AppleCiderVinegar_launching -->
-        <test-method signature="Test_mamaearth_category_Ingredient_Retinol_launching()[pri:50, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:16:00 IST" name="Test_mamaearth_category_Ingredient_Retinol_launching" finished-at="2023-04-05T23:16:01 IST" duration-ms="1188" status="PASS">
+        <test-method signature="Test_mamaearth_category_Ingredient_Retinol_launching()[pri:50, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:23 IST" name="Test_mamaearth_category_Ingredient_Retinol_launching" finished-at="2023-04-06T11:41:25 IST" duration-ms="1539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Ingredient_Retinol_launching -->
-        <test-method signature="Test_mamaearth_category_Ingredient_HoneyMalai_launching()[pri:51, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:16:01 IST" name="Test_mamaearth_category_Ingredient_HoneyMalai_launching" finished-at="2023-04-05T23:16:02 IST" duration-ms="1181" status="PASS">
+        <test-method signature="Test_mamaearth_category_Ingredient_HoneyMalai_launching()[pri:51, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:25 IST" name="Test_mamaearth_category_Ingredient_HoneyMalai_launching" finished-at="2023-04-06T11:41:26 IST" duration-ms="1290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Ingredient_HoneyMalai_launching -->
-        <test-method signature="Test_mamaearth_category_Baby_launching()[pri:52, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:16:02 IST" name="Test_mamaearth_category_Baby_launching" finished-at="2023-04-05T23:16:04 IST" duration-ms="1780" status="PASS">
+        <test-method signature="Test_mamaearth_category_Baby_launching()[pri:52, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:26 IST" name="Test_mamaearth_category_Baby_launching" finished-at="2023-04-06T11:41:28 IST" duration-ms="1820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Baby_launching -->
-        <test-method signature="Test_mamaearth_category_Baby__BabyShampoo_launching()[pri:53, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:16:04 IST" name="Test_mamaearth_category_Baby__BabyShampoo_launching" finished-at="2023-04-05T23:16:05 IST" duration-ms="1270" status="PASS">
+        <test-method signature="Test_mamaearth_category_Baby__BabyShampoo_launching()[pri:53, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:28 IST" name="Test_mamaearth_category_Baby__BabyShampoo_launching" finished-at="2023-04-06T11:41:29 IST" duration-ms="1549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Baby__BabyShampoo_launching -->
-        <test-method signature="Test_mamaearth_category_Baby__BabyOralcare_launching()[pri:54, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:16:05 IST" name="Test_mamaearth_category_Baby__BabyOralcare_launching" finished-at="2023-04-05T23:16:06 IST" duration-ms="1203" status="PASS">
+        <test-method signature="Test_mamaearth_category_Baby__BabyOralcare_launching()[pri:54, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:29 IST" name="Test_mamaearth_category_Baby__BabyOralcare_launching" finished-at="2023-04-06T11:41:31 IST" duration-ms="1293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Baby__BabyOralcare_launching -->
-        <test-method signature="Test_mamaearth_category_Baby__BabyOil_launching()[pri:55, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:16:06 IST" name="Test_mamaearth_category_Baby__BabyOil_launching" finished-at="2023-04-05T23:16:07 IST" duration-ms="943" status="PASS">
+        <test-method signature="Test_mamaearth_category_Baby__BabyOil_launching()[pri:55, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:31 IST" name="Test_mamaearth_category_Baby__BabyOil_launching" finished-at="2023-04-06T11:41:32 IST" duration-ms="1295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Baby__BabyOil_launching -->
-        <test-method signature="Test_mamaearth_category_Baby__BabySkin_launching()[pri:56, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:16:07 IST" name="Test_mamaearth_category_Baby__BabySkin_launching" finished-at="2023-04-05T23:16:08 IST" duration-ms="953" status="PASS">
+        <test-method signature="Test_mamaearth_category_Baby__BabySkin_launching()[pri:56, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:32 IST" name="Test_mamaearth_category_Baby__BabySkin_launching" finished-at="2023-04-06T11:41:33 IST" duration-ms="1281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Baby__BabySkin_launching -->
-        <test-method signature="Test_mamaearth_category_Baby__BabyBath_launching()[pri:57, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:16:08 IST" name="Test_mamaearth_category_Baby__BabyBath_launching" finished-at="2023-04-05T23:16:09 IST" duration-ms="1129" status="PASS">
+        <test-method signature="Test_mamaearth_category_Baby__BabyBath_launching()[pri:57, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:33 IST" name="Test_mamaearth_category_Baby__BabyBath_launching" finished-at="2023-04-06T11:41:35 IST" duration-ms="1400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Baby__BabyBath_launching -->
-        <test-method signature="Test_mamaearth_category_Baby__BabyBodyLotion_launching()[pri:58, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:16:09 IST" name="Test_mamaearth_category_Baby__BabyBodyLotion_launching" finished-at="2023-04-05T23:16:10 IST" duration-ms="1112" status="PASS">
+        <test-method signature="Test_mamaearth_category_Baby__BabyBodyLotion_launching()[pri:58, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:35 IST" name="Test_mamaearth_category_Baby__BabyBodyLotion_launching" finished-at="2023-04-06T11:41:36 IST" duration-ms="1236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_mamaearth_category_Baby__BabyBodyLotion_launching -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-05T23:16:10 IST" name="tearDown" finished-at="2023-04-05T23:16:11 IST" duration-ms="375" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c]" started-at="2023-04-06T11:41:36 IST" name="tearDown" finished-at="2023-04-06T11:41:36 IST" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mamaearth.TestCase.TC_VerifyAllCategories -->
     </test> <!-- Category Test -->
-  </suite> <!-- Category Test Suite -->
+    <test started-at="2023-04-06T11:41:41 IST" name="Sanity Test" finished-at="2023-04-06T11:44:51 IST" duration-ms="189773">
+      <class name="com.mamaearth.TestCase.TC_SearchingAndAlgolia">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_SearchingAndAlgolia@20d525]" started-at="2023-04-06T11:41:41 IST" name="setup" finished-at="2023-04-06T11:41:52 IST" duration-ms="10866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Search_ProductSearch()[pri:0, instance:com.mamaearth.TestCase.TC_SearchingAndAlgolia@20d525]" started-at="2023-04-06T11:41:52 IST" name="Test_Search_ProductSearch" finished-at="2023-04-06T11:41:53 IST" duration-ms="317" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.1', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, actions {actions=[org.openqa.selenium.interactions.Sequence@5c79c5ec]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:57607}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57607/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.1', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, actions {actions=[org.openqa.selenium.interactions.Sequence@5c79c5ec]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:57607}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57607/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:145)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:615)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:536)
+at com.mamaearth.Utils.mamaearth_utils_actionFunction.double_click(mamaearth_utils_actionFunction.java:38)
+at com.mamaearth.Utils.mamaearth_utils_Algolia.search_product_category(mamaearth_utils_Algolia.java:29)
+at com.mamaearth.TestCase.TC_SearchingAndAlgolia.Test_Search_ProductSearch(TC_SearchingAndAlgolia.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Search_ProductSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mamaearth.TestCase.TC_SearchingAndAlgolia@20d525]" started-at="2023-04-06T11:41:53 IST" name="tearDown" finished-at="2023-04-06T11:41:53 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mamaearth.TestCase.TC_SearchingAndAlgolia -->
+      <class name="com.mamaearth.TestCase.TC_CheckcoutWithoutGI">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@550ee7e5]" started-at="2023-04-06T11:41:53 IST" name="setup" finished-at="2023-04-06T11:42:02 IST" duration-ms="8531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_GuestUser_WithCoupon_withoutGI_COD(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@550ee7e5]" started-at="2023-04-06T11:42:02 IST" name="Test_GuestUser_WithCoupon_withoutGI_COD" data-provider="fill_address_details" finished-at="2023-04-06T11:42:29 IST" duration-ms="27481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[udit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sharma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[uudfjksdf125@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9090989098]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[110031]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[B- 385/s, Street no.9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_GuestUser_WithCoupon_withoutGI_COD -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@550ee7e5]" started-at="2023-04-06T11:42:29 IST" name="teardown" finished-at="2023-04-06T11:42:30 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@550ee7e5]" started-at="2023-04-06T11:42:30 IST" name="setup" finished-at="2023-04-06T11:42:38 IST" duration-ms="7948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_GuestUser_WithoutCoupon_withoutGI_COD(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@550ee7e5]" started-at="2023-04-06T11:42:38 IST" name="Test_GuestUser_WithoutCoupon_withoutGI_COD" data-provider="fill_address_details" finished-at="2023-04-06T11:43:05 IST" duration-ms="27049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[udit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sharma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[uudfjksdf125@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9090989098]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[110031]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[B- 385/s, Street no.9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_GuestUser_WithoutCoupon_withoutGI_COD -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mamaearth.TestCase.TC_CheckcoutWithoutGI@550ee7e5]" started-at="2023-04-06T11:43:05 IST" name="teardown" finished-at="2023-04-06T11:43:05 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mamaearth.TestCase.TC_CheckcoutWithoutGI -->
+      <class name="com.mamaearth.TestCase.TC_StaticPagesVerification">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:43:05 IST" name="setup" finished-at="2023-04-06T11:43:17 IST" duration-ms="11902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_mamaearth_PrivacyPolicy_Page()[pri:1, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:43:17 IST" name="Test_mamaearth_PrivacyPolicy_Page" finished-at="2023-04-06T11:43:26 IST" duration-ms="9460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_PrivacyPolicy_Page -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:43:26 IST" name="TearDown" finished-at="2023-04-06T11:43:26 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:43:26 IST" name="setup" finished-at="2023-04-06T11:43:41 IST" duration-ms="14845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_mamaearth_Returns_Page()[pri:2, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:43:41 IST" name="Test_mamaearth_Returns_Page" finished-at="2023-04-06T11:43:44 IST" duration-ms="2430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_Returns_Page -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:43:44 IST" name="TearDown" finished-at="2023-04-06T11:43:44 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:43:44 IST" name="setup" finished-at="2023-04-06T11:43:58 IST" duration-ms="14009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_mamaearth_TermsAndConditions_Page()[pri:3, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:43:58 IST" name="Test_mamaearth_TermsAndConditions_Page" finished-at="2023-04-06T11:44:00 IST" duration-ms="2631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_TermsAndConditions_Page -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:44:00 IST" name="TearDown" finished-at="2023-04-06T11:44:01 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:44:01 IST" name="setup" finished-at="2023-04-06T11:44:12 IST" duration-ms="11394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_mamaearth_TermsAndConditionsAndCashback_Page()[pri:4, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:44:12 IST" name="Test_mamaearth_TermsAndConditionsAndCashback_Page" finished-at="2023-04-06T11:44:16 IST" duration-ms="3568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_TermsAndConditionsAndCashback_Page -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:44:16 IST" name="TearDown" finished-at="2023-04-06T11:44:16 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:44:16 IST" name="setup" finished-at="2023-04-06T11:44:25 IST" duration-ms="8825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_mamaearth_FAQs_Page()[pri:5, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:44:25 IST" name="Test_mamaearth_FAQs_Page" finished-at="2023-04-06T11:44:28 IST" duration-ms="2858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_FAQs_Page -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:44:28 IST" name="TearDown" finished-at="2023-04-06T11:44:28 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:44:28 IST" name="setup" finished-at="2023-04-06T11:44:37 IST" duration-ms="9561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_mamaearth_WeAreSafe_Page()[pri:6, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:44:37 IST" name="Test_mamaearth_WeAreSafe_Page" finished-at="2023-04-06T11:44:39 IST" duration-ms="1877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_WeAreSafe_Page -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:44:39 IST" name="TearDown" finished-at="2023-04-06T11:44:39 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:44:39 IST" name="setup" finished-at="2023-04-06T11:44:48 IST" duration-ms="8631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_mamaearth_AboutUS_Page()[pri:7, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:44:48 IST" name="Test_mamaearth_AboutUS_Page" finished-at="2023-04-06T11:44:51 IST" duration-ms="3071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_mamaearth_AboutUS_Page -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.mamaearth.TestCase.TC_StaticPagesVerification@247d8ae]" started-at="2023-04-06T11:44:51 IST" name="TearDown" finished-at="2023-04-06T11:44:51 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.mamaearth.TestCase.TC_StaticPagesVerification -->
+    </test> <!-- Sanity Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -1,0 +1,369 @@
+<html>
+<head>
+<title>TestNG:  Category Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Category Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>58/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 06 11:39:34 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>122 seconds (122149 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Body_BodyLotion_launching()'><b>Test_mamaearth_category_Body_BodyLotion_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceGel_launching()'><b>Test_mamaearth_category_Face_FaceGel_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Makeup_Foundation_launching()'><b>Test_mamaearth_category_Makeup_Foundation_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Argan_launching()'><b>Test_mamaearth_category_Ingredient_Argan_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>3</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Baby__BabyOil_launching()'><b>Test_mamaearth_category_Baby__BabyOil_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Makeup_LipBalm_launching()'><b>Test_mamaearth_category_Makeup_LipBalm_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Hair_HairOilBooster_launching()'><b>Test_mamaearth_category_Hair_HairOilBooster_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>2</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Coco_launching()'><b>Test_mamaearth_category_Ingredient_Coco_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>2</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceScrub_launching()'><b>Test_mamaearth_category_Face_FaceScrub_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceWash_launching()'><b>Test_mamaearth_category_Face_FaceWash_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>2</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Aqua_launching()'><b>Test_mamaearth_category_Ingredient_Aqua_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceMoisturizer_launching()'><b>Test_mamaearth_category_Face_FaceMoisturizer_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Retinol_launching()'><b>Test_mamaearth_category_Ingredient_Retinol_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Rice_launching()'><b>Test_mamaearth_category_Ingredient_Rice_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceMask_launching()'><b>Test_mamaearth_category_Face_FaceMask_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_VitaminC_launching()'><b>Test_mamaearth_category_Ingredient_VitaminC_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>2</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Makeup_Compact_launching()'><b>Test_mamaearth_category_Makeup_Compact_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Ubtan_launching()'><b>Test_mamaearth_category_Ingredient_Ubtan_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>2</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Makeup_Lipsticks_launching()'><b>Test_mamaearth_category_Makeup_Lipsticks_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Onion_launching()'><b>Test_mamaearth_category_Ingredient_Onion_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Hair_Conditioner_launching()'><b>Test_mamaearth_category_Hair_Conditioner_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>2</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Hair_HairMask_launching()'><b>Test_mamaearth_category_Hair_HairMask_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Beauty_Fragrance_launching()'><b>Test_mamaearth_category_Beauty_Fragrance_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>2</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceToner_launching()'><b>Test_mamaearth_category_Face_FaceToner_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Makeup_launching()'><b>Test_mamaearth_category_Makeup_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceSerum_launching()'><b>Test_mamaearth_category_Face_FaceSerum_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_AppleCiderVinegar_launching()'><b>Test_mamaearth_category_Ingredient_AppleCiderVinegar_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Beauty_launching()'><b>Test_mamaearth_category_Beauty_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>8</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_launching()'><b>Test_mamaearth_category_Ingredient_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Body_HandCream_launching()'><b>Test_mamaearth_category_Body_HandCream_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_launching()'><b>Test_mamaearth_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>0</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Body_UnderarmCream_launching()'><b>Test_mamaearth_category_Body_UnderarmCream_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Makeup_Kajal_launching()'><b>Test_mamaearth_category_Makeup_Kajal_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceCream_launching()'><b>Test_mamaearth_category_Face_FaceCream_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Henna_launching()'><b>Test_mamaearth_category_Ingredient_Henna_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Body_BodySoap_launching()'><b>Test_mamaearth_category_Body_BodySoap_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Hair_Shampoo_launching()'><b>Test_mamaearth_category_Hair_Shampoo_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>2</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_HoneyMalai_launching()'><b>Test_mamaearth_category_Ingredient_HoneyMalai_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Body_BodyScrub_launching()'><b>Test_mamaearth_category_Body_BodyScrub_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Baby__BabyShampoo_launching()'><b>Test_mamaearth_category_Baby__BabyShampoo_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Hair_HairSerum_launching()'><b>Test_mamaearth_category_Hair_HairSerum_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>2</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Bhringmla_launching()'><b>Test_mamaearth_category_Ingredient_Bhringmla_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Baby_launching()'><b>Test_mamaearth_category_Baby_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Makeup_Concealer_launching()'><b>Test_mamaearth_category_Makeup_Concealer_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_TeaTree_launching()'><b>Test_mamaearth_category_Ingredient_TeaTree_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Baby__BabyOralcare_launching()'><b>Test_mamaearth_category_Baby__BabyOralcare_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Baby__BabyBath_launching()'><b>Test_mamaearth_category_Baby__BabyBath_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Hair_launching()'><b>Test_mamaearth_category_Hair_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>2</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Baby__BabyBodyLotion_launching()'><b>Test_mamaearth_category_Baby__BabyBodyLotion_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceSheetMask_launching()'><b>Test_mamaearth_category_Face_FaceSheetMask_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>3</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_GreenTea_launching()'><b>Test_mamaearth_category_Ingredient_GreenTea_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_launching()'><b>Test_mamaearth_category_Face_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>3</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Body_BodyWash_launching()'><b>Test_mamaearth_category_Body_BodyWash_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Beauty_FacialKits_launching()'><b>Test_mamaearth_category_Beauty_FacialKits_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Baby__BabySkin_launching()'><b>Test_mamaearth_category_Baby__BabySkin_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Charcoal_launching()'><b>Test_mamaearth_category_Ingredient_Charcoal_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Body_launching()'><b>Test_mamaearth_category_Body_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Hair_HairOil_launching()'><b>Test_mamaearth_category_Hair_HairOil_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td></td>
+<td>1</td>
+<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+</table><p>
+</body>
+</html>
