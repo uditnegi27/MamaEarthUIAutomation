@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="SearchAlgolia and Static Page Test(failed)">
+  <test thread-count="5" name="Cheackout Test(failed)">
     <classes>
-      <class name="com.mamaearth.TestCase.TC_SearchingAndAlgolia">
+      <class name="com.mamaearth.TestCase.TC_CheckcoutWithoutGI">
         <methods>
-          <include name="Test_mamaearth_Search_ProductSearch"/>
+          <include name="teardown"/>
           <include name="setup"/>
-          <include name="tearDown"/>
+          <include name="Test_GuestUser_WithoutCoupon_withoutGI_COD" invocation-numbers="0"/>
+          <include name="Test_GuestUser_WithCoupon_withoutGI_COD" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.mamaearth.TestCase.TC_SearchingAndAlgolia -->
+      </class> <!-- com.mamaearth.TestCase.TC_CheckcoutWithoutGI -->
     </classes>
-  </test> <!-- SearchAlgolia and Static Page Test(failed) -->
+  </test> <!-- Cheackout Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

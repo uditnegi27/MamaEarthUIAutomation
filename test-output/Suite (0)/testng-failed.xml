@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (0)]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Search/Algolia Test(failed)">
+    <classes>
+      <class name="com.mamaearth.TestCase.TC_CheckcoutWithoutGI">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="Test_GuestUser_WithoutCoupon_withoutGI_COD"/>
+          <include name="Test_GuestUser_WithCoupon_withoutGI_COD"/>
+        </methods>
+      </class> <!-- com.mamaearth.TestCase.TC_CheckcoutWithoutGI -->
+      <class name="com.mamaearth.TestCase.TC_StaticPagesVerification">
+        <methods>
+          <include name="Test_mamaearth_TermsAndConditions_Page"/>
+          <include name="TearDown"/>
+          <include name="setup"/>
+          <include name="Test_mamaearth_AboutUS_Page"/>
+          <include name="Test_mamaearth_FAQs_Page"/>
+          <include name="Test_mamaearth_TermsAndConditionsAndCashback_Page"/>
+          <include name="Test_mamaearth_WeAreSafe_Page"/>
+        </methods>
+      </class> <!-- com.mamaearth.TestCase.TC_StaticPagesVerification -->
+      <class name="com.mamaearth.TestCase.TC_SearchingAndAlgolia">
+        <methods>
+          <include name="Test_mamaearth_Search_ProductSearch"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mamaearth.TestCase.TC_SearchingAndAlgolia -->
+    </classes>
+  </test> <!-- Search/Algolia Test(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->
