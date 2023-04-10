@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Category Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>58/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Apr 06 18:59:08 IST 2023</td>
+<td>Started on:</td><td>Mon Apr 10 17:03:20 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>92 seconds (92610 ms)</td>
+<tr><td>Total time:</td><td>83 seconds (83439 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,116 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.setup()'><b>setup</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5.1&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3844cd2fb7d9f99d2a12b4a35d70da41, get {url=https://mamaearth.in/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:64799}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:64799/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3844cd2fb7d9f99d2a12b4a35d70da41
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+	at com.mamaearth.Base.mamaearth_Base.initialization(mamaearth_Base.java:57)
+	at com.mamaearth.TestCase.TC_StaticPagesVerification.setup(TC_StaticPagesVerification.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: org.asynchttpclient.exception.RemotelyClosedException: Remotely closed
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	... 33 more
+Caused by: org.asynchttpclient.exception.RemotelyClosedException: Remotely closed
+	at org.asynchttpclient.exception.RemotelyClosedException.INSTANCE(Unknown Source)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1319386445", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1319386445'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5.1&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3844cd2fb7d9f99d2a12b4a35d70da41, get {url=https://mamaearth.in/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:64799}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:64799/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3844cd2fb7d9f99d2a12b4a35d70da41
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+	at com.mamaearth.Base.mamaearth_Base.initialization(mamaearth_Base.java:57)
+	at com.mamaearth.TestCase.TC_StaticPagesVerification.setup(TC_StaticPagesVerification.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.UncheckedIOException: org.asynchttpclient.exception.RemotelyClosedException: Remotely closed
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	... 33 more
+Caused by: org.asynchttpclient.exception.RemotelyClosedException: Remotely closed
+	at org.asynchttpclient.exception.RemotelyClosedException.INSTANCE(Unknown Source)
+</pre></div></td>
+<td>2</td>
+<td>com.mamaearth.TestCase.TC_StaticPagesVerification@65f095f8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.TearDown()'><b>TearDown</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
+<td></td>
+<td>-1681126484</td>
+<td>com.mamaearth.TestCase.TC_StaticPagesVerification@65f095f8</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,295 +185,132 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_launching()'><b>Test_mamaearth_category_Ingredient_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Makeup_Concealer_launching()'><b>Test_mamaearth_category_Makeup_Concealer_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>0</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Argan_launching()'><b>Test_mamaearth_category_Ingredient_Argan_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Baby__BabyBodyLotion_launching()'><b>Test_mamaearth_category_Baby__BabyBodyLotion_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Makeup_Lipsticks_launching()'><b>Test_mamaearth_category_Makeup_Lipsticks_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_launching()'><b>Test_mamaearth_category_Face_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Aqua_launching()'><b>Test_mamaearth_category_Ingredient_Aqua_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Hair_HairMask_launching()'><b>Test_mamaearth_category_Hair_HairMask_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Charcoal_launching()'><b>Test_mamaearth_category_Ingredient_Charcoal_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceScrub_launching()'><b>Test_mamaearth_category_Face_FaceScrub_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Onion_launching()'><b>Test_mamaearth_category_Ingredient_Onion_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Baby__BabyBath_launching()'><b>Test_mamaearth_category_Baby__BabyBath_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_launching()'><b>Test_mamaearth_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>0</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Hair_HairOilBooster_launching()'><b>Test_mamaearth_category_Hair_HairOilBooster_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>0</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_GreenTea_launching()'><b>Test_mamaearth_category_Ingredient_GreenTea_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Body_BodyWash_launching()'><b>Test_mamaearth_category_Body_BodyWash_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceWash_launching()'><b>Test_mamaearth_category_Face_FaceWash_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceToner_launching()'><b>Test_mamaearth_category_Face_FaceToner_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceSheetMask_launching()'><b>Test_mamaearth_category_Face_FaceSheetMask_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_WeAreSafe_Page()'><b>Test_mamaearth_WeAreSafe_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
 <td></td>
 <td>2</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<td>com.mamaearth.TestCase.TC_StaticPagesVerification@65f095f8</td></tr>
 <tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Body_BodyLotion_launching()'><b>Test_mamaearth_category_Body_BodyLotion_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Makeup_launching()'><b>Test_mamaearth_category_Makeup_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Beauty_FacialKits_launching()'><b>Test_mamaearth_category_Beauty_FacialKits_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Body_BodySoap_launching()'><b>Test_mamaearth_category_Body_BodySoap_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Hair_Conditioner_launching()'><b>Test_mamaearth_category_Hair_Conditioner_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Henna_launching()'><b>Test_mamaearth_category_Ingredient_Henna_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceGel_launching()'><b>Test_mamaearth_category_Face_FaceGel_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Baby__BabyOralcare_launching()'><b>Test_mamaearth_category_Baby__BabyOralcare_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Hair_launching()'><b>Test_mamaearth_category_Hair_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Body_HandCream_launching()'><b>Test_mamaearth_category_Body_HandCream_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Beauty_Fragrance_launching()'><b>Test_mamaearth_category_Beauty_Fragrance_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_PrivacyPolicy_Page()'><b>Test_mamaearth_PrivacyPolicy_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
 <td></td>
 <td>2</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<td>com.mamaearth.TestCase.TC_StaticPagesVerification@65f095f8</td></tr>
 <tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Rice_launching()'><b>Test_mamaearth_category_Ingredient_Rice_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_FAQs_Page()'><b>Test_mamaearth_FAQs_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
+<td></td>
+<td>2</td>
+<td>com.mamaearth.TestCase.TC_StaticPagesVerification@65f095f8</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_Returns_Page()'><b>Test_mamaearth_Returns_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
+<td></td>
+<td>2</td>
+<td>com.mamaearth.TestCase.TC_StaticPagesVerification@65f095f8</td></tr>
+<tr>
+<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_TermsAndConditions_Page()'><b>Test_mamaearth_TermsAndConditions_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
 <td></td>
 <td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<td>com.mamaearth.TestCase.TC_StaticPagesVerification@65f095f8</td></tr>
 <tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Body_launching()'><b>Test_mamaearth_category_Body_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
+<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_TermsAndConditionsAndCashback_Page()'><b>Test_mamaearth_TermsAndConditionsAndCashback_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
 <td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<td>2</td>
+<td>com.mamaearth.TestCase.TC_StaticPagesVerification@65f095f8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_TeaTree_launching()'><b>Test_mamaearth_category_Ingredient_TeaTree_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Makeup_Compact_launching()'><b>Test_mamaearth_category_Makeup_Compact_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
+<td title='com.mamaearth.TestCase.TC_StaticPagesVerification.Test_mamaearth_AboutUS_Page()'><b>Test_mamaearth_AboutUS_Page</b><br>Test class: com.mamaearth.TestCase.TC_StaticPagesVerification</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5.1&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3844cd2fb7d9f99d2a12b4a35d70da41, get {url=https://mamaearth.in/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:64799}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:64799/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3844cd2fb7d9f99d2a12b4a35d70da41
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+	at com.mamaearth.Base.mamaearth_Base.initialization(mamaearth_Base.java:57)
+	at com.mamaearth.TestCase.TC_StaticPagesVerification.setup(TC_StaticPagesVerification.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: org.asynchttpclient.exception.RemotelyClosedException: Remotely closed
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	... 33 more
+Caused by: org.asynchttpclient.exception.RemotelyClosedException: Remotely closed
+	at org.asynchttpclient.exception.RemotelyClosedException.INSTANCE(Unknown Source)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1808986169", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1808986169'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5.1&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3844cd2fb7d9f99d2a12b4a35d70da41, get {url=https://mamaearth.in/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/vc/xx8_9t4d2c9...}, goog:chromeOptions: {debuggerAddress: localhost:64799}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:64799/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3844cd2fb7d9f99d2a12b4a35d70da41
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+	at com.mamaearth.Base.mamaearth_Base.initialization(mamaearth_Base.java:57)
+	at com.mamaearth.TestCase.TC_StaticPagesVerification.setup(TC_StaticPagesVerification.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.UncheckedIOException: org.asynchttpclient.exception.RemotelyClosedException: Remotely closed
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	... 33 more
+Caused by: org.asynchttpclient.exception.RemotelyClosedException: Remotely closed
+	at org.asynchttpclient.exception.RemotelyClosedException.INSTANCE(Unknown Source)
+</pre></div></td>
 <td>0</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Makeup_LipBalm_launching()'><b>Test_mamaearth_category_Makeup_LipBalm_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Ubtan_launching()'><b>Test_mamaearth_category_Ingredient_Ubtan_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Hair_HairOil_launching()'><b>Test_mamaearth_category_Hair_HairOil_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Body_UnderarmCream_launching()'><b>Test_mamaearth_category_Body_UnderarmCream_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceSerum_launching()'><b>Test_mamaearth_category_Face_FaceSerum_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Hair_HairSerum_launching()'><b>Test_mamaearth_category_Hair_HairSerum_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Beauty_launching()'><b>Test_mamaearth_category_Beauty_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>6</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Bhringmla_launching()'><b>Test_mamaearth_category_Ingredient_Bhringmla_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Hair_Shampoo_launching()'><b>Test_mamaearth_category_Hair_Shampoo_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceMoisturizer_launching()'><b>Test_mamaearth_category_Face_FaceMoisturizer_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Body_BodyScrub_launching()'><b>Test_mamaearth_category_Body_BodyScrub_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>0</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Baby__BabyShampoo_launching()'><b>Test_mamaearth_category_Baby__BabyShampoo_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_AppleCiderVinegar_launching()'><b>Test_mamaearth_category_Ingredient_AppleCiderVinegar_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Baby_launching()'><b>Test_mamaearth_category_Baby_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Baby__BabyOil_launching()'><b>Test_mamaearth_category_Baby__BabyOil_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceCream_launching()'><b>Test_mamaearth_category_Face_FaceCream_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Face_FaceMask_launching()'><b>Test_mamaearth_category_Face_FaceMask_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Makeup_Kajal_launching()'><b>Test_mamaearth_category_Makeup_Kajal_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Retinol_launching()'><b>Test_mamaearth_category_Ingredient_Retinol_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Baby__BabySkin_launching()'><b>Test_mamaearth_category_Baby__BabySkin_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_VitaminC_launching()'><b>Test_mamaearth_category_Ingredient_VitaminC_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_Coco_launching()'><b>Test_mamaearth_category_Ingredient_Coco_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Ingredient_HoneyMalai_launching()'><b>Test_mamaearth_category_Ingredient_HoneyMalai_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
-<tr>
-<td title='com.mamaearth.TestCase.TC_VerifyAllCategories.Test_mamaearth_category_Makeup_Foundation_launching()'><b>Test_mamaearth_category_Makeup_Foundation_launching</b><br>Test class: com.mamaearth.TestCase.TC_VerifyAllCategories</td>
-<td></td>
-<td>1</td>
-<td>com.mamaearth.TestCase.TC_VerifyAllCategories@7e6f74c</td></tr>
+<td>com.mamaearth.TestCase.TC_StaticPagesVerification@65f095f8</td></tr>
 </table><p>
 </body>
 </html>

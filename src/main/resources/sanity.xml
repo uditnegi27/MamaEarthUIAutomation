@@ -2,22 +2,23 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 
-	<test name="Category Test">
-  		<classes>
-    		<class name="com.mamaearth.TestCase.TC_VerifyAllCategories"/>
-    	</classes>
-  	</test> <!-- Test -->
-  	
-  	<test name="SearchAlgolia and Static Page Test">
+  	<test name= "Static Page Test">
     	<classes>
 	    	<class name="com.mamaearth.TestCase.TC_StaticPagesVerification"/>
     	</classes>
   	</test> <!-- Test -->
   
-  	<test name="Cheackout Test">
+  	<test name= "Cheackout Test">
     	<classes>
 			<class name="com.mamaearth.TestCase.TC_CheckcoutWithoutGI"/>
     	</classes>
   	</test> <!-- Test -->
+  	
+	<test name= "Category Test">
+  		<classes>
+    		<class name="com.mamaearth.TestCase.TC_VerifyAllCategories"/>
+    	</classes>
+  	</test> <!-- Test -->
+  	
   
 </suite> <!-- Suite -->
