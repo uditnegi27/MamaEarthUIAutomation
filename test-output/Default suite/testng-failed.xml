@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mamaearth.TestCase.TC_CheckcoutWithoutGI">
+      <class name="com.mamaearth.TestCase.TC_VerifyLoginFlow">
         <methods>
-          <include name="teardown"/>
+          <include name="Test_login_with_lessThanTenDigitNumber"/>
+          <include name="Test_login_with_moreThanTenDigitNumber"/>
           <include name="setup"/>
-          <include name="Test_GuestUser_WithoutCoupon_withoutGI_COD" invocation-numbers="0"/>
-          <include name="Test_GuestUser_WithCoupon_withoutGI_COD" invocation-numbers="0"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.mamaearth.TestCase.TC_CheckcoutWithoutGI -->
+      </class> <!-- com.mamaearth.TestCase.TC_VerifyLoginFlow -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

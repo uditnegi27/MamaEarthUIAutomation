@@ -37,7 +37,7 @@ public class TC_CheckcoutWithoutGI extends mamaearth_Base{
 	@BeforeMethod
 	public void setup() {
 		log.info("Page initializing");
-		initialization();
+		open_Mamaearth_As_Guest();
 		log.info("Page initialized");
 	}
 	

@@ -14,8 +14,9 @@ public class TC_SearchingAndAlgolia extends mamaearth_Base{
 
 	@BeforeMethod
 	public void setup() {
-		initialization();
+		open_Mamaearth_As_Guest();
 	}
+	
 	
 	@Test
 	public void Test_mamaearth_Search_ProductSearch() {

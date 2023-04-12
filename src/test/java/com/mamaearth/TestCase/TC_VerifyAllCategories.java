@@ -159,7 +159,7 @@ public class TC_VerifyAllCategories extends mamaearth_Base{
 	
 	@BeforeClass
 	public void setup() {
-		initialization();
+		open_Mamaearth_As_Guest();
 		home = new mamaearth_HomePage();
 	}
 	

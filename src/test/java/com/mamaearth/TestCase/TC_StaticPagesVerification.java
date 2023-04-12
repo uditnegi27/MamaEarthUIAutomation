@@ -33,7 +33,7 @@ public class TC_StaticPagesVerification extends mamaearth_Base {
 	
 	@BeforeMethod
 	public void setup() {
-		initialization();
+		open_Mamaearth_As_Guest();
 		home = new mamaearth_HomePage();
 	}
 	

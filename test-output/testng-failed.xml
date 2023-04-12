@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="SearchAlgolia and Static Page Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mamaearth.TestCase.TC_StaticPagesVerification">
+      <class name="com.mamaearth.TestCase.TC_VerifyLoginFlow">
         <methods>
-          <include name="Test_mamaearth_TermsAndConditions_Page"/>
-          <include name="TearDown"/>
-          <include name="Test_mamaearth_Returns_Page"/>
+          <include name="Test_login_with_lessThanTenDigitNumber"/>
+          <include name="Test_login_with_moreThanTenDigitNumber"/>
           <include name="setup"/>
-          <include name="Test_mamaearth_AboutUS_Page"/>
-          <include name="Test_mamaearth_FAQs_Page"/>
-          <include name="Test_mamaearth_TermsAndConditionsAndCashback_Page"/>
-          <include name="Test_mamaearth_WeAreSafe_Page"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.mamaearth.TestCase.TC_StaticPagesVerification -->
+      </class> <!-- com.mamaearth.TestCase.TC_VerifyLoginFlow -->
     </classes>
-  </test> <!-- SearchAlgolia and Static Page Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

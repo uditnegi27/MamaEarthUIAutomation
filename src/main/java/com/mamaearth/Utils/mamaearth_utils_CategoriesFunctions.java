@@ -55,6 +55,7 @@ import com.mamaearth.PageObject.mamaearth_Category_Makeup_Foundation;
 import com.mamaearth.PageObject.mamaearth_Category_Makeup_Kajal;
 import com.mamaearth.PageObject.mamaearth_Category_Makeup_LipBalm;
 import com.mamaearth.PageObject.mamaearth_Category_Makeup_Lipsticks;
+import com.mamaearth.PageObject.mamaearth_LogInPopUpSreen;
 import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby;
 import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabyBath;
 import com.mamaearth.PageObject.Baby.mamaearth_Category_Baby_BabyBodyLotion;
@@ -304,6 +305,17 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	
 	@FindBy(xpath = "//a[contains(text(), 'About Us')]")
 	WebElement aboutUS_StaticPage_button;
+	
+	
+	
+	
+	
+	
+	
+	@FindBy(xpath = "//div[contains(text(), 'Login')]")
+	WebElement login_button;
+	
+	
 	
 	
 	
@@ -1015,6 +1027,18 @@ public class mamaearth_utils_CategoriesFunctions extends mamaearth_Base{
 	
 	
 	
+	
+	
+	
+	
+	/*** This function will return the Login pop 
+	 * 
+	 * 
+	 * ***/
+	public mamaearth_LogInPopUpSreen click_Login_Page() {
+		login_button.click();
+		return new mamaearth_LogInPopUpSreen();
+	}
 	
 	
 	

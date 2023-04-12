@@ -38,7 +38,7 @@ public class mamaearth_HomePage extends mamaearth_utils_CategoriesFunctions{
 	WebElement GI_button;
 	
 		
-	public synchronized void clearAllAlerts() {
+	public void clearAllAlerts() {
 		Alerts_popUp.click();
 	}
 
